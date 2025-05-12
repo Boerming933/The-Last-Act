@@ -5,9 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enganchable
+<<<<<<< HEAD
   - Triangulardo
   - Ground
   - Circulin
+=======
+>>>>>>> 24ee3211096f748a384ddec8b0c7f6c7cf67f1a2
   layers:
   - Default
   - TransparentFX
