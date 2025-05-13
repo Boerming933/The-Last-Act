@@ -8,6 +8,8 @@ TagManager:
   - Triangulardo
   - Ground
   - Circulin
+  - Ataques
+  - Latigo
   layers:
   - Default
   - TransparentFX

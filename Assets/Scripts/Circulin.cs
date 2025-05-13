@@ -22,6 +22,7 @@ public class Circulin : MonoBehaviour
     private TrailRenderer trailRenderer;
     private float Horizontal;
     private bool Grounded;
+    public bool InJalon;
 
     void Start()
     {
@@ -33,6 +34,10 @@ public class Circulin : MonoBehaviour
     private void Update()
     {
         if(isDashing)
+        {
+            return;
+        }
+        if(InJalon)
         {
             return;
         }
@@ -64,6 +69,10 @@ public class Circulin : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && Grounded)
         {
             Jump();
+        }
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            StartCoroutine(Jalon());
         }
         Mira.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z));
         float angle = Mathf.Atan2(Mira.position.y - transform.position.y, Mira.position.x - transform.position.x) * Mathf.Rad2Deg;
@@ -104,9 +113,16 @@ public class Circulin : MonoBehaviour
         canDash = true;
     }
 
+    public IEnumerator Jalon()
+    {
+        InJalon = true;
+        yield return new WaitForSeconds(3f);
+        InJalon = false;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {     
-        if (other.tag == "Triangulardo")
+        if (other.gameObject.tag == "Triangulardo")
         {
             //other.GetComponent<Triangulardo>().TakeDamage();
             Debug.Log("Enemy Hit");
@@ -116,6 +132,10 @@ public class Circulin : MonoBehaviour
     private void FixedUpdate()
     {
         if(isDashing)
+        {
+            return;
+        }
+        if(InJalon)
         {
             return;
         }

@@ -10,6 +10,7 @@ public class Hook : MonoBehaviour
 
     private Vector3 grapplePoint;
     private DistanceJoint2D joint;
+    public Circulin Circulin;
 
     void Start()
     {
@@ -20,6 +21,11 @@ public class Hook : MonoBehaviour
 
     void Update()
     {
+        if(Circulin.InJalon)
+        {
+            return;
+        }
+
         if (Input.GetKeyDown(KeyCode.E))
         {
             //Genera el movimiento hacia el mouse

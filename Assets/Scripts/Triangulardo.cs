@@ -9,6 +9,7 @@ public class Triangulardo : MonoBehaviour
     private Rigidbody2D rb;
     public GameObject Ataque;
     private bool isAttacking;
+    public bool Stunning;
 
     void Start()
     {
@@ -19,6 +20,10 @@ public class Triangulardo : MonoBehaviour
     void Update()
     {   
         if(isAttacking)
+        {
+            return;
+        }
+        if(Stunning)
         {
             return;
         }
@@ -62,10 +67,21 @@ public class Triangulardo : MonoBehaviour
         yield return new WaitForSeconds(5f);
         Destroy(BossAttack);
     }
+
+    public IEnumerator Stun()
+    {
+        Stunning = true;
+        yield return new WaitForSeconds(2f);
+        Stunning = false;
+    }
     
     private void FixedUpdate()
     {   
         if(isAttacking)
+        {
+            return;
+        }
+        if(Stunning)
         {
             return;
         }

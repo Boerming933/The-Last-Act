@@ -6,6 +6,7 @@ public class HoverE : MonoBehaviour
     private GameObject currentKeybind;
     private Camera mainCam;
     private bool canHook = false;
+    public Circulin Circulin;
 
     void Start()
     {
