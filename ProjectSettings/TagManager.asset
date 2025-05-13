@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enganchable
+  - Triangulardo
+  - Ground
+  - Circulin
+  - Ataques
+  - Latigo
   layers:
   - Default
   - TransparentFX
