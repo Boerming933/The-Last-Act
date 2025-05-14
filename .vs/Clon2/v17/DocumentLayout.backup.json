@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juano\\OneDrive\\Escritorio\\Github\\Clon2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97F2F85C-5F91-E496-1FA3-E2A38276D8AD}|Assembly-CSharp.csproj|c:\\users\\juano\\onedrive\\escritorio\\github\\clon2\\assets\\scripts\\vidaspj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97F2F85C-5F91-E496-1FA3-E2A38276D8AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vidaspj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VidasPj.cs",
+              "DocumentMoniker": "C:\\Users\\juano\\OneDrive\\Escritorio\\Github\\Clon2\\Assets\\Scripts\\VidasPj.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VidasPj.cs",
+              "ToolTip": "C:\\Users\\juano\\OneDrive\\Escritorio\\Github\\Clon2\\Assets\\Scripts\\VidasPj.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VidasPj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T00:36:54.768Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
