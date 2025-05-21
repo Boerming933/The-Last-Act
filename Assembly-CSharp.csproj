@@ -10,7 +10,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< Updated upstream
     <ProjectGuid>{97F2F85C-5F91-E496-1FA3-E2A38276D8AD}</ProjectGuid>
+=======
+    <ProjectGuid>{70353272-FD6C-C013-3729-040B04FD98A7}</ProjectGuid>
+>>>>>>> Stashed changes
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,6 +68,7 @@
     <Compile Include="Assets\Scripts\Circulin.cs" />
     <Compile Include="Assets\Scripts\VidasPj.cs" />
     <Compile Include="Assets\Scripts\Triangulardo.cs" />
+    <Compile Include="Assets\Scripts\CargaAtkEspecial.cs" />
     <Compile Include="Assets\Scripts\Hook.cs" />
     <Compile Include="Assets\Scripts\HoverE.cs" />
     <Compile Include="Assets\Scripts\AtaqueScript.cs" />

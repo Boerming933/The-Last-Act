@@ -23,6 +23,8 @@ public class Circulin : MonoBehaviour
     private float Horizontal;
     private bool Grounded;
 
+    public bool puedeCargado = false;
+
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
