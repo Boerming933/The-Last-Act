@@ -51,9 +51,13 @@
     <Compile Include="Assets\Scripts\PlataformaScript.cs" />
     <Compile Include="Assets\Scripts\Circulin.cs" />
     <Compile Include="Assets\Scripts\VidasPj.cs" />
+    <Compile Include="Assets\Scripts\GloboScript.cs" />
+    <Compile Include="Assets\Scripts\CañonScript.cs" />
     <Compile Include="Assets\Scripts\Triangulardo.cs" />
     <Compile Include="Assets\Scripts\Hook.cs" />
     <Compile Include="Assets\Scripts\CuerdaScript.cs" />
+    <Compile Include="Assets\Scripts\SpawnGlobos.cs" />
+    <Compile Include="Assets\Scripts\PelotaScript.cs" />
     <Compile Include="Assets\Scripts\HoverE.cs" />
     <Compile Include="Assets\Scripts\AtaqueScript.cs" />
   </ItemGroup>

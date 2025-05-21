@@ -217,7 +217,7 @@ public class Triangulardo : MonoBehaviour
         {
             if (colisionador.CompareTag("Circulin"))
             {
-                colisionador.transform.GetComponent<VidasPj>().Hit();
+                colisionador.transform.GetComponent<VidasPj>().Hit(1f);
             }
         }
     }

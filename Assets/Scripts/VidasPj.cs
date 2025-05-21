@@ -5,14 +5,14 @@ using Unity.VisualScripting;
 
 public class VidasPj : MonoBehaviour
 {
-    public int Vidas = 5;
+    public float Vidas = 5;
     public GameObject BotonReiniciar;
 
     public List<GameObject> IndicadoresDeVida; //Aqui van los 5 corazones de la UI
 
-    public void Hit()
+    public void Hit(float daño)
     {
-        Vidas -= 1;
+        Vidas = Vidas - daño;
 
         ActualizarIndicadoresDeVida();
 
