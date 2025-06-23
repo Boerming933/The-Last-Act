@@ -24,6 +24,7 @@ public class Circulin : MonoBehaviour
     private bool Grounded;
     public bool InJalon;
     private bool Stun = true;
+    public VidasPonk ponk;
 
     void Start()
     {
@@ -34,7 +35,15 @@ public class Circulin : MonoBehaviour
 
     private void Update()
     {
-        if(isDashing)
+        if (Input.GetMouseButtonDown(0)) // 0 = botón izquierdo del mouse
+        {
+            if (ponk != null)
+            {
+                ponk.RecibirDaño(40);
+                Debug.Log("💥 Hiciste clic. Daño aplicado: " + 40);
+            }
+        }
+        if (isDashing)
         {
             return;
         }

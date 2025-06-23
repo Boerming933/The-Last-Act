@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: e0468d90d9513e841a52d431b0336464
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6047062998020310423
+    second: verde_0
+  - first:
+      213: -548784668253678804
+    second: verde_1
+  - first:
+      213: 5832762620834074491
+    second: verde_2
+  - first:
+      213: -6561228243207086573
+    second: verde_3
+  - first:
+      213: 9161977135024222472
+    second: verde_4
+  - first:
+      213: -3060604951699158601
+    second: verde_5
+  - first:
+      213: -6933624832908037231
+    second: verde_6
+  - first:
+      213: 408778822367691873
+    second: verde_7
+  - first:
+      213: 8019796309790591560
+    second: verde_8
+  - first:
+      213: -3662818360862812377
+    second: verde_9
+  - first:
+      213: -5183754745592151442
+    second: verde_10
+  - first:
+      213: -537426067651700810
+    second: verde_11
+  - first:
+      213: -1321871356422334554
+    second: verde_12
+  - first:
+      213: 7737030946918476498
+    second: verde_13
+  - first:
+      213: 506777603691849520
+    second: verde_14
+  - first:
+      213: -5911269617849416774
+    second: verde_15
+  - first:
+      213: 5480255362416252038
+    second: verde_16
+  - first:
+      213: -1716596840140173514
+    second: verde_17
+  - first:
+      213: -3509947803608073682
+    second: verde_18
+  - first:
+      213: -7086244159823066474
+    second: verde_19
+  - first:
+      213: -3108636064699405762
+    second: verde_20
+  - first:
+      213: -421759674847538205
+    second: verde_21
+  - first:
+      213: 3741090244914049159
+    second: verde_22
+  - first:
+      213: -1316815207905156389
+    second: verde_23
+  - first:
+      213: -2863692650457451965
+    second: verde_24
+  - first:
+      213: 2445527600419945922
+    second: verde_25
+  - first:
+      213: 6525437242823782016
+    second: verde_26
+  - first:
+      213: 8548380161767694617
+    second: verde_27
+  - first:
+      213: -8543804017268898016
+    second: verde_28
+  - first:
+      213: -7624732118873446094
+    second: verde_29
+  - first:
+      213: -199030895378289394
+    second: verde_30
+  - first:
+      213: 5895252487551646554
+    second: verde_31
+  - first:
+      213: 5325499411536632097
+    second: verde_32
+  - first:
+      213: 7046920989542737864
+    second: verde_33
+  - first:
+      213: 4872993745270045490
+    second: verde_34
+  - first:
+      213: -5356313244960937113
+    second: verde_35
+  - first:
+      213: -4412385493528599432
+    second: verde_36
+  - first:
+      213: 7914088371187187917
+    second: verde_37
+  - first:
+      213: -5551777708815525652
+    second: verde_38
+  - first:
+      213: 7966774766272049611
+    second: verde_39
+  - first:
+      213: 1974544278101693872
+    second: verde_40
+  - first:
+      213: 2848343216741128461
+    second: verde_41
+  - first:
+      213: -3616053669213971721
+    second: verde_42
+  - first:
+      213: -1813544476793742789
+    second: verde_43
+  - first:
+      213: 7820185598931498386
+    second: verde_44
+  - first:
+      213: 5344491809970463050
+    second: verde_45
+  - first:
+      213: -5040046557976549037
+    second: verde_46
+  - first:
+      213: -3982388950654548682
+    second: verde_47
+  - first:
+      213: -5025726456303628973
+    second: verde_48
+  - first:
+      213: 1373289948613168553
+    second: verde_49
+  - first:
+      213: 5886844316842025771
+    second: verde_50
+  - first:
+      213: -3031421687552921745
+    second: verde_51
+  - first:
+      213: 2863760116551558186
+    second: verde_52
+  - first:
+      213: 2143778522707708414
+    second: verde_53
+  - first:
+      213: 4062628416263633194
+    second: verde_54
+  - first:
+      213: 7540151153151905812
+    second: verde_55
+  - first:
+      213: 3457820664605510321
+    second: verde_56
+  - first:
+      213: -217625234795227264
+    second: verde_57
+  - first:
+      213: 7570158332585958857
+    second: verde_58
+  - first:
+      213: -5749047134467034717
+    second: verde_59
+  - first:
+      213: 4203854195713263403
+    second: verde_60
+  - first:
+      213: -2703994315067716649
+    second: verde_61
+  - first:
+      213: 4965015926999506149
+    second: verde_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: verde_0
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1652
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795c86b02cb7be350800000000000000
+      internalID: 6047062998020310423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verde_1
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1648
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c231f8670435268f0800000000000000
+      internalID: -548784668253678804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verde_2
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 1645
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fcdf943b222f050800000000000000
+      internalID: 5832762620834074491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verde_53
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 98
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9ca1b453b30cd10800000000000000
+      internalID: 2143778522707708414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verde_56
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 124
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba01daf295acff20800000000000000
+      internalID: 3457820664605510321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: verde_62
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 111
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec56f80ea747e440800000000000000
+      internalID: 4965015926999506149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5538c75aa450f854985eee26fe23b839
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      verde_24: -1907958408
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

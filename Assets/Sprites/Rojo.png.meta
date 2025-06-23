@@ -1,0 +1,530 @@
+fileFormatVersion: 2
+guid: 3c9b7fdf3c1f474459070b15d4685a3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1292473709232041094
+    second: Rojo_0
+  - first:
+      213: 5468435295017202303
+    second: Rojo_1
+  - first:
+      213: 173467886298836898
+    second: Rojo_2
+  - first:
+      213: -2409086572612921795
+    second: Rojo_3
+  - first:
+      213: -5938766107312038235
+    second: Rojo_4
+  - first:
+      213: 7802045999489349076
+    second: Rojo_5
+  - first:
+      213: 6084015092657829421
+    second: Rojo_6
+  - first:
+      213: 1611135122284861390
+    second: Rojo_7
+  - first:
+      213: -6188977899199075902
+    second: Rojo_8
+  - first:
+      213: 4842185922893235341
+    second: Rojo_9
+  - first:
+      213: -9057199535258352196
+    second: Rojo_10
+  - first:
+      213: -3451210419086093002
+    second: Rojo_11
+  - first:
+      213: 5485815355177935460
+    second: Rojo_12
+  - first:
+      213: 7753019218673551452
+    second: Rojo_13
+  - first:
+      213: 5406912788303990178
+    second: Rojo_14
+  - first:
+      213: -2470048580020881530
+    second: Rojo_15
+  - first:
+      213: -1029759457789460651
+    second: Rojo_16
+  - first:
+      213: 6001080686325683447
+    second: Rojo_17
+  - first:
+      213: 6888818489119507033
+    second: Rojo_18
+  - first:
+      213: -6443236747318128192
+    second: Rojo_19
+  - first:
+      213: -5144401027565583907
+    second: Rojo_20
+  - first:
+      213: -8465898052670953720
+    second: Rojo_21
+  - first:
+      213: -1744281274548449513
+    second: Rojo_22
+  - first:
+      213: -5027300950936183192
+    second: Rojo_23
+  - first:
+      213: 180950214872710147
+    second: Rojo_24
+  - first:
+      213: 5011750449141061463
+    second: Rojo_25
+  - first:
+      213: 2267950706516756858
+    second: Rojo_26
+  - first:
+      213: 8135626517110330213
+    second: Rojo_27
+  - first:
+      213: 7877077956418693881
+    second: Rojo_28
+  - first:
+      213: -4561611755524301102
+    second: Rojo_29
+  - first:
+      213: -8699598967453368209
+    second: Rojo_30
+  - first:
+      213: 758598279058732062
+    second: Rojo_31
+  - first:
+      213: -5575542134511018916
+    second: Rojo_32
+  - first:
+      213: 6455049729353734136
+    second: Rojo_33
+  - first:
+      213: 7133063734988819822
+    second: Rojo_34
+  - first:
+      213: 7149327572017206780
+    second: Rojo_35
+  - first:
+      213: -581264234013082529
+    second: Rojo_36
+  - first:
+      213: -3502057278866960357
+    second: Rojo_37
+  - first:
+      213: 8264949142374188461
+    second: Rojo_38
+  - first:
+      213: -2078411225835120952
+    second: Rojo_39
+  - first:
+      213: 7969496543286474095
+    second: Rojo_40
+  - first:
+      213: -2665283695823006940
+    second: Rojo_41
+  - first:
+      213: -6664377895061269695
+    second: Rojo_42
+  - first:
+      213: -6679902397440954666
+    second: Rojo_43
+  - first:
+      213: 5379575777401749015
+    second: Rojo_44
+  - first:
+      213: 7762763715849126921
+    second: Rojo_45
+  - first:
+      213: -3683877385705737731
+    second: Rojo_46
+  - first:
+      213: 8645578191342687935
+    second: Rojo_47
+  - first:
+      213: -8640795191854264969
+    second: Rojo_48
+  - first:
+      213: 9047016014443736660
+    second: Rojo_49
+  - first:
+      213: 3912276934658410128
+    second: Rojo_50
+  - first:
+      213: 1378193644604077646
+    second: Rojo_51
+  - first:
+      213: -5861952228151394215
+    second: Rojo_52
+  - first:
+      213: -1827728290528734505
+    second: Rojo_53
+  - first:
+      213: -3802005102162104580
+    second: Rojo_54
+  - first:
+      213: 3644232851304193275
+    second: Rojo_55
+  - first:
+      213: -654283516666631205
+    second: Rojo_56
+  - first:
+      213: -6031035576458792334
+    second: Rojo_57
+  - first:
+      213: -9118024422438641536
+    second: Rojo_58
+  - first:
+      213: 6112906698821429357
+    second: Rojo_59
+  - first:
+      213: -863949894636967324
+    second: Rojo_60
+  - first:
+      213: -3106590164745196987
+    second: Rojo_61
+  - first:
+      213: -8454742072210391984
+    second: Rojo_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rojo_0
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1635
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a117efc29540da479e5f185b08edd65
+      internalID: 220004741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojo_2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1646
+        width: 507
+        height: 1276
+      alignment: 9
+      pivot: {x: 0.502694, y: 0.46745735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5c53b01cf740344b76286425c612c2
+      internalID: -133326861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojo_3
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 1636
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03923dd73750744bb276bf8fe806c37
+      internalID: 540931691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojo_4
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 104
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1627581253c01244fa936ca1f0750df4
+      internalID: 1223995748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojo_5
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 121
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9497b109366f9bc44b84146709bba2f1
+      internalID: 41617522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rojo_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 106
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632268fc39488ce4da80e066f93c9e1e
+      internalID: 1454663307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 232c5f5d1b5ce1b4cb07567aca4fbf89
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rojo_0: 220004741
+      Rojo_1: 730878751
+      Rojo_10: -1483817773
+      Rojo_11: 1265852419
+      Rojo_12: 1602455066
+      Rojo_13: -798339051
+      Rojo_14: -1522715914
+      Rojo_15: 1394446097
+      Rojo_16: 1686099230
+      Rojo_17: -628492966
+      Rojo_18: -326843619
+      Rojo_19: -1154393870
+      Rojo_2: -133326861
+      Rojo_20: 232093545
+      Rojo_21: -372761870
+      Rojo_22: -707451101
+      Rojo_23: 1708018549
+      Rojo_24: -25417713
+      Rojo_25: 2134205420
+      Rojo_26: 1623024008
+      Rojo_27: 1919301924
+      Rojo_28: 1810920675
+      Rojo_29: -1433367683
+      Rojo_3: 540931691
+      Rojo_30: -2030542447
+      Rojo_31: -11336495
+      Rojo_32: 1413588903
+      Rojo_33: 1704258753
+      Rojo_34: -644092621
+      Rojo_35: -709003492
+      Rojo_36: -129133683
+      Rojo_37: 445989182
+      Rojo_38: -2131211233
+      Rojo_39: -191749203
+      Rojo_4: 1223995748
+      Rojo_40: -1819390935
+      Rojo_41: 312707703
+      Rojo_42: 4225342
+      Rojo_43: 812134108
+      Rojo_44: 196598553
+      Rojo_45: 1811629130
+      Rojo_46: 807503428
+      Rojo_47: 442659698
+      Rojo_48: -1694297326
+      Rojo_49: 758788793
+      Rojo_5: 41617522
+      Rojo_50: -1836574116
+      Rojo_51: 1085218384
+      Rojo_52: -449649831
+      Rojo_53: -500954080
+      Rojo_54: 1848882016
+      Rojo_55: 2136769806
+      Rojo_56: -1673254045
+      Rojo_57: -2138365453
+      Rojo_58: 1754428466
+      Rojo_59: -978601640
+      Rojo_6: 1454663307
+      Rojo_60: 181544679
+      Rojo_61: 463564144
+      Rojo_62: 567798542
+      Rojo_63: -1628722346
+      Rojo_64: 1893273244
+      Rojo_65: 105019506
+      Rojo_66: 451049547
+      Rojo_67: 601039016
+      Rojo_68: 1244656231
+      Rojo_69: -1875466499
+      Rojo_7: 1946560747
+      Rojo_70: 531820163
+      Rojo_71: -389263520
+      Rojo_72: -2104024266
+      Rojo_73: 207844814
+      Rojo_74: 1538996483
+      Rojo_75: 782827770
+      Rojo_76: 844509276
+      Rojo_77: -1278415604
+      Rojo_78: 1697600791
+      Rojo_8: -1477155117
+      Rojo_9: 1960876781
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class GloboScript : MonoBehaviour
 {
+    public enum TipoGlobo { Rojo, Verde, Amarillo }
+    public TipoGlobo tipoGlobo;
+
     public float radioExplosion = 1.5f;
     private Vector3 posicionInicial;
     public float tiempoDeVida = 15f;
@@ -14,6 +17,8 @@ public class GloboScript : MonoBehaviour
     public float frecuenciaVertical = 0.5f;
     private float direccion;
     private bool yaHizoDaño = false;
+    private bool explotando = false;
+    private Animator animator;
 
     void Start()
     {
@@ -21,6 +26,7 @@ public class GloboScript : MonoBehaviour
         tiempo = Random.Range(0f, 2f * Mathf.PI);
         bajaEnOnda = Random.value < 0.4f;
         direccion = transform.position.x < 0 ? 1f : -1f;
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -46,10 +52,12 @@ public class GloboScript : MonoBehaviour
 
     void Explotar()
     {
+        if (explotando) return;
+        explotando = true;
+        if (yaHizoDaño) return;
         Collider2D[] afectados = Physics2D.OverlapCircleAll(transform.position, radioExplosion);
         foreach (Collider2D col in afectados)
         {
-            if (yaHizoDaño) return;
             VidasPj vida = col.GetComponent<VidasPj>();
             if (vida != null)
             {
@@ -57,8 +65,19 @@ public class GloboScript : MonoBehaviour
                 yaHizoDaño = true;
             }
         }
-
-        Destroy(gameObject);
+        switch (tipoGlobo)
+        {
+            case TipoGlobo.Rojo:
+                animator.SetTrigger("Rojo");
+                break;
+            case TipoGlobo.Verde:
+                animator.SetTrigger("Verde");
+                break;
+            case TipoGlobo.Amarillo:
+                animator.SetTrigger("Amarillo");
+                break;
+        }
+        Destroy(gameObject, 0.5f);
     }
 
     void OnTriggerEnter2D(Collider2D other)

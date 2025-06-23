@@ -2,11 +2,10 @@ using UnityEngine;
 
 public class PlataformaScript : MonoBehaviour
 {
-    private GameObject jefe;
+    public GameObject jefe;
     public float velocidadCaida = 5f;
     public float distanciaCaida = 2f;
     private Vector3 posicionInicial;
-    private bool activada = false;
     private bool bajando = false;
     private bool subiendo = false;
     private float alturaMinima;
@@ -23,8 +22,6 @@ public class PlataformaScript : MonoBehaviour
 
     void Update()
     {
-        if (!activada) return;
-
         if (bajando)
         {
             boxCollider.isTrigger = true;
@@ -45,7 +42,6 @@ public class PlataformaScript : MonoBehaviour
             {
                 transform.position = posicionInicial;
                 subiendo = false;
-                activada = false;
                 boxCollider.isTrigger = false;
             }
         }
@@ -53,23 +49,22 @@ public class PlataformaScript : MonoBehaviour
 
     public void Activar()
     {
-        if (!activada)
-        {
-            activada = true;
-            bajando = true;
-        }
+        bajando = true;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Triangulardo"))
         {
-            Debug.Log("Colision");
+            if (jefe == null)
+            {
+                jefe = GameObject.FindGameObjectWithTag("Triangulardo");
+            }
             Triangulardo jefeScript = jefe.GetComponent<Triangulardo>();
 
             if (!jefeScript.IsStunned()) // usamos un getter para seguridad
             {
-                jefeScript.Stun(15f);
+                jefeScript.Stun(10f);
             }
 
         }

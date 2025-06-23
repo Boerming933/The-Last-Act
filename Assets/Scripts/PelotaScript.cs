@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PelotaScript : MonoBehaviour
 {
+    public enum TipoPelota { Amarilla, Roja, Verde }
+    public TipoPelota tipoPelota;
     public float horizontalSpeed;
     public float verticalBounceForce;
     public float tiempoDeVida = 10f;
@@ -9,6 +11,8 @@ public class PelotaScript : MonoBehaviour
     private bool yaHizoDaño = false;
     private Rigidbody2D rb;
     private float tiempoActual = 0f;
+    private bool explotando = false;
+    private Animator animator;
 
     void Update()
     {
@@ -18,7 +22,7 @@ public class PelotaScript : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
+        animator = GetComponent<Animator>();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -36,8 +40,7 @@ public class PelotaScript : MonoBehaviour
     {
         if (other.CompareTag("Latigo"))
         {
-            // Reacciona a la colisión con el látigo
-            Destroy(gameObject); // o aplicar daño, efectos, etc.
+            Explotar();
         }
         if (other.CompareTag("Circulin"))
         {
@@ -56,5 +59,24 @@ public class PelotaScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rb.linearVelocity = new Vector2(horizontalSpeed * direction, verticalBounceForce - 5);
+    }
+    
+    void Explotar()
+    {
+        if (explotando) return;
+        explotando = true;
+        switch (tipoPelota)
+        {
+            case TipoPelota.Amarilla:
+                animator.SetTrigger("Amarilla");
+                break;
+            case TipoPelota.Roja:
+                animator.SetTrigger("Roja");
+                break;
+            case TipoPelota.Verde:
+                animator.SetTrigger("Verde");
+                break;
+        }
+        Destroy(gameObject, 0.6f);
     }
 }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Triangulardo : MonoBehaviour
@@ -13,7 +14,6 @@ public class Triangulardo : MonoBehaviour
 
     public Transform puntoIzquierda;
     public Transform puntoDerecha;
-    public float velocidadMovimiento = 5f;
     public float distanciaMinima = 0.1f;
     public float tiempoPersecucionMin = 2f;
     public float tiempoPersecucionMax = 5f;
@@ -33,7 +33,10 @@ public class Triangulardo : MonoBehaviour
     [SerializeField] private float tiempoEntreAtaques = 2f;
     private float tiempoUltimoAtaque;
     public bool Stunning;
-    public float vida = 10f;
+    private VidasPonk vidasPonk;
+    private enum FaseJefe { Fase1, Fase2, Fase3 }
+    private FaseJefe faseActual = FaseJefe.Fase1;
+    public CuerdaScript[] cuerdaScript;
 
     void Start()
     {
@@ -42,7 +45,11 @@ public class Triangulardo : MonoBehaviour
         objetivoActual = puntoIzquierda;
         animator = GetComponent<Animator>();
         StartCoroutine(ComportamientoBoss());
-
+        vidasPonk = GetComponent<VidasPonk>();
+        if (vidasPonk != null)
+        {
+            vidasPonk.OnCambioDeFase += VerificarCambioDeFase;
+        }
     }
 
     void Update()
@@ -52,7 +59,7 @@ public class Triangulardo : MonoBehaviour
             return;
         }
         
-        if (!estaDisparando && !persiguiendoJugador && objetivoActual == null && !vieneDePersecucion)        
+        if (faseActual != FaseJefe.Fase1 && faseActual != FaseJefe.Fase3 && !estaDisparando && !persiguiendoJugador && objetivoActual == null && !vieneDePersecucion)        
         {
             StartCoroutine(ShootOnda());
         }
@@ -126,6 +133,24 @@ public class Triangulardo : MonoBehaviour
         }
     }
 
+    private void VerificarCambioDeFase(float vidaRestante)
+    {
+        if (faseActual == FaseJefe.Fase1 && vidaRestante <= 280f)
+        {
+            faseActual = FaseJefe.Fase2;
+            Debug.Log("Fase 2 activada: ataques combinados");
+        }
+        if (faseActual == FaseJefe.Fase2 && vidaRestante <= 80f)
+        {
+            faseActual = FaseJefe.Fase3;
+            Debug.Log("RAGE ACTIVADO... HUYE!!");
+            tiempoPersecucionMax = 16;
+            tiempoPersecucionMin = 15;
+            vidasPonk.invulnerable = true;
+
+        }
+    }
+
     private IEnumerator ShootOnda()
     {
         estaDisparando = true;
@@ -158,20 +183,41 @@ public class Triangulardo : MonoBehaviour
         animator.Play("Normal");
         while (true)
         {
-            int eleccion = UnityEngine.Random.Range(0,2); // 0 = patrullar, 1 = perseguir
+            switch (faseActual)
+            {
+                case FaseJefe.Fase1:
+                    yield return StartCoroutine(PerseguirJugador());
+                    break;
+                case FaseJefe.Fase2:
+                    int eleccion = UnityEngine.Random.Range(0, 2); // 0 = patrulla, 1 = persecución
 
-            if (eleccion == 0)
-            {
-                // Modo Patrullaje
-                Patrullar();
-                yield return new WaitUntil(() => objetivoActual == null);
-                yield return new WaitForSeconds(4);
+                    if (eleccion == 0)
+                    {
+                        Patrullar();
+                        yield return new WaitUntil(() => objetivoActual == null);
+                        yield return new WaitForSeconds(4f);
+                    }
+                    else
+                    {
+                        yield return StartCoroutine(PerseguirJugador());
+                    }
+                    break; 
+                case FaseJefe.Fase3: 
+                    yield return StartCoroutine(PerseguirJugador());
+                    vieneDePersecucion = true; // para bloquear otros comportamientos
+                    rb.linearVelocity = Vector2.zero;
+                    animator.SetTrigger("Martillazo");
+                    foreach (CuerdaScript cuerda in cuerdaScript)
+                    {
+                        cuerda.activada = true;
+                    }
+                    
+                    yield return new WaitForSeconds(10f); // tiempo de animación
+
+                    vieneDePersecucion = false;
+                break; 
             }
-            else
-            {
-                // Modo Persecución
-                yield return StartCoroutine(PerseguirJugador());
-            }
+            
         }
     }
 
@@ -230,24 +276,25 @@ public class Triangulardo : MonoBehaviour
 
     public void Stun(float duration)
     {
-        if (Stunning)
-        {
-            return;
-        }
+        if (Stunning) return;
         StopAllCoroutines();
         Stunning = true;
         animator.SetTrigger("Stunned");
         rb.linearVelocity = Vector2.zero;
-
+        vidasPonk.invulnerable = false;
         StartCoroutine(RecoverFromStun(duration));
     }
 
     IEnumerator RecoverFromStun(float duration)
     {
         yield return new WaitForSeconds(duration);
+        vidasPonk.invulnerable = true;
         Stunning = false;
         StartCoroutine(ComportamientoBoss());
+        tiempoPersecucionMin = 10;
+        tiempoPersecucionMin = 9;
     }
+
 
     public bool IsStunned()
     {

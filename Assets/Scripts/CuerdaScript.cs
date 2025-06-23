@@ -3,21 +3,19 @@ using UnityEngine;
 public class CuerdaScript : MonoBehaviour
 {
 
-    private GameObject jefe;
     public float distanciaActivacion = 2f; // Distancia máxima para activarla
     private Transform jugador;
-
-    [Header("Plataformas que se activan")]
-    public PlataformaScript[] plataformas; // Asigná las 3 plataformas desde el Inspector
+    public bool activada = false;
+    public PlataformaScript[] plataformas; 
 
     void Start()
     {
-        jefe = GameObject.FindGameObjectWithTag("Triangulardo");
         jugador = GameObject.FindGameObjectWithTag("Circulin").transform;
     }
 
     void Update()
     {
+        if (!activada) return;
         if (jugador != null)
         {
             if (Vector2.Distance(transform.position, jugador.position) <= distanciaActivacion)
