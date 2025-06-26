@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 45040ba49e3d46942b66db021a7d999a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4389741138394176268
+    second: Ponk Ataque_0
+  - first:
+      213: 7567285028173642530
+    second: Ponk Ataque_1
+  - first:
+      213: 4964492288210379299
+    second: Ponk Ataque_2
+  - first:
+      213: -2287979968214570405
+    second: Ponk Ataque_3
+  - first:
+      213: -365174858105376862
+    second: Ponk Ataque_4
+  - first:
+      213: 6394489220697360258
+    second: Ponk Ataque_5
+  - first:
+      213: 4866788225065046791
+    second: Ponk Ataque_6
+  - first:
+      213: -9074985994347741147
+    second: Ponk Ataque_7
+  - first:
+      213: -4518440612063381271
+    second: Ponk Ataque_8
+  - first:
+      213: -5634557253467831381
+    second: Ponk Ataque_9
+  - first:
+      213: -8285053810156900995
+    second: Ponk Ataque_10
+  - first:
+      213: 2499559259981067779
+    second: Ponk Ataque_11
+  - first:
+      213: -843683522891674184
+    second: Ponk Ataque_12
+  - first:
+      213: -938435427136396185
+    second: Ponk Ataque_13
+  - first:
+      213: 4688203488013657285
+    second: Ponk Ataque_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ponk Ataque_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1621
+        width: 360
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4a81641b18413c0800000000000000
+      internalID: -4389741138394176268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_1
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1627
+        width: 339
+        height: 270
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bfb62d3a5640960800000000000000
+      internalID: 7567285028173642530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_2
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1615
+        width: 344
+        height: 269
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32222f0ee6b65e440800000000000000
+      internalID: 4964492288210379299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_3
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1608
+        width: 382
+        height: 283
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a6c5557567f30e0800000000000000
+      internalID: -2287979968214570405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1075
+        width: 369
+        height: 302
+      alignment: 9
+      pivot: {x: 0.47, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afa9bdb663aeeaf0800000000000000
+      internalID: -365174858105376862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1169
+        width: 400
+        height: 256
+      alignment: 9
+      pivot: {x: 0.4, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2870bb7111acdb850800000000000000
+      internalID: 6394489220697360258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_6
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1147
+        width: 425
+        height: 241
+      alignment: 9
+      pivot: {x: 0.37, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7035e08fa1e4a8340800000000000000
+      internalID: 4866788225065046791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_7
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 1124
+        width: 406
+        height: 282
+      alignment: 9
+      pivot: {x: 0.37, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5200249c15c2f0280800000000000000
+      internalID: -9074985994347741147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 566
+        width: 400
+        height: 343
+      alignment: 9
+      pivot: {x: 0.37, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8734bf3364b41c0800000000000000
+      internalID: -4518440612063381271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 542
+        width: 315
+        height: 390
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba30378f7080ec1b0800000000000000
+      internalID: -5634557253467831381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_10
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 517
+        width: 223
+        height: 457
+      alignment: 9
+      pivot: {x: 0.68, y: -0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7de99ca473950d80800000000000000
+      internalID: -8285053810156900995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_11
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 502
+        width: 246
+        height: 413
+      alignment: 9
+      pivot: {x: 1, y: -0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306b53a57e730b220800000000000000
+      internalID: 2499559259981067779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 170
+        width: 385
+        height: 208
+      alignment: 9
+      pivot: {x: 1, y: -0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd01335e42aa44f0800000000000000
+      internalID: -843683522891674184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_13
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 44
+        width: 352
+        height: 384
+      alignment: 9
+      pivot: {x: 1, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764a4e873f10af2f0800000000000000
+      internalID: -938435427136396185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk Ataque_14
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 16
+        width: 311
+        height: 379
+      alignment: 9
+      pivot: {x: 1.1, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c42dc1bb38df0140800000000000000
+      internalID: 4688203488013657285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3243479a14c2e774aa42cde799a4e5be
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ponk Ataque_0: -4389741138394176268
+      Ponk Ataque_1: 7567285028173642530
+      Ponk Ataque_10: -8285053810156900995
+      Ponk Ataque_11: 2499559259981067779
+      Ponk Ataque_12: -843683522891674184
+      Ponk Ataque_13: -938435427136396185
+      Ponk Ataque_14: 4688203488013657285
+      Ponk Ataque_2: 4964492288210379299
+      Ponk Ataque_3: -2287979968214570405
+      Ponk Ataque_4: -365174858105376862
+      Ponk Ataque_5: 6394489220697360258
+      Ponk Ataque_6: 4866788225065046791
+      Ponk Ataque_7: -9074985994347741147
+      Ponk Ataque_8: -4518440612063381271
+      Ponk Ataque_9: -5634557253467831381
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
