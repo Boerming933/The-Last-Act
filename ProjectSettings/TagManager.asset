@@ -7,9 +7,9 @@ TagManager:
   - Enganchable
   - Triangulardo
   - Ground
-  - Circulin
   - Ataques
   - Latigo
+  - Circulin
   layers:
   - Default
   - TransparentFX
@@ -17,10 +17,10 @@ TagManager:
   - 
   - Water
   - UI
+  - Pelota
+  - Player
+  - 
   - Ground
-  - 
-  - 
-  - 
   - 
   - 
   - 

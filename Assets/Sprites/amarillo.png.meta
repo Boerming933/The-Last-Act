@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 4f5bad4693425dd4a856857afbdb6b8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4279241780906724887
+    second: amarillo_0
+  - first:
+      213: 2116564980145339021
+    second: amarillo_1
+  - first:
+      213: -8439799029101353408
+    second: amarillo_2
+  - first:
+      213: 5011091928260856108
+    second: amarillo_3
+  - first:
+      213: 1278141245009609814
+    second: amarillo_4
+  - first:
+      213: 2903563205424128294
+    second: amarillo_5
+  - first:
+      213: -3569769239499528365
+    second: amarillo_6
+  - first:
+      213: -898532954493786053
+    second: amarillo_7
+  - first:
+      213: -509798530032995372
+    second: amarillo_8
+  - first:
+      213: 8984971104576378017
+    second: amarillo_9
+  - first:
+      213: -8410271481577336535
+    second: amarillo_10
+  - first:
+      213: -1352403039005037125
+    second: amarillo_11
+  - first:
+      213: 4415646997195392165
+    second: amarillo_12
+  - first:
+      213: -2870482430351800258
+    second: amarillo_13
+  - first:
+      213: 3146893544117162630
+    second: amarillo_14
+  - first:
+      213: 7979673163861485502
+    second: amarillo_15
+  - first:
+      213: 1383607271240036175
+    second: amarillo_16
+  - first:
+      213: -1771344346936210470
+    second: amarillo_17
+  - first:
+      213: 5025259835311736200
+    second: amarillo_18
+  - first:
+      213: -8833134580127438305
+    second: amarillo_19
+  - first:
+      213: -2213623713723764313
+    second: amarillo_20
+  - first:
+      213: -6524648257621787987
+    second: amarillo_21
+  - first:
+      213: -1972040523285016651
+    second: amarillo_22
+  - first:
+      213: 4541021374729118291
+    second: amarillo_23
+  - first:
+      213: 5387866943254359778
+    second: amarillo_24
+  - first:
+      213: 8828965685426429632
+    second: amarillo_25
+  - first:
+      213: 1757036507663211028
+    second: amarillo_26
+  - first:
+      213: -3074777773810222786
+    second: amarillo_27
+  - first:
+      213: -6208700325342830118
+    second: amarillo_28
+  - first:
+      213: 7903316973953126388
+    second: amarillo_29
+  - first:
+      213: -3316818211138092225
+    second: amarillo_30
+  - first:
+      213: -2913612947398190588
+    second: amarillo_31
+  - first:
+      213: -5153268661317583418
+    second: amarillo_32
+  - first:
+      213: 4255486887726705882
+    second: amarillo_33
+  - first:
+      213: 1307995594210953477
+    second: amarillo_34
+  - first:
+      213: -7970288007410552677
+    second: amarillo_35
+  - first:
+      213: -7370961295164674925
+    second: amarillo_36
+  - first:
+      213: -4702420657708206939
+    second: amarillo_37
+  - first:
+      213: -1754201098034378929
+    second: amarillo_38
+  - first:
+      213: 7739669346481232463
+    second: amarillo_39
+  - first:
+      213: 3126532586882720846
+    second: amarillo_40
+  - first:
+      213: 918328899662599307
+    second: amarillo_41
+  - first:
+      213: 6778776193570171306
+    second: amarillo_42
+  - first:
+      213: -3738037024350261510
+    second: amarillo_43
+  - first:
+      213: -8464003852151921533
+    second: amarillo_44
+  - first:
+      213: -7080941772268175
+    second: amarillo_45
+  - first:
+      213: -9126167687104296988
+    second: amarillo_46
+  - first:
+      213: -4018008270858772289
+    second: amarillo_47
+  - first:
+      213: 6297892419746276724
+    second: amarillo_48
+  - first:
+      213: 5463779387135400916
+    second: amarillo_49
+  - first:
+      213: -8557200066263548436
+    second: amarillo_50
+  - first:
+      213: -8778887675803297626
+    second: amarillo_51
+  - first:
+      213: 8161669653679613263
+    second: amarillo_52
+  - first:
+      213: -1694192779839461513
+    second: amarillo_53
+  - first:
+      213: 6717272009116647812
+    second: amarillo_54
+  - first:
+      213: 1177337766189142757
+    second: amarillo_55
+  - first:
+      213: -5458530056218550013
+    second: amarillo_56
+  - first:
+      213: -3492003255422713890
+    second: amarillo_57
+  - first:
+      213: -446648778927546967
+    second: amarillo_58
+  - first:
+      213: -5399158843402486536
+    second: amarillo_59
+  - first:
+      213: -1387166101841785093
+    second: amarillo_60
+  - first:
+      213: 2033917215636094451
+    second: amarillo_61
+  - first:
+      213: 8068160542526071979
+    second: amarillo_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: amarillo_0
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1648
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e17b0dc5441d94c0800000000000000
+      internalID: -4279241780906724887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amarillo_1
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1649
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a3899a2ac8f5d10800000000000000
+      internalID: 2116564980145339021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amarillo_2
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 1649
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0462abebf7fcfda80800000000000000
+      internalID: -8439799029101353408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amarillo_3
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 114
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b739c684cd2310e438310596c850794a
+      internalID: 728450232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amarillo_4
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 100
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363b0f90058fa034eba8cc8f7bac8044
+      internalID: -78153754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: amarillo_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 108
+        width: 585
+        height: 1276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dee3fa5c896d645b62897a7795fcf7
+      internalID: 1298692274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eb9fbedc46ebc4d4fa46f6750967e584
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      amarillo_3: 728450232
+      amarillo_4: -78153754
+      amarillo_5: 1298692274
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

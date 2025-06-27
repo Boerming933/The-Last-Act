@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 07fbc43507b04dd46be111c72d686551
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4710427376612365096
+    second: pelota amarilla.romper_0
+  - first:
+      213: -1572900345983389804
+    second: pelota amarilla.romper_1
+  - first:
+      213: 8119530848087906198
+    second: pelota amarilla.romper_2
+  - first:
+      213: 5137373244316810421
+    second: pelota amarilla.romper_3
+  - first:
+      213: 9091799635545510154
+    second: pelota amarilla.romper_4
+  - first:
+      213: -6349854904622231448
+    second: pelota amarilla.romper_5
+  - first:
+      213: -7515844982652944132
+    second: pelota amarilla.romper_6
+  - first:
+      213: 1964206718740233726
+    second: pelota amarilla.romper_7
+  - first:
+      213: -5914715023155338022
+    second: pelota amarilla.romper_8
+  - first:
+      213: 6341679739994704527
+    second: pelota amarilla.romper_9
+  - first:
+      213: -7806293647277044910
+    second: pelota amarilla.romper_10
+  - first:
+      213: -2157319134782299384
+    second: pelota amarilla.romper_11
+  - first:
+      213: -8932585000632750974
+    second: pelota amarilla.romper_12
+  - first:
+      213: -8325152118579260394
+    second: pelota amarilla.romper_13
+  - first:
+      213: -3429565473645095305
+    second: pelota amarilla.romper_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pelota amarilla.romper_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 564
+        width: 364
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f229a087feb2ae0800000000000000
+      internalID: -1572900345983389804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pelota amarilla.romper_3
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 560
+        width: 364
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc791a2fbd9b4740800000000000000
+      internalID: 5137373244316810421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pelota amarilla.romper_5
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 558
+        width: 364
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86058b27b98c0e7a0800000000000000
+      internalID: -6349854904622231448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pelota amarilla.romper_6
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 551
+        width: 364
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0c1161fca52b790800000000000000
+      internalID: -7515844982652944132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pelota amarilla.romper_7
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 531
+        width: 364
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd72f79a93424b10800000000000000
+      internalID: 1964206718740233726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pelota amarilla.romper_10
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 43
+        width: 371
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bc9ad89497aa390800000000000000
+      internalID: -7806293647277044910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pelota amarilla.romper_11
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 34
+        width: 391
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803e5284da9af02e0800000000000000
+      internalID: -2157319134782299384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cd465c1e82e365849a801ba59c26f2b4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pelota amarilla.romper_1: -1572900345983389804
+      pelota amarilla.romper_10: -7806293647277044910
+      pelota amarilla.romper_11: -2157319134782299384
+      pelota amarilla.romper_3: 5137373244316810421
+      pelota amarilla.romper_5: -6349854904622231448
+      pelota amarilla.romper_6: -7515844982652944132
+      pelota amarilla.romper_7: 1964206718740233726
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

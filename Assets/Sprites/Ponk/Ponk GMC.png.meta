@@ -1,0 +1,3267 @@
+fileFormatVersion: 2
+guid: 1a68ebb9ba7146a4eb1f71b396172efd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8127949801891840946
+    second: Ponk GMC_0
+  - first:
+      213: 4595096034088789276
+    second: Ponk GMC_1
+  - first:
+      213: -8872294140747701128
+    second: Ponk GMC_2
+  - first:
+      213: -4303563358050316576
+    second: Ponk GMC_3
+  - first:
+      213: 4251005484752254320
+    second: Ponk GMC_4
+  - first:
+      213: 5059093196304198672
+    second: Ponk GMC_5
+  - first:
+      213: -1395037208686384475
+    second: Ponk GMC_6
+  - first:
+      213: 8113413895593129685
+    second: Ponk GMC_7
+  - first:
+      213: -7887555792778037225
+    second: Ponk GMC_8
+  - first:
+      213: -6417266758797608459
+    second: Ponk GMC_9
+  - first:
+      213: 4370351608188944713
+    second: Ponk GMC_10
+  - first:
+      213: 8683080413127635593
+    second: Ponk GMC_11
+  - first:
+      213: -4320644114844823380
+    second: Ponk GMC_12
+  - first:
+      213: -3287711671242734908
+    second: Ponk GMC_13
+  - first:
+      213: 7042722623893848908
+    second: Ponk GMC_14
+  - first:
+      213: -1138603208001060088
+    second: Ponk GMC_15
+  - first:
+      213: -6965932575773742912
+    second: Ponk GMC_16
+  - first:
+      213: -3309162635358551100
+    second: Ponk GMC_17
+  - first:
+      213: 7304229319596578060
+    second: Ponk GMC_18
+  - first:
+      213: -3177649548397940975
+    second: Ponk GMC_19
+  - first:
+      213: 8122548155310919204
+    second: Ponk GMC_20
+  - first:
+      213: 3366174370784528562
+    second: Ponk GMC_21
+  - first:
+      213: 6064476562733008037
+    second: Ponk GMC_22
+  - first:
+      213: -8103380521456902664
+    second: Ponk GMC_23
+  - first:
+      213: 6036436590716112455
+    second: Ponk GMC_24
+  - first:
+      213: -6117706855494332172
+    second: Ponk GMC_25
+  - first:
+      213: -3022427577704294873
+    second: Ponk GMC_26
+  - first:
+      213: 895534967891824286
+    second: Ponk GMC_27
+  - first:
+      213: 6609179992609900755
+    second: Ponk GMC_28
+  - first:
+      213: -1407802548011239345
+    second: Ponk GMC_29
+  - first:
+      213: 2243882141740837707
+    second: Ponk GMC_30
+  - first:
+      213: 5621236949190622373
+    second: Ponk GMC_31
+  - first:
+      213: -7083542185011853452
+    second: Ponk GMC_32
+  - first:
+      213: 3666467140569594543
+    second: Ponk GMC_33
+  - first:
+      213: -2177518533348609640
+    second: Ponk GMC_34
+  - first:
+      213: 8723220927404910585
+    second: Ponk GMC_35
+  - first:
+      213: -6534502583251610478
+    second: Ponk GMC_36
+  - first:
+      213: -366811651993779734
+    second: Ponk GMC_37
+  - first:
+      213: 4433716454791166418
+    second: Ponk GMC_38
+  - first:
+      213: -7160677510584870264
+    second: Ponk GMC_39
+  - first:
+      213: 4498439503260110885
+    second: Ponk GMC_40
+  - first:
+      213: 1359383092415121063
+    second: Ponk GMC_41
+  - first:
+      213: 8355533821070025730
+    second: Ponk GMC_42
+  - first:
+      213: -7976253529277588931
+    second: Ponk GMC_43
+  - first:
+      213: -4035629958123876826
+    second: Ponk GMC_44
+  - first:
+      213: 7902247376985838702
+    second: Ponk GMC_45
+  - first:
+      213: -4426702781157517345
+    second: Ponk GMC_46
+  - first:
+      213: 2946979799979430246
+    second: Ponk GMC_47
+  - first:
+      213: 6081499946991376277
+    second: Ponk GMC_48
+  - first:
+      213: -9149262757256003254
+    second: Ponk GMC_49
+  - first:
+      213: -2488849624786205360
+    second: Ponk GMC_50
+  - first:
+      213: 2043698614340865414
+    second: Ponk GMC_51
+  - first:
+      213: 5390198973357482120
+    second: Ponk GMC_52
+  - first:
+      213: -806408885951520019
+    second: Ponk GMC_53
+  - first:
+      213: -3165850122196745340
+    second: Ponk GMC_54
+  - first:
+      213: -8550931457105463164
+    second: Ponk GMC_55
+  - first:
+      213: -5997380248573668388
+    second: Ponk GMC_56
+  - first:
+      213: -2669096670130558921
+    second: Ponk GMC_57
+  - first:
+      213: 5072377798035610877
+    second: Ponk GMC_58
+  - first:
+      213: 1390250728001336360
+    second: Ponk GMC_59
+  - first:
+      213: 6867995964341595052
+    second: Ponk GMC_60
+  - first:
+      213: -3260006904890704625
+    second: Ponk GMC_61
+  - first:
+      213: 7858345041590901005
+    second: Ponk GMC_62
+  - first:
+      213: -7686522718358042059
+    second: Ponk GMC_63
+  - first:
+      213: 229067631347980841
+    second: Ponk GMC_64
+  - first:
+      213: 5886972329034208990
+    second: Ponk GMC_65
+  - first:
+      213: 6881996976732550791
+    second: Ponk GMC_66
+  - first:
+      213: -4508225125733838730
+    second: Ponk GMC_67
+  - first:
+      213: 3335614594166795962
+    second: Ponk GMC_68
+  - first:
+      213: 2918002778852643079
+    second: Ponk GMC_69
+  - first:
+      213: -5607944841872249450
+    second: Ponk GMC_70
+  - first:
+      213: -2545004367449981496
+    second: Ponk GMC_71
+  - first:
+      213: -589813661603833460
+    second: Ponk GMC_72
+  - first:
+      213: -8679039046883975454
+    second: Ponk GMC_73
+  - first:
+      213: 6377106803143432472
+    second: Ponk GMC_74
+  - first:
+      213: -1425492074763558161
+    second: Ponk GMC_75
+  - first:
+      213: 169716281327357049
+    second: Ponk GMC_76
+  - first:
+      213: 6366421946548032640
+    second: Ponk GMC_77
+  - first:
+      213: 6047376294374890850
+    second: Ponk GMC_78
+  - first:
+      213: -4708517373104859119
+    second: Ponk GMC_79
+  - first:
+      213: 8930457798215595289
+    second: Ponk GMC_80
+  - first:
+      213: 1973644883357927904
+    second: Ponk GMC_81
+  - first:
+      213: -4080595866676590044
+    second: Ponk GMC_82
+  - first:
+      213: -8455002031430338578
+    second: Ponk GMC_83
+  - first:
+      213: 7396950892066123423
+    second: Ponk GMC_84
+  - first:
+      213: 7716167247859077205
+    second: Ponk GMC_85
+  - first:
+      213: -7104426949770653299
+    second: Ponk GMC_86
+  - first:
+      213: -9191322331115905612
+    second: Ponk GMC_87
+  - first:
+      213: 5301450866894414200
+    second: Ponk GMC_88
+  - first:
+      213: 1315749604057942033
+    second: Ponk GMC_89
+  - first:
+      213: -8471188878982553807
+    second: Ponk GMC_90
+  - first:
+      213: 7671407220779333104
+    second: Ponk GMC_91
+  - first:
+      213: -8771829382376597862
+    second: Ponk GMC_92
+  - first:
+      213: -1449132959557977806
+    second: Ponk GMC_93
+  - first:
+      213: 2036397018728267978
+    second: Ponk GMC_94
+  - first:
+      213: 9184745762123232062
+    second: Ponk GMC_95
+  - first:
+      213: 8936757761024197033
+    second: Ponk GMC_96
+  - first:
+      213: 1453616790081470122
+    second: Ponk GMC_97
+  - first:
+      213: 8965009505677171513
+    second: Ponk GMC_98
+  - first:
+      213: 3932099317266965429
+    second: Ponk GMC_99
+  - first:
+      213: 3096129800266283272
+    second: Ponk GMC_100
+  - first:
+      213: -4546014583287100790
+    second: Ponk GMC_101
+  - first:
+      213: -1979087343739121919
+    second: Ponk GMC_102
+  - first:
+      213: -8517359264531201974
+    second: Ponk GMC_103
+  - first:
+      213: 2220762911012843434
+    second: Ponk GMC_104
+  - first:
+      213: -6664379329136878344
+    second: Ponk GMC_105
+  - first:
+      213: -604014074072037687
+    second: Ponk GMC_106
+  - first:
+      213: -3803732426013985014
+    second: Ponk GMC_107
+  - first:
+      213: -157464726400092779
+    second: Ponk GMC_108
+  - first:
+      213: 8375533353220790633
+    second: Ponk GMC_109
+  - first:
+      213: 599128508678023024
+    second: Ponk GMC_110
+  - first:
+      213: 6635409730531711365
+    second: Ponk GMC_111
+  - first:
+      213: -7669195727352707444
+    second: Ponk GMC_112
+  - first:
+      213: 2671488326025879053
+    second: Ponk GMC_113
+  - first:
+      213: 7882864860957523261
+    second: Ponk GMC_114
+  - first:
+      213: 6753405732786621337
+    second: Ponk GMC_115
+  - first:
+      213: 5388964001586714180
+    second: Ponk GMC_116
+  - first:
+      213: 5575005489487070134
+    second: Ponk GMC_117
+  - first:
+      213: 568297510795012390
+    second: Ponk GMC_118
+  - first:
+      213: -4033927204220329318
+    second: Ponk GMC_119
+  - first:
+      213: -5233855012170023078
+    second: Ponk GMC_120
+  - first:
+      213: 8761432409529337460
+    second: Ponk GMC_121
+  - first:
+      213: 577785495367947330
+    second: Ponk GMC_122
+  - first:
+      213: 3213571646699745704
+    second: Ponk GMC_123
+  - first:
+      213: 4941193983797342730
+    second: Ponk GMC_124
+  - first:
+      213: -5462700681234887539
+    second: Ponk GMC_125
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ponk GMC_0
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 6065
+        width: 54
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cb70a08b8b33f80800000000000000
+      internalID: -8127949801891840946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_1
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 5724
+        width: 111
+        height: 804
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c152ba44f7f05cf30800000000000000
+      internalID: 4595096034088789276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_2
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 6142
+        width: 46
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87424f58c774fd480800000000000000
+      internalID: -8872294140747701128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_3
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 6374
+        width: 28
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee06075deba644c0800000000000000
+      internalID: -4303563358050316576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_4
+      rect:
+        serializedVersion: 2
+        x: 2763
+        y: 5912
+        width: 103
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07535e037fa9efa30800000000000000
+      internalID: 4251005484752254320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_5
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 6172
+        width: 72
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cae433572853640800000000000000
+      internalID: 5059093196304198672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_6
+      rect:
+        serializedVersion: 2
+        x: 3309
+        y: 5595
+        width: 120
+        height: 933
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aaabc7cc05d3ace0800000000000000
+      internalID: -1395037208686384475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_7
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 5883
+        width: 133
+        height: 645
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6fb8a83f2a89070800000000000000
+      internalID: 8113413895593129685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_8
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 6057
+        width: 86
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718f369ebc5c98290800000000000000
+      internalID: -7887555792778037225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_9
+      rect:
+        serializedVersion: 2
+        x: 4101
+        y: 5678
+        width: 133
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f932fc02e941f6a0800000000000000
+      internalID: -6417266758797608459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_10
+      rect:
+        serializedVersion: 2
+        x: 4367
+        y: 5975
+        width: 86
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941c8ade1ab96ac30800000000000000
+      internalID: 4370351608188944713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_11
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 5573
+        width: 137
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982ff9c71af708870800000000000000
+      internalID: 8683080413127635593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_12
+      rect:
+        serializedVersion: 2
+        x: 4922
+        y: 5967
+        width: 84
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0dacdb11df904c0800000000000000
+      internalID: -4320644114844823380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_13
+      rect:
+        serializedVersion: 2
+        x: 5144
+        y: 5564
+        width: 139
+        height: 964
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2cbaf67a3bf52d0800000000000000
+      internalID: -3287711671242734908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_14
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 5145
+        width: 303
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43ccc899e6ccb160800000000000000
+      internalID: 7042722623893848908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_15
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 5747
+        width: 39
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8030af63a6ed230f0800000000000000
+      internalID: -1138603208001060088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_16
+      rect:
+        serializedVersion: 2
+        x: 3831
+        y: 5154
+        width: 258
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c82fabba39045f90800000000000000
+      internalID: -6965932575773742912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_17
+      rect:
+        serializedVersion: 2
+        x: 4348
+        y: 5152
+        width: 268
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c34577ad1e7312d0800000000000000
+      internalID: -3309162635358551100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_18
+      rect:
+        serializedVersion: 2
+        x: 4897
+        y: 5144
+        width: 270
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c051c80edd5dd5560800000000000000
+      internalID: 7304229319596578060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_19
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 5469
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f6f075298b6e3d0800000000000000
+      internalID: -3177649548397940975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_20
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 5169
+        width: 298
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ecf4c138619b070800000000000000
+      internalID: 8122548155310919204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_21
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 5161
+        width: 262
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8c2a661cd07be20800000000000000
+      internalID: 3366174370784528562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_22
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 5164
+        width: 264
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a402668d49592450800000000000000
+      internalID: 6064476562733008037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_23
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 5155
+        width: 260
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdddba69520b8f80800000000000000
+      internalID: -8103380521456902664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_24
+      rect:
+        serializedVersion: 2
+        x: 4075
+        y: 5294
+        width: 46
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ecdcac81bb5c350800000000000000
+      internalID: 6036436590716112455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_25
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 4939
+        width: 18
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0d946270a891ba0800000000000000
+      internalID: -6117706855494332172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_26
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 4940
+        width: 18
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726579fa12e2e06d0800000000000000
+      internalID: -3022427577704294873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_27
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 4953
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e022dfe449d6c00800000000000000
+      internalID: 895534967891824286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_28
+      rect:
+        serializedVersion: 2
+        x: 3871
+        y: 4065
+        width: 139
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8c124bf2688bb50800000000000000
+      internalID: 6609179992609900755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_29
+      rect:
+        serializedVersion: 2
+        x: 3882
+        y: 4964
+        width: 19
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4876eb9a0b767ce0800000000000000
+      internalID: -1407802548011239345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_30
+      rect:
+        serializedVersion: 2
+        x: 4356
+        y: 4491
+        width: 84
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b2e485beed32f10800000000000000
+      internalID: 2243882141740837707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_31
+      rect:
+        serializedVersion: 2
+        x: 4377
+        y: 4976
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acbec20935a20e40800000000000000
+      internalID: 5621236949190622373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_32
+      rect:
+        serializedVersion: 2
+        x: 4469
+        y: 4776
+        width: 28
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477cfd6b9e332bd90800000000000000
+      internalID: -7083542185011853452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_33
+      rect:
+        serializedVersion: 2
+        x: 4577
+        y: 4088
+        width: 139
+        height: 935
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faafa464078e1e230800000000000000
+      internalID: 3666467140569594543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_34
+      rect:
+        serializedVersion: 2
+        x: 4588
+        y: 4987
+        width: 19
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8913def4e66e7c1e0800000000000000
+      internalID: -2177518533348609640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_35
+      rect:
+        serializedVersion: 2
+        x: 5065
+        y: 4491
+        width: 84
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f72933473b1f0970800000000000000
+      internalID: 8723220927404910585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_36
+      rect:
+        serializedVersion: 2
+        x: 5087
+        y: 4976
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2945a659588c055a0800000000000000
+      internalID: -6534502583251610478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_37
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 4713
+        width: 103
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1cf67feb2d8eaf0800000000000000
+      internalID: -366811651993779734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_38
+      rect:
+        serializedVersion: 2
+        x: 5287
+        y: 4088
+        width: 139
+        height: 916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9b1a2ff99b78d30800000000000000
+      internalID: 4433716454791166418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_39
+      rect:
+        serializedVersion: 2
+        x: 5298
+        y: 4987
+        width: 18
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ad5763eb920ac90800000000000000
+      internalID: -7160677510584870264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_40
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 4892
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520576bf4eaad6e30800000000000000
+      internalID: 4498439503260110885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_41
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 4897
+        width: 9
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6431168bf7dd210800000000000000
+      internalID: 1359383092415121063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_42
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 4909
+        width: 7
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20424a1adb1d4f370800000000000000
+      internalID: 8355533821070025730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_43
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 4905
+        width: 7
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a14f4dca7ae4190800000000000000
+      internalID: -7976253529277588931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_44
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 4876
+        width: 19
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e0a1d4fef8ef7c0800000000000000
+      internalID: -4035629958123876826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_45
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 4937
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64d0881f1c6aad60800000000000000
+      internalID: 7902247376985838702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_46
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 4944
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd75fd236413192c0800000000000000
+      internalID: -4426702781157517345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_47
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4443
+        width: 84
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661960aa386c5e820800000000000000
+      internalID: 2946979799979430246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_48
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 4937
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5975af90bf3d56450800000000000000
+      internalID: 6081499946991376277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_49
+      rect:
+        serializedVersion: 2
+        x: 2491
+        y: 4928
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a418b054ff9470180800000000000000
+      internalID: -9149262757256003254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_50
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 4452
+        width: 84
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0550147e374d57dd0800000000000000
+      internalID: -2488849624786205360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_51
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 4936
+        width: 11
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68dcebfcf0dac5c10800000000000000
+      internalID: 2043698614340865414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_52
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 4468
+        width: 84
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880e5a36865ddca40800000000000000
+      internalID: 5390198973357482120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_53
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 4408
+        width: 84
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de22429046f0fc4f0800000000000000
+      internalID: -806408885951520019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_54
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 4004
+        width: 139
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48306565614a014d0800000000000000
+      internalID: -3165850122196745340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_55
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 4893
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488f380052df45980800000000000000
+      internalID: -8550931457105463164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_56
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 4405
+        width: 84
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd392dc707605cca0800000000000000
+      internalID: -5997380248573668388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_57
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 4889
+        width: 12
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738a0b158b675fad0800000000000000
+      internalID: -2669096670130558921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_58
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 4001
+        width: 139
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc9d729bb4b46640800000000000000
+      internalID: 5072377798035610877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_59
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 4900
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8247f37dba92b4310800000000000000
+      internalID: 1390250728001336360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_60
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 4404
+        width: 84
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caba56df0f5005f50800000000000000
+      internalID: 6867995964341595052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_61
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 4888
+        width: 12
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d3ba40ef022c2d0800000000000000
+      internalID: -3260006904890704625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_62
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 4889
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d095a761e237e0d60800000000000000
+      internalID: 7858345041590901005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_63
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 4577
+        width: 37
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a8c46005cf35590800000000000000
+      internalID: -7686522718358042059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_64
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 4040
+        width: 139
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a590c0ccfcd2300800000000000000
+      internalID: 229067631347980841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_65
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 4713
+        width: 19
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed653aa842ab2b150800000000000000
+      internalID: 5886972329034208990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_66
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 4048
+        width: 139
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786b477b9c3c18f50800000000000000
+      internalID: 6881996976732550791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_67
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 4681
+        width: 26
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670d42d32219f61c0800000000000000
+      internalID: -4508225125733838730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_68
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3579
+        width: 285
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abeabe0fccb7a4e20800000000000000
+      internalID: 3335614594166795962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_69
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 3565
+        width: 307
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7015d1f2114de7820800000000000000
+      internalID: 2918002778852643079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_70
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 3566
+        width: 316
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d6834e0e39c22b0800000000000000
+      internalID: -5607944841872249450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_71
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 4000
+        width: 139
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd735603045eacd0800000000000000
+      internalID: -2545004367449981496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_72
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 3570
+        width: 314
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c895e68899f80d7f0800000000000000
+      internalID: -589813661603833460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_73
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 3567
+        width: 317
+        height: 789
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee5cba68fbdd8780800000000000000
+      internalID: -8679039046883975454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_74
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 4307
+        width: 13
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8195710a9d8008850800000000000000
+      internalID: 6377106803143432472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_75
+      rect:
+        serializedVersion: 2
+        x: 3614
+        y: 3559
+        width: 312
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe26595b282a73ce0800000000000000
+      internalID: -1425492074763558161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_76
+      rect:
+        serializedVersion: 2
+        x: 3796
+        y: 4129
+        width: 16
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c0e150f04fa5200800000000000000
+      internalID: 169716281327357049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_77
+      rect:
+        serializedVersion: 2
+        x: 4316
+        y: 3551
+        width: 317
+        height: 1208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0841f3697031a5850800000000000000
+      internalID: 6366421946548032640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_78
+      rect:
+        serializedVersion: 2
+        x: 5025
+        y: 3553
+        width: 316
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d555903b89ce350800000000000000
+      internalID: 6047376294374890850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_79
+      rect:
+        serializedVersion: 2
+        x: 4516
+        y: 3551
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118545d556cf7aeb0800000000000000
+      internalID: -4708517373104859119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_80
+      rect:
+        serializedVersion: 2
+        x: 5224
+        y: 3554
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915f1484d0c5feb70800000000000000
+      internalID: 8930457798215595289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_81
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 2333
+        width: 139
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e90159809bc36b10800000000000000
+      internalID: 1973644883357927904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_82
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2754
+        width: 65
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a80deddafce57c0800000000000000
+      internalID: -4080595866676590044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_83
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 2374
+        width: 76
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7736de27cc9aa80800000000000000
+      internalID: -8455002031430338578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_84
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 3275
+        width: 19
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e2c9645af37a660800000000000000
+      internalID: 7396950892066123423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_85
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1776
+        width: 305
+        height: 1502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550d42cda35551b60800000000000000
+      internalID: 7716167247859077205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_86
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 3266
+        width: 19
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81553e7451086d90800000000000000
+      internalID: -7104426949770653299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_87
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 2747
+        width: 65
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd98bd990dd17080800000000000000
+      internalID: -9191322331115905612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_88
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 2363
+        width: 84
+        height: 917
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871ad63a979829940800000000000000
+      internalID: 5301450866894414200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_89
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 3268
+        width: 19
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1180c333b4b724210800000000000000
+      internalID: 1315749604057942033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_90
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 3261
+        width: 19
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f510bc89a407a80800000000000000
+      internalID: -8471188878982553807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_91
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 2378
+        width: 76
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f53be1f830567a60800000000000000
+      internalID: 7671407220779333104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_92
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 3263
+        width: 19
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96db11e6a3344680800000000000000
+      internalID: -8771829382376597862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_93
+      rect:
+        serializedVersion: 2
+        x: 4534
+        y: 2381
+        width: 76
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2397c394045a3ebe0800000000000000
+      internalID: -1449132959557977806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_94
+      rect:
+        serializedVersion: 2
+        x: 4555
+        y: 3263
+        width: 19
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac086fa9c4cb24c10800000000000000
+      internalID: 2036397018728267978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_95
+      rect:
+        serializedVersion: 2
+        x: 5028
+        y: 2752
+        width: 64
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3331a79b95c67f70800000000000000
+      internalID: 9184745762123232062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_96
+      rect:
+        serializedVersion: 2
+        x: 5241
+        y: 2392
+        width: 77
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1009da5ddb50c70800000000000000
+      internalID: 8936757761024197033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_97
+      rect:
+        serializedVersion: 2
+        x: 5263
+        y: 3273
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae795cd4c84c2410800000000000000
+      internalID: 1453616790081470122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_98
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1782
+        width: 301
+        height: 1445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b53e195ac1a6c70800000000000000
+      internalID: 8965009505677171513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_99
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2743
+        width: 84
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3e043fe7f919630800000000000000
+      internalID: 3932099317266965429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_100
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 3227
+        width: 11
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8097f5b36a9a7fa20800000000000000
+      internalID: 3096129800266283272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 3021
+        width: 28
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a4d6382df49e0c0800000000000000
+      internalID: -4546014583287100790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_102
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1788
+        width: 303
+        height: 1466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f45f8eb8ed884e0800000000000000
+      internalID: -1979087343739121919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_103
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 1770
+        width: 282
+        height: 1477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a404c3530e24cc980800000000000000
+      internalID: -8517359264531201974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_104
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 2740
+        width: 65
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf6849f91cb1de10800000000000000
+      internalID: 2220762911012843434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_105
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1773
+        width: 282
+        height: 1467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc175e3f4e5383a0800000000000000
+      internalID: -6664379329136878344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_106
+      rect:
+        serializedVersion: 2
+        x: 3205
+        y: 2377
+        width: 77
+        height: 896
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6899b566c1e97f0800000000000000
+      internalID: -604014074072037687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_107
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 2742
+        width: 65
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a073dc6f28d663bc0800000000000000
+      internalID: -3803732426013985014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_108
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 1760
+        width: 316
+        height: 1482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595b4466aa290ddf0800000000000000
+      internalID: -157464726400092779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_109
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2742
+        width: 65
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9695923953fdb3470800000000000000
+      internalID: 8375533353220790633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_110
+      rect:
+        serializedVersion: 2
+        x: 4328
+        y: 1755
+        width: 302
+        height: 1487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077209e4438805800800000000000000
+      internalID: 599128508678023024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_111
+      rect:
+        serializedVersion: 2
+        x: 5039
+        y: 1765
+        width: 285
+        height: 1487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58953877ef5b51c50800000000000000
+      internalID: 6635409730531711365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_112
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1021
+        width: 65
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86c23e7e1b819590800000000000000
+      internalID: -7669195727352707444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_113
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 659
+        width: 77
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e10667a78031520800000000000000
+      internalID: 2671488326025879053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_114
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1542
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d38c963df856d60800000000000000
+      internalID: 7882864860957523261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_115
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1529
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b45de9bbae8bd50800000000000000
+      internalID: 6753405732786621337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_116
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 1516
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44691fd153279ca40800000000000000
+      internalID: 5388964001586714180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_117
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 1517
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3cabd74f56e5d40800000000000000
+      internalID: 5575005489487070134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_118
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 35
+        width: 284
+        height: 1486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629eca9339ff2e700800000000000000
+      internalID: 568297510795012390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_119
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1008
+        width: 64
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92a9a6949c9408c0800000000000000
+      internalID: -4033927204220329318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_120
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 21
+        width: 256
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f35b9b89c9d57b0800000000000000
+      internalID: -5233855012170023078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_121
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 16
+        width: 312
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476479d3b5cd69970800000000000000
+      internalID: 8761432409529337460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_122
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 995
+        width: 65
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24497c7c8d4b40800800000000000000
+      internalID: 577785495367947330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_123
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 17
+        width: 294
+        height: 1479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a13ecde266e89c20800000000000000
+      internalID: 3213571646699745704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_124
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 996
+        width: 65
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02b98aafb5a29440800000000000000
+      internalID: 4941193983797342730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk GMC_125
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 632
+        width: 76
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cc5bc4ca69034b0800000000000000
+      internalID: -5462700681234887539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3f526290f02aedd418d983bb66a0d34e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - globoPrefab: {fileID: 8619748857096307201, guid: 6a1f0c77d5d2d7e4485ea26f88846fa7, type: 3}
+  - spawnIzquierda: {instanceID: 0}
+  - spawnDerecha: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
