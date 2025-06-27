@@ -66,9 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-<<<<<<< Updated upstream
     "dotnet.defaultSolution": "Juan.sln"
-=======
-    "dotnet.defaultSolution": "Tech-Proof-Real-Rubia.sln"
->>>>>>> Stashed changes
 }

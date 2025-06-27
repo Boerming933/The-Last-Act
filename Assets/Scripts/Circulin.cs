@@ -3,7 +3,7 @@ using System.Collections;
 using Unity.VisualScripting;
 
 public class Circulin : MonoBehaviour
-{
+{   
     public Animator anim;
     public float meleeSpeed;
     public float damage;
@@ -23,49 +23,28 @@ public class Circulin : MonoBehaviour
     private float Horizontal;
     private bool Grounded;
     public bool InJalon;
-<<<<<<< Updated upstream
-=======
-    private bool Stun = true;
-    private bool muerte = false;
-    public VidasPonk ponk;
->>>>>>> Stashed changes
 
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         trailRenderer = GetComponent<TrailRenderer>();
+        
     }
 
     private void Update()
     {
-<<<<<<< Updated upstream
         if(isDashing)
-=======
-        if (muerte)
         {
             return;
         }
-        if (Input.GetMouseButtonDown(0)) // 0 = botón izquierdo del mouse
-        {
-            if (ponk != null)
-            {
-                ponk.RecibirDaño(40);
-                Debug.Log("💥 Hiciste clic. Daño aplicado: " + 40);
-            }
-        }
-        if (isDashing)
->>>>>>> Stashed changes
-        {
-            return;
-        }
-        if (InJalon)
+        if(InJalon)
         {
             return;
         }
 
-        if (timeUntilMelee <= 0f)
+        if(timeUntilMelee <= 0f)
         {
-            if (Input.GetMouseButtonDown(0))
+            if(Input.GetMouseButtonDown(0))
             {
                 anim.SetTrigger("Attack");
                 timeUntilMelee = meleeSpeed;
@@ -75,53 +54,53 @@ public class Circulin : MonoBehaviour
         {
             timeUntilMelee -= Time.deltaTime;
         }
-
+        
         Horizontal = Input.GetAxisRaw("Horizontal") * speed;
 
         Vector3 origin = new Vector3(transform.position.x, transform.position.y - 0.43f, transform.position.z);
-        Debug.DrawRay(origin, Vector3.down * 1f, Color.red);
-        RaycastHit2D hit = Physics2D.Raycast(origin, Vector3.down, 2f);
-        if (hit.collider != null && hit.collider.CompareTag("Ground"))
+        Debug.DrawRay(origin, Vector3.down * 0.2f, Color.red);
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector3.down, 0.2f);
+        if(hit.collider != null && hit.collider.CompareTag("Ground"))
         {
             Grounded = true;
         }
         else Grounded = false;
-
-        if (Input.GetKeyDown(KeyCode.Space) && Grounded)
+        
+        if(Input.GetKeyDown(KeyCode.Space) && Grounded)
         {
             Jump();
         }
-        if (Input.GetKeyDown(KeyCode.Q))
+        if(Input.GetKeyDown(KeyCode.Q))
         {
             StartCoroutine(Jalon());
         }
         Mira.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z));
         float angle = Mathf.Atan2(Mira.position.y - transform.position.y, Mira.position.x - transform.position.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle);
-
-        if (Input.GetKey(KeyCode.LeftShift) && canDash)
-        {
+        transform.rotation = Quaternion.Euler(0,0,angle);
+        
+        if(Input.GetKey(KeyCode.LeftShift) && canDash)
+        {   
             StartCoroutine(Dash());
-        }
+        }        
     }
-
+    
     private void Jump()
     {
-        Rigidbody2D.AddForce(Vector2.up * JumpForce);
+        Rigidbody2D.AddForce(Vector2.up*JumpForce);
     }
 
     private IEnumerator Dash()
-    {
-        canDash = false;
+    {   
+        canDash = false;        
         isDashing = true;
-        trailRenderer.emitting = true;
+        trailRenderer.emitting = true;           
         float originalGravity = Rigidbody2D.gravityScale;
         Rigidbody2D.gravityScale = 0f;
-        if (Horizontal >= 0f)
+        if(Horizontal >= 0f)
         {
             Rigidbody2D.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
         }
-        if (Horizontal < 0f)
+        if(Horizontal < 0f)
         {
             Rigidbody2D.linearVelocity = new Vector2(transform.localScale.x * -1f * dashingPower, 0f);
         }
@@ -142,7 +121,7 @@ public class Circulin : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other)
-    {
+    {     
         if (other.gameObject.tag == "Triangulardo")
         {
             //other.GetComponent<Triangulardo>().TakeDamage();
@@ -152,24 +131,14 @@ public class Circulin : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (muerte)
+        if(isDashing)
         {
             return;
         }
-        if (isDashing)
-        {
-            return;
-        }
-        if (InJalon)
+        if(InJalon)
         {
             return;
         }
         Rigidbody2D.linearVelocity = new Vector2(Horizontal, Rigidbody2D.linearVelocityY);
-    }
-
-    public void Muerte(bool Muerte)
-    {
-        muerte = Muerte;
-        StopAllCoroutines();
     }
 }
