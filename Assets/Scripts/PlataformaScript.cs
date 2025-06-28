@@ -6,6 +6,7 @@ public class PlataformaScript : MonoBehaviour
     public float velocidadCaida = 5f;
     public float distanciaCaida = 2f;
     private Vector3 posicionInicial;
+    private bool activada = false;
     private bool bajando = false;
     private bool subiendo = false;
     private float alturaMinima;
@@ -21,6 +22,8 @@ public class PlataformaScript : MonoBehaviour
 
     void Update()
     {
+        if (!activada) return;
+
         if (bajando)
         {
             boxCollider.isTrigger = true;
@@ -48,24 +51,28 @@ public class PlataformaScript : MonoBehaviour
 
     public void Activar()
     {
-        bajando = true;
+        if (!activada)
+        {
+            activada = true;
+            bajando = true;            
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Triangulardo"))
+        if (bajando == true)
         {
-            if (jefe == null)
+            if (other.CompareTag("Triangulardo"))
             {
-                jefe = GameObject.FindGameObjectWithTag("Triangulardo");
-            }
-            Triangulardo jefeScript = jefe.GetComponent<Triangulardo>();
+                Triangulardo jefeScript = jefe.GetComponent<Triangulardo>();
 
-            if (!jefeScript.IsStunned()) // usamos un getter para seguridad
-            {
-                jefeScript.Stun(10f);
-            }
+                if (!jefeScript.IsStunned()) // usamos un getter para seguridad
+                {
+                    jefeScript.Stun(10f);
+                }
 
+            }
         }
     }
 }

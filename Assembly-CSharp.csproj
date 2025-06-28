@@ -52,9 +52,11 @@
     <Compile Include="Assets\Scripts\PlataformaScript.cs" />
     <Compile Include="Assets\Scripts\Circulin.cs" />
     <Compile Include="Assets\Scripts\VidasPj.cs" />
+    <Compile Include="Assets\Scripts\VisualBridge.cs" />
     <Compile Include="Assets\Scripts\GloboScript.cs" />
     <Compile Include="Assets\Scripts\CañonScript.cs" />
     <Compile Include="Assets\Scripts\Triangulardo.cs" />
+    <Compile Include="Assets\Scripts\HitboxMartillo.cs" />
     <Compile Include="Assets\Scripts\VidasPonk.cs" />
     <Compile Include="Assets\Scripts\Hook.cs" />
     <Compile Include="Assets\Scripts\CuerdaScript.cs" />

@@ -6,7 +6,7 @@ public class CuerdaScript : MonoBehaviour
 
     public float distanciaActivacion = 2f; // Distancia máxima para activarla
     public Transform jugador;
-    public bool activada = false;
+    public bool activada = true;
     public PlataformaScript[] plataformas;
     public VidasPonk VidasPonk;
 

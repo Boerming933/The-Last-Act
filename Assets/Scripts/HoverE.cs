@@ -23,7 +23,7 @@ public class HoverE : MonoBehaviour
             if (currentKeybind == null)
             {
                 Vector3 spawnPos = hit.transform.position + new Vector3(0.4f, -0.2f, 0);
-                currentKeybind = Instantiate(keybindEPrefab, spawnPos, Quaternion.identity);
+                currentKeybind = Instantiate(keybindEPrefab, mousePos, Quaternion.identity);
             }
         }
         else

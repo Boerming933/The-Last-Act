@@ -13,7 +13,6 @@ public class Triangulardo : MonoBehaviour
     public GameObject Jugador;
     public GameObject OndaPrefab;
     public Transform Origen;
-    private SpriteRenderer mySpriteRenderer;
 
     public Transform puntoIzquierda;
     public Transform puntoDerecha;
@@ -23,19 +22,25 @@ public class Triangulardo : MonoBehaviour
 
     private Transform objetivoActual;
     public Transform jugador;
+    public GameObject Hitbox;
+    public Transform Referencia;
+    public GameObject visual;
     private bool persiguiendoJugador = false;
     private bool estaDisparando = false;
     private bool vieneDePersecucion = false;
     private bool muerte = false;
     private bool Atacando = false;
+    private bool HitboxActiva = false;
+    private bool DañoPosible = true;
 
 
     private Rigidbody2D rb;
 
     [SerializeField] private Transform controladorGolpe;
     [SerializeField] private float radioGolpe;
+    [SerializeField] private VisualBridge puenteVisual;
+    [SerializeField] private Animator animVisual;
 
-    private Animator animator;
     [SerializeField] private float tiempoEntreAtaques = 2f;
     private float tiempoUltimoAtaque;
     public bool Stunning;
@@ -46,21 +51,21 @@ public class Triangulardo : MonoBehaviour
 
     void Start()
     {
-        jugador = GameObject.FindGameObjectWithTag("Circulin").transform;        
-        mySpriteRenderer = GetComponent<SpriteRenderer>();
+        puenteVisual.triangulardo = this;
+        jugador = GameObject.FindGameObjectWithTag("Circulin").transform;
         rb = GetComponent<Rigidbody2D>();
         objetivoActual = puntoIzquierda;
-        animator = GetComponent<Animator>();
         StartCoroutine(ComportamientoBoss());
         vidasPonk = GetComponent<VidasPonk>();
     }
 
     void Update()
     {
-        if (Stunning || muerte )//|| Atacando)
+        if (Stunning || muerte || Atacando)
         {
             return;
         }
+
         //if (vidasPonk != null)
         //{
 
@@ -90,21 +95,16 @@ public class Triangulardo : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Stunning )//|| Atacando)
+        if (Stunning || Atacando)
         {
             return;
         }
         // Girar el jefe para mirar al jugador
         if (jugador != null)
         {
-            if (jugador.position.x >= transform.position.x)
-            {
-                mySpriteRenderer.flipX = true;
-            }
-            else
-            {
-                mySpriteRenderer.flipX = false;
-            }
+            float direccion = jugador.position.x - transform.position.x;
+            float signo = direccion < 0 ? 1 : -1;
+            transform.localScale = new Vector3(signo * 1f, 1f, 1f);
         }
 
         float velocidadActual = persiguiendoJugador ? velocidadPersecucion : velocidadPatrulla;
@@ -139,6 +139,44 @@ public class Triangulardo : MonoBehaviour
         }
     }
 
+    void LateUpdate()
+    {
+        Hitbox.transform.position = Referencia.position;
+
+        float distancia = Vector2.Distance(Referencia.position, Jugador.transform.position);
+        float margenActivacion = 1.5f;
+
+        if (distancia <= margenActivacion && Atacando)
+        {
+            ActivarHitbox();
+        }
+    }
+
+    public void ActivarHitbox()
+    {
+        if (HitboxActiva || !DañoPosible) return;
+        HitboxActiva = true;
+        Hitbox.SetActive(true);
+        StartCoroutine(DesactivarHitboxPronto());
+    }
+
+    public void ReinicioDaño()
+    {
+        Hitbox.GetComponent<HitboxMartillo>().ReiniciarDaño();
+    }
+
+    public void FrenarDaño()
+    {
+        DañoPosible = false;
+    }
+
+    IEnumerator DesactivarHitboxPronto()
+    {
+        yield return new WaitForSeconds(0.1f);
+        Hitbox.SetActive(false);
+        HitboxActiva = false;
+    }
+
     public void VerificarCambioDeFase(float vidaRestante)
     {
         if (faseActual == FaseJefe.Fase1 && vidaRestante <= 280f)
@@ -168,7 +206,7 @@ public class Triangulardo : MonoBehaviour
 
         for (int i = 0; i < cantidadOndas; i++)
         {
-            Vector3 direccion = transform.localScale.x > 0 ? Vector3.right : Vector3.left;
+            Vector3 direccion = transform.localScale.x > 0 ? Vector3.left : Vector3.right;
 
             GameObject Onda = Instantiate(OndaPrefab, Origen.position, Quaternion.identity);
             Onda.GetComponent<AtaqueScript>().SetDirection(direccion);
@@ -209,8 +247,9 @@ public class Triangulardo : MonoBehaviour
                 case FaseJefe.Fase3:
                     yield return StartCoroutine(PerseguirJugador());
                     rb.linearVelocity = Vector2.zero;
-                    //Atacando = true;
-                    animator.SetTrigger("Martillazo");
+                    Atacando = true;
+                    DañoPosible = true;
+                    animVisual.SetTrigger("Martillazo");
                     foreach (CuerdaScript cuerda in cuerdaScript)
                     {
                         cuerda.activada = true;
@@ -255,37 +294,23 @@ public class Triangulardo : MonoBehaviour
         if (!muerte && !Stunning)
         {
             vieneDePersecucion = false;
-
-            animator.ResetTrigger("Martillazo");
+            animVisual.ResetTrigger("Martillazo");
             StopAllCoroutines(); // por seguridad
             StartCoroutine(ComportamientoBoss());
             Debug.Log("FSM reanudado después del Martillazo");
-           // Atacando = false;
+            Atacando = false;
         }
-    }
-
-    public void TestEvent()
-    {
-        Debug.Log("🎯 ¡Evento recibido correctamente!");
     }
 
     private void Golpe()
     {
         if (estaDisparando || muerte || Stunning) return;
         
-        //Atacando = true;
-        animator.SetTrigger("Martillazo");
+        Atacando = true;
+        DañoPosible = true;
+        animVisual.SetTrigger("Martillazo");
 
-        rb.linearVelocity = Vector2.zero;
-        Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
-
-        foreach (Collider2D colisionador in objetos)
-        {
-            if (colisionador.CompareTag("Circulin"))
-            {
-                colisionador.transform.GetComponent<VidasPj>().Hit(1f);
-            }
-        }
+        rb.linearVelocity = Vector2.zero;   
     }
 
     private void OnDrawGizmos() // Para ver el gizmo
@@ -296,10 +321,11 @@ public class Triangulardo : MonoBehaviour
 
     public void Stun(float duration)
     {
-        if (Stunning) return;
+        if (Stunning) return;        
+        animVisual.speed = 0f;
         StopAllCoroutines();
         Stunning = true;
-        animator.SetTrigger("Stunned");
+        animVisual.SetTrigger("Stunned");
         rb.linearVelocity = Vector2.zero;
         vidasPonk.invulnerable = false;
         StartCoroutine(RecoverFromStun(duration));
@@ -311,7 +337,7 @@ public class Triangulardo : MonoBehaviour
         vidasPonk.invulnerable = true;
         Stunning = false;
         StartCoroutine(ComportamientoBoss());
-        tiempoPersecucionMin = 10;
+        tiempoPersecucionMax = 10;
         tiempoPersecucionMin = 9;
     }
 
@@ -331,7 +357,7 @@ public class Triangulardo : MonoBehaviour
         muerte = Muerte;
         Stunning = Muerte;
         StopAllCoroutines();
-        animator.SetBool("Muerte", true);
+        animVisual.SetBool("Muerte", true);
     }
 
     public void MuerteEstian(bool Muerte)

@@ -10,7 +10,6 @@ public class Hook : MonoBehaviour
 
     private Vector3 grapplePoint;
     private DistanceJoint2D joint;
-    public Circulin Circulin;
 
     void Start()
     {
@@ -21,17 +20,16 @@ public class Hook : MonoBehaviour
 
     void Update()
     {
-        if(Circulin.InJalon)
-        {
-            return;
-        }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
+            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mouseWorldPos.z = 0f;
+            Vector2 direction = (mouseWorldPos - transform.position).normalized;  
             //Genera el movimiento hacia el mouse
             RaycastHit2D hit = Physics2D.Raycast(
-            origin: Camera.main.ScreenToWorldPoint(Input.mousePosition),
-            direction: Vector2.zero,
+            origin: transform.position,
+            direction: direction,
             distance: Mathf.Infinity,
             layerMask: grappleLayer
             );
