@@ -499,20 +499,20 @@ TextureImporter:
       name: Estian.muerte_0
       rect:
         serializedVersion: 2
-        x: 1707
-        y: 6285
-        width: 27
-        height: 215
+        x: 293
+        y: 5016
+        width: 187
+        height: 572
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ed222df8fef019f80800000000000000
-      internalID: -8101676733078297890
+      spriteID: fde9cf81e3a53dd448974fbc5d7ebbb6
+      internalID: -1791021953
       vertices: []
       indices: 
       edges: []
@@ -521,20 +521,20 @@ TextureImporter:
       name: Estian.muerte_1
       rect:
         serializedVersion: 2
-        x: 2490
-        y: 6107
-        width: 81
-        height: 393
+        x: 1020
+        y: 5014
+        width: 185
+        height: 572
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a472d771daa21a3b0800000000000000
-      internalID: -5503070346758248630
+      spriteID: fd716b253bdb070438267b6baeb94c89
+      internalID: 1603527533
       vertices: []
       indices: 
       edges: []
@@ -543,20 +543,20 @@ TextureImporter:
       name: Estian.muerte_2
       rect:
         serializedVersion: 2
-        x: 3316
-        y: 5728
-        width: 92
-        height: 772
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1704
+        y: 5013
+        width: 244
+        height: 1487
+      alignment: 9
+      pivot: {x: 0.5, y: 0.194}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4931e42dbf806fa00800000000000000
-      internalID: 789828662308246420
+      spriteID: 54c5c54a4a81e6540a6c6fa8878fc2c9
+      internalID: 1942806709
       vertices: []
       indices: 
       edges: []
@@ -565,20 +565,20 @@ TextureImporter:
       name: Estian.muerte_3
       rect:
         serializedVersion: 2
-        x: 4201
-        y: 5559
-        width: 88
-        height: 937
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2484
+        y: 5017
+        width: 263
+        height: 1483
+      alignment: 9
+      pivot: {x: 0.5, y: 0.194}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 03ac7f5f6e4f61a50800000000000000
-      internalID: 6491645185707461168
+      spriteID: df2a5992c020977479699c1e5c0c55ff
+      internalID: 1018199371
       vertices: []
       indices: 
       edges: []
@@ -587,20 +587,20 @@ TextureImporter:
       name: Estian.muerte_4
       rect:
         serializedVersion: 2
-        x: 4908
-        y: 5760
-        width: 66
-        height: 740
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3252
+        y: 5017
+        width: 328
+        height: 1483
+      alignment: 9
+      pivot: {x: 0.5, y: 0.195}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: be9765b3a6ebf5410800000000000000
-      internalID: 1468101367017404907
+      spriteID: eb42ec4a31663534481a7e9f4d4d6b87
+      internalID: 312076261
       vertices: []
       indices: 
       edges: []
@@ -609,20 +609,20 @@ TextureImporter:
       name: Estian.muerte_5
       rect:
         serializedVersion: 2
-        x: 292
+        x: 4169
         y: 5017
-        width: 187
-        height: 567
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 293
+        height: 1479
+      alignment: 9
+      pivot: {x: 0.5, y: 0.195}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 57502bed1ca5f0120800000000000000
-      internalID: 2382222516613678453
+      spriteID: 813bc36db6363574582432842ad6e708
+      internalID: -276052184
       vertices: []
       indices: 
       edges: []
@@ -631,20 +631,20 @@ TextureImporter:
       name: Estian.muerte_6
       rect:
         serializedVersion: 2
-        x: 1020
-        y: 5012
-        width: 187
-        height: 575
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4854
+        y: 5017
+        width: 294
+        height: 1483
+      alignment: 9
+      pivot: {x: 0.5, y: 0.195}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6bdb65f6c7da70710800000000000000
-      internalID: 1659485737664822710
+      spriteID: 9794795f7d142824ca89055887a41d73
+      internalID: -1038154410
       vertices: []
       indices: 
       edges: []
@@ -653,20 +653,20 @@ TextureImporter:
       name: Estian.muerte_7
       rect:
         serializedVersion: 2
-        x: 1750
-        y: 5014
-        width: 199
-        height: 566
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 239
+        y: 3608
+        width: 303
+        height: 1250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e300125a1e9ba26e0800000000000000
-      internalID: -1861471117175095234
+      spriteID: 896fa8ab9ce221e41adf7ca7a7e31e97
+      internalID: -1299709290
       vertices: []
       indices: 
       edges: []
@@ -675,20 +675,20 @@ TextureImporter:
       name: Estian.muerte_8
       rect:
         serializedVersion: 2
-        x: 2485
-        y: 5017
-        width: 263
-        height: 495
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 976
+        y: 3607
+        width: 302
+        height: 1275
+      alignment: 9
+      pivot: {x: 0.5, y: 0.224}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3e6ce9650e0ca9590800000000000000
-      internalID: -7666603345886394653
+      spriteID: 72ce94cc80809fd4193a8daa11c73cdb
+      internalID: -45532129
       vertices: []
       indices: 
       edges: []
@@ -697,20 +697,20 @@ TextureImporter:
       name: Estian.muerte_9
       rect:
         serializedVersion: 2
-        x: 3252
-        y: 5015
-        width: 329
-        height: 393
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1731
+        y: 3597
+        width: 315
+        height: 1299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.22}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4a9fb0f9941bedad0800000000000000
-      internalID: -2675506198852404828
+      spriteID: 2e6402741243a2f49b57266f087e6a7a
+      internalID: 358340334
       vertices: []
       indices: 
       edges: []
@@ -719,20 +719,20 @@ TextureImporter:
       name: Estian.muerte_10
       rect:
         serializedVersion: 2
-        x: 4169
-        y: 5015
-        width: 293
-        height: 377
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2506
+        y: 3604
+        width: 314
+        height: 1287
+      alignment: 9
+      pivot: {x: 0.5, y: 0.22}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9b332f233541e06c0800000000000000
-      internalID: -4175377456956296263
+      spriteID: cbf51c62ae1723847a6219b6f6b751bf
+      internalID: -237085670
       vertices: []
       indices: 
       edges: []
@@ -741,20 +741,20 @@ TextureImporter:
       name: Estian.muerte_11
       rect:
         serializedVersion: 2
-        x: 4855
-        y: 5015
-        width: 293
-        height: 377
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3317
+        y: 3601
+        width: 290
+        height: 1266
+      alignment: 9
+      pivot: {x: 0.5, y: 0.225}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 30d595b12040f7d20800000000000000
-      internalID: 3278343460844297475
+      spriteID: 7521a722db586b148b9786eae50eafb9
+      internalID: 1302218736
       vertices: []
       indices: 
       edges: []
@@ -763,20 +763,20 @@ TextureImporter:
       name: Estian.muerte_12
       rect:
         serializedVersion: 2
-        x: 4921
-        y: 5216
-        width: 46
-        height: 459
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4014
+        y: 3612
+        width: 334
+        height: 1311
+      alignment: 9
+      pivot: {x: 0.59, y: 0.215}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 68456a5aba6712ef0800000000000000
-      internalID: -134696034253777786
+      spriteID: 4c32f2a10bb7e0641840b29a9561116a
+      internalID: 722472872
       vertices: []
       indices: 
       edges: []
@@ -785,20 +785,20 @@ TextureImporter:
       name: Estian.muerte_13
       rect:
         serializedVersion: 2
-        x: 322
-        y: 4211
-        width: 56
-        height: 690
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4762
+        y: 3619
+        width: 353
+        height: 1335
+      alignment: 9
+      pivot: {x: 0.59, y: 0.215}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ec37aec6ce5f102f0800000000000000
-      internalID: -1008254445765889074
+      spriteID: 7eee2abc409ffa840b85b4b33531b055
+      internalID: 1503831540
       vertices: []
       indices: 
       edges: []
@@ -807,20 +807,20 @@ TextureImporter:
       name: Estian.muerte_14
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 4090
-        width: 67
-        height: 794
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 303
+        y: 1884
+        width: 232
+        height: 1469
+      alignment: 9
+      pivot: {x: 0.4, y: 0.195}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 66de96bf62173acc0800000000000000
-      internalID: -3700990056527696538
+      spriteID: 4a9e4f77e16341d469766526e5b94d7b
+      internalID: 1577975066
       vertices: []
       indices: 
       edges: []
@@ -829,20 +829,20 @@ TextureImporter:
       name: Estian.muerte_15
       rect:
         serializedVersion: 2
-        x: 1741
-        y: 4147
-        width: 90
-        height: 740
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 948
+        y: 1885
+        width: 244
+        height: 1535
+      alignment: 9
+      pivot: {x: 0.38, y: 0.187}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bfbf63955f0cadea0800000000000000
-      internalID: -5847149006190871557
+      spriteID: 0a9e159c441370d48bd3189028c215ee
+      internalID: -864997314
       vertices: []
       indices: 
       edges: []
@@ -851,20 +851,20 @@ TextureImporter:
       name: Estian.muerte_16
       rect:
         serializedVersion: 2
-        x: 1936
-        y: 4702
-        width: 37
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1686
+        y: 1898
+        width: 244
+        height: 1501
+      alignment: 9
+      pivot: {x: 0.34, y: 0.191}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4fadec63ded465af0800000000000000
-      internalID: -408053035008337164
+      spriteID: 98309071e65b9a74aa8060cff293aa4b
+      internalID: 1773197662
       vertices: []
       indices: 
       edges: []
@@ -873,20 +873,20 @@ TextureImporter:
       name: Estian.muerte_17
       rect:
         serializedVersion: 2
-        x: 2521
-        y: 4150
-        width: 90
-        height: 740
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2509
+        y: 1890
+        width: 230
+        height: 1531
+      alignment: 9
+      pivot: {x: 0.31, y: 0.187}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 45d1fbf6a8e391d90800000000000000
-      internalID: -7126596171035894444
+      spriteID: f7fdf99953ff17845bef2c200d618b76
+      internalID: 1561556015
       vertices: []
       indices: 
       edges: []
@@ -895,20 +895,20 @@ TextureImporter:
       name: Estian.muerte_18
       rect:
         serializedVersion: 2
-        x: 2727
-        y: 4500
-        width: 40
-        height: 385
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3271
+        y: 1906
+        width: 214
+        height: 1555
+      alignment: 9
+      pivot: {x: 0.32, y: 0.1845}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ff7bb832729df1a0800000000000000
-      internalID: -6774097245219618830
+      spriteID: d4edcce2ef6da3442a76ebb4639d1773
+      internalID: 38839107
       vertices: []
       indices: 
       edges: []
@@ -917,20 +917,20 @@ TextureImporter:
       name: Estian.muerte_19
       rect:
         serializedVersion: 2
-        x: 3330
-        y: 4185
-        width: 55
-        height: 697
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4016
+        y: 1899
+        width: 235
+        height: 1574
+      alignment: 9
+      pivot: {x: 0.34, y: 0.182}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8d673e5c666355e20800000000000000
-      internalID: 3338634513799673560
+      spriteID: 4bf5ea008210a67468c00affa3704dad
+      internalID: -1850321304
       vertices: []
       indices: 
       edges: []
@@ -939,20 +939,20 @@ TextureImporter:
       name: Estian.muerte_20
       rect:
         serializedVersion: 2
-        x: 3489
-        y: 4371
-        width: 77
-        height: 489
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4749
+        y: 1898
+        width: 225
+        height: 1539
+      alignment: 9
+      pivot: {x: 0.5, y: 0.187}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 468b91ffc4b22f430800000000000000
-      internalID: 3815159444033615972
+      spriteID: 2f5b6d53ad592a1488009c62e9af912c
+      internalID: -1459741594
       vertices: []
       indices: 
       edges: []
@@ -961,20 +961,20 @@ TextureImporter:
       name: Estian.muerte_21
       rect:
         serializedVersion: 2
-        x: 4028
-        y: 4244
-        width: 55
-        height: 697
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 251
+        y: 203
+        width: 331
+        height: 1514
+      alignment: 9
+      pivot: {x: 0.6, y: 0.19}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0b92d259218da7560800000000000000
-      internalID: 7312394519313197488
+      spriteID: 584dcb16b5c50c5498ce43395e4f8257
+      internalID: 359590266
       vertices: []
       indices: 
       edges: []
@@ -983,20 +983,20 @@ TextureImporter:
       name: Estian.muerte_22
       rect:
         serializedVersion: 2
-        x: 4187
-        y: 4430
-        width: 77
-        height: 489
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 952
+        y: 203
+        width: 477
+        height: 1458
+      alignment: 9
+      pivot: {x: 0.55, y: 0.197}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0de3600273809ef00800000000000000
-      internalID: 1146456612996005584
+      spriteID: 3a8e0b03662245c42b009997497bae32
+      internalID: -531522425
       vertices: []
       indices: 
       edges: []
@@ -1005,20 +1005,20 @@ TextureImporter:
       name: Estian.muerte_23
       rect:
         serializedVersion: 2
-        x: 4766
-        y: 4228
-        width: 55
-        height: 751
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1718
+        y: 198
+        width: 484
+        height: 1459
+      alignment: 9
+      pivot: {x: 0.55, y: 0.196}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 55a0d5c6ad141dc10800000000000000
-      internalID: 2076513309571222101
+      spriteID: a23f60602493c2543b31935562617ac6
+      internalID: 218250385
       vertices: []
       indices: 
       edges: []
@@ -1027,20 +1027,20 @@ TextureImporter:
       name: Estian.muerte_24
       rect:
         serializedVersion: 2
-        x: 4935
-        y: 4468
-        width: 77
-        height: 489
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2489
+        y: 200
+        width: 483
+        height: 1460
+      alignment: 9
+      pivot: {x: 0.555, y: 0.195}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 39860c7a4910b6860800000000000000
-      internalID: 7524109340433737875
+      spriteID: 776afdb93569998448c062df8ef0e3f5
+      internalID: -213367388
       vertices: []
       indices: 
       edges: []
@@ -1049,20 +1049,20 @@ TextureImporter:
       name: Estian.muerte_25
       rect:
         serializedVersion: 2
-        x: 299
-        y: 3788
-        width: 36
-        height: 323
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3162
+        y: 205
+        width: 479
+        height: 1437
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 51f00a73eb4f70720800000000000000
-      internalID: 2812485590130364181
+      spriteID: 29a0818035c97da4690c3cb913eb35e3
+      internalID: -1803004186
       vertices: []
       indices: 
       edges: []
@@ -1071,20 +1071,20 @@ TextureImporter:
       name: Estian.muerte_26
       rect:
         serializedVersion: 2
-        x: 3317
-        y: 3576
-        width: 290
-        height: 544
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3983
+        y: 193
+        width: 479
+        height: 1380
+      alignment: 9
+      pivot: {x: 0.5, y: 0.208}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a6a1c22a246224e60800000000000000
-      internalID: 7944954760265472618
+      spriteID: 75f9f76eecd1da540ad0a15b8249f51e
+      internalID: 1078632293
       vertices: []
       indices: 
       edges: []
@@ -1093,2330 +1093,20 @@ TextureImporter:
       name: Estian.muerte_27
       rect:
         serializedVersion: 2
-        x: 3458
-        y: 4081
-        width: 35
-        height: 288
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2cacf9d7018cff440800000000000000
-      internalID: 4971912486792972994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_28
-      rect:
-        serializedVersion: 2
-        x: 4015
-        y: 3612
-        width: 333
-        height: 815
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83796f0126b806190800000000000000
-      internalID: -7971218087138126024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_29
-      rect:
-        serializedVersion: 2
-        x: 4763
-        y: 3618
-        width: 352
-        height: 599
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65d61fcd6abed0a70800000000000000
-      internalID: 8794944749228354902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_30
-      rect:
-        serializedVersion: 2
-        x: 4903
-        y: 4003
-        width: 36
-        height: 463
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e92a308ae1d5f8e0800000000000000
-      internalID: -1660190082512311834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_31
-      rect:
-        serializedVersion: 2
-        x: 975
-        y: 3606
-        width: 289
-        height: 429
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aad4da2c6533aa760800000000000000
-      internalID: 7469839379673730474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_32
-      rect:
-        serializedVersion: 2
-        x: 1791
-        y: 4002
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e95ebadb49cb3bc50800000000000000
-      internalID: 6679890019343918494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_33
-      rect:
-        serializedVersion: 2
-        x: 2503
-        y: 3601
-        width: 320
-        height: 404
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48d5591ea2ada6b10800000000000000
-      internalID: 1975631264263527812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_34
-      rect:
-        serializedVersion: 2
-        x: 2570
-        y: 4005
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1848ee00a42fc160800000000000000
-      internalID: 7047892211721586716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_35
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 3607
-        width: 293
-        height: 377
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ec7fc43f544f5380800000000000000
-      internalID: -8980383956254884640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_36
-      rect:
-        serializedVersion: 2
-        x: 532
-        y: 3935
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ce1b84fee74f1500800000000000000
-      internalID: 369092786098216645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_37
-      rect:
-        serializedVersion: 2
-        x: 535
-        y: 3929
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 174f09465d63a9850800000000000000
-      internalID: 6384475711894254705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_38
-      rect:
-        serializedVersion: 2
-        x: 1265
-        y: 3934
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 801026c0e1b1c5970800000000000000
-      internalID: 8744894392317378824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_39
-      rect:
-        serializedVersion: 2
-        x: 1729
-        y: 3600
-        width: 307
-        height: 402
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0057664f00c2a6d00800000000000000
-      internalID: 966633452636370176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_40
-      rect:
-        serializedVersion: 2
-        x: 2033
-        y: 3936
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1bf58a424e2d32be0800000000000000
-      internalID: -1503125973302222927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_41
-      rect:
-        serializedVersion: 2
-        x: 2036
-        y: 3930
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4347a3ccbbd3d1e10800000000000000
-      internalID: 2169958472257008692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_42
-      rect:
-        serializedVersion: 2
-        x: 1270
-        y: 3928
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a6bd7c30cf5cc620800000000000000
-      internalID: 2795714747943466659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_43
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 2632
-        width: 83
-        height: 681
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 97b3b128e57d567b0800000000000000
-      internalID: -5231538591211242631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_44
-      rect:
-        serializedVersion: 2
-        x: 457
-        y: 2866
-        width: 77
-        height: 490
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4717356d6472f6040800000000000000
-      internalID: 4642972926039257460
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_45
-      rect:
-        serializedVersion: 2
-        x: 950
-        y: 2299
-        width: 82
-        height: 1015
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02a26fcef8be959d0800000000000000
-      internalID: -2784935891163534816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_46
-      rect:
-        serializedVersion: 2
-        x: 1103
-        y: 2867
-        width: 87
-        height: 490
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b2080a4e09c1e5a20800000000000000
-      internalID: 3052909006040367147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_47
-      rect:
-        serializedVersion: 2
-        x: 1686
-        y: 2747
-        width: 75
-        height: 611
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 095140442b8a59310800000000000000
-      internalID: 1411219541849281936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_48
-      rect:
-        serializedVersion: 2
-        x: 1839
-        y: 2911
-        width: 87
-        height: 490
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6b93a1a8e3ff4390800000000000000
-      internalID: -7831773046504187028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_49
-      rect:
-        serializedVersion: 2
-        x: 2513
-        y: 2750
-        width: 17
-        height: 677
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c0231a3a7856df7d0800000000000000
-      internalID: -2883036553207008756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_50
-      rect:
-        serializedVersion: 2
-        x: 2651
-        y: 2913
-        width: 86
-        height: 490
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b765d3887ecba660800000000000000
-      internalID: 7398233829889370037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_51
-      rect:
-        serializedVersion: 2
-        x: 3274
-        y: 2784
-        width: 18
-        height: 677
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9a22b8ad82cfc450800000000000000
-      internalID: 6111317133041478302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_52
-      rect:
-        serializedVersion: 2
-        x: 3440
-        y: 3031
-        width: 16
-        height: 374
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26b838924a23a04f0800000000000000
-      internalID: -861820698035516574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_53
-      rect:
-        serializedVersion: 2
-        x: 4021
-        y: 2779
-        width: 18
-        height: 677
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5e05910f36365e450800000000000000
-      internalID: 6117404949733789925
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_54
-      rect:
-        serializedVersion: 2
-        x: 4186
-        y: 2968
-        width: 61
-        height: 418
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6422e11d893aaa230800000000000000
-      internalID: 3650910324675977798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_55
-      rect:
-        serializedVersion: 2
-        x: 4753
-        y: 2763
-        width: 18
-        height: 677
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eae8e4d2ddfd05bf0800000000000000
-      internalID: -337523831011897682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_56
-      rect:
-        serializedVersion: 2
-        x: 4917
-        y: 3021
-        width: 57
-        height: 357
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 785c676ebbcb2ddb0800000000000000
-      internalID: -4768541540220484217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_57
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 1883
-        width: 237
-        height: 721
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44f9cbb2e4bac8ce0800000000000000
-      internalID: -1401557031789486268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_58
-      rect:
-        serializedVersion: 2
-        x: 431
-        y: 2324
-        width: 67
-        height: 521
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38eaaa0a610b922e0800000000000000
-      internalID: -2149993735861391741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_59
-      rect:
-        serializedVersion: 2
-        x: 1076
-        y: 2325
-        width: 68
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f054b6f49dec396a0800000000000000
-      internalID: -6443579209101392625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_60
-      rect:
-        serializedVersion: 2
-        x: 1714
-        y: 2387
-        width: 17
-        height: 346
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 564a9404cba707b10800000000000000
-      internalID: 1977215185366656101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_61
-      rect:
-        serializedVersion: 2
-        x: 1812
-        y: 2369
-        width: 68
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50e2fb3e41c410ac0800000000000000
-      internalID: -3890744950467383803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_62
-      rect:
-        serializedVersion: 2
-        x: 2515
-        y: 1886
-        width: 219
-        height: 849
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7212e2d0155f9f60800000000000000
-      internalID: 8043240990252864124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_63
-      rect:
-        serializedVersion: 2
-        x: 2624
-        y: 2383
-        width: 63
-        height: 508
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77a3886b1575d6f50800000000000000
-      internalID: 6876248214530964087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_64
-      rect:
-        serializedVersion: 2
-        x: 3277
-        y: 1902
-        width: 215
-        height: 867
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c6c126c5e72dfaf0800000000000000
-      internalID: -361088527294675255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_65
-      rect:
-        serializedVersion: 2
-        x: 3433
-        y: 2507
-        width: 21
-        height: 462
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99a35fe9436dfd2a0800000000000000
-      internalID: -6710409398265234791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_66
-      rect:
-        serializedVersion: 2
-        x: 4024
-        y: 1899
-        width: 220
-        height: 866
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 51909669bdac5f090800000000000000
-      internalID: -8001266118483703531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_67
-      rect:
-        serializedVersion: 2
-        x: 4196
-        y: 2527
-        width: 28
-        height: 435
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 559d6521380ebbc20800000000000000
-      internalID: 3223416811866741077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_68
-      rect:
-        serializedVersion: 2
-        x: 4753
-        y: 1897
-        width: 229
-        height: 851
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0fcaf8a54d5e9c20800000000000000
-      internalID: 3215109737758248714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_69
-      rect:
-        serializedVersion: 2
-        x: 4913
-        y: 2549
-        width: 21
-        height: 462
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38d89cb82aec5ad60800000000000000
-      internalID: 7900948318816669059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_70
-      rect:
-        serializedVersion: 2
-        x: 1937
-        y: 2443
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8949d2bdf10c75a40800000000000000
-      internalID: 5356961524834210968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_71
-      rect:
-        serializedVersion: 2
-        x: 2749
-        y: 2444
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8dfd1317c74f16eb0800000000000000
-      internalID: -4728229318450094120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_72
-      rect:
-        serializedVersion: 2
-        x: 940
-        y: 1879
-        width: 308
-        height: 531
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3fe07980be27b6910800000000000000
-      internalID: 1831684027243237107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_73
-      rect:
-        serializedVersion: 2
-        x: 1704
-        y: 1897
-        width: 238
-        height: 493
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3333a1650327b2bb0800000000000000
-      internalID: -4959745012689915085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_74
-      rect:
-        serializedVersion: 2
-        x: 2722
-        y: 2366
-        width: 6
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45cc5a6e6ed8cf470800000000000000
-      internalID: 8429768625382345812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_75
-      rect:
-        serializedVersion: 2
-        x: 1691
-        y: 1907
-        width: 10
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba4fe0829ef6e2390800000000000000
-      internalID: -7841206854015322965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_76
-      rect:
-        serializedVersion: 2
-        x: 3264
-        y: 1923
-        width: 10
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 210215511bcb07b50800000000000000
-      internalID: 6588973723595907090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_77
-      rect:
-        serializedVersion: 2
-        x: 4010
-        y: 1920
-        width: 11
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: deedb14122f9f58e0800000000000000
-      internalID: -1702467165407682835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_78
-      rect:
-        serializedVersion: 2
-        x: 2499
-        y: 1903
-        width: 10
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e718f464f86b75b0800000000000000
-      internalID: -5369582731833894936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_79
-      rect:
-        serializedVersion: 2
-        x: 495
-        y: 1198
-        width: 86
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e9a659dceb9242f0800000000000000
-      internalID: -990057526507165215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_80
-      rect:
-        serializedVersion: 2
-        x: 3243
-        y: 1707
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b3a6f7e877d8369e0800000000000000
-      internalID: -1629303095546648005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_81
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 1021
-        width: 87
-        height: 662
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9576c8f14df7a2110800000000000000
-      internalID: 1236941596705711961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_82
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 1584
-        width: 19
-        height: 115
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94c5bbf0790777100800000000000000
-      internalID: 105676910372805705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_83
-      rect:
-        serializedVersion: 2
-        x: 430
-        y: 1556
-        width: 39
-        height: 149
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 304728ed6165fff20800000000000000
-      internalID: 3458577695066190851
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_84
-      rect:
-        serializedVersion: 2
-        x: 950
-        y: 1093
-        width: 39
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d11e92cbe308a8380800000000000000
-      internalID: -8968214701021732579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_85
-      rect:
-        serializedVersion: 2
-        x: 1719
-        y: 1082
-        width: 39
-        height: 584
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5e41fb9981c214e50800000000000000
-      internalID: 6791758197221692645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_86
-      rect:
-        serializedVersion: 2
-        x: 2490
-        y: 1083
-        width: 38
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80611d4b4db0f4ab0800000000000000
-      internalID: -5021782051300239864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_87
-      rect:
-        serializedVersion: 2
-        x: 3162
-        y: 1064
-        width: 38
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 590795b7682310270800000000000000
-      internalID: 8214902748476960917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_88
-      rect:
-        serializedVersion: 2
-        x: 4064
-        y: 1642
-        width: 11
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eaa0d8f54e91473f0800000000000000
-      internalID: -904069156548310354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_89
-      rect:
-        serializedVersion: 2
-        x: 335
-        y: 1360
-        width: 35
-        height: 213
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5d6cf1e76fe3b33f0800000000000000
-      internalID: -920072470468245803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_90
-      rect:
-        serializedVersion: 2
-        x: 419
-        y: 1169
-        width: 35
-        height: 356
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ca258b6f651aa030800000000000000
-      internalID: 3506638828150794944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_91
-      rect:
-        serializedVersion: 2
-        x: 1045
-        y: 1328
-        width: 47
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f83f7cbb550a7dad0800000000000000
-      internalID: -2677495163365362801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_92
-      rect:
-        serializedVersion: 2
-        x: 1192
-        y: 1174
-        width: 88
-        height: 439
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 92545a26be00c2d60800000000000000
-      internalID: 7866663660081726761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_93
-      rect:
-        serializedVersion: 2
-        x: 1307
-        y: 875
-        width: 124
-        height: 766
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54d6fb6cd01d0a910800000000000000
-      internalID: 1846705704321117509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_94
-      rect:
-        serializedVersion: 2
-        x: 1814
-        y: 1316
-        width: 47
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b2d9a1fe3d5a1d390800000000000000
-      internalID: -7795267150333436629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_95
-      rect:
-        serializedVersion: 2
-        x: 1961
-        y: 1165
-        width: 88
-        height: 436
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a0d144f95c37e250800000000000000
-      internalID: 5973809787777962145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_96
-      rect:
-        serializedVersion: 2
-        x: 2076
-        y: 863
-        width: 124
-        height: 767
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8093dd7b2ef3227f0800000000000000
-      internalID: -638877954153301752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_97
-      rect:
-        serializedVersion: 2
-        x: 2584
-        y: 1318
-        width: 47
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5cb8768c823945e0800000000000000
-      internalID: -1924951786591306660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_98
-      rect:
-        serializedVersion: 2
-        x: 2731
-        y: 1166
-        width: 88
-        height: 437
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a524627438c576ab0800000000000000
-      internalID: -5014937941149597094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_99
-      rect:
-        serializedVersion: 2
-        x: 2846
-        y: 865
-        width: 125
-        height: 766
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 87aac8f383a03c8c0800000000000000
-      internalID: -3980326408964756872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_100
-      rect:
-        serializedVersion: 2
-        x: 3256
-        y: 1299
-        width: 47
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d44ea6a2186294b0800000000000000
-      internalID: -5435167370967628589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_101
-      rect:
-        serializedVersion: 2
-        x: 3403
-        y: 1147
-        width: 88
-        height: 437
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7513bff405c540b10800000000000000
-      internalID: 1946782438939898199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_102
-      rect:
-        serializedVersion: 2
-        x: 3518
-        y: 846
-        width: 125
-        height: 766
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb1575af638b647f0800000000000000
-      internalID: -628612551703834181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_103
-      rect:
-        serializedVersion: 2
-        x: 3983
-        y: 999
-        width: 39
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86c82b481a1cf7000800000000000000
-      internalID: 35960221502442600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_104
-      rect:
-        serializedVersion: 2
-        x: 4078
-        y: 1234
-        width: 47
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cac9223e8c4019780800000000000000
-      internalID: -8678149746115568468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_105
-      rect:
-        serializedVersion: 2
-        x: 4225
-        y: 1082
-        width: 88
-        height: 437
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f233c3ae7319394f0800000000000000
-      internalID: -823154637539626193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_106
-      rect:
-        serializedVersion: 2
-        x: 4340
-        y: 781
-        width: 124
-        height: 766
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60f4a97980a6877c0800000000000000
-      internalID: -4073389277820858618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_107
-      rect:
-        serializedVersion: 2
         x: 4732
-        y: 972
-        width: 39
-        height: 584
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 203
+        width: 479
+        height: 1334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.215}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 564195a35b66935d0800000000000000
-      internalID: -3082319541404363675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_108
-      rect:
-        serializedVersion: 2
-        x: 4827
-        y: 1206
-        width: 47
-        height: 299
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f96ba868d985e8b0800000000000000
-      internalID: -5123537438502065672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_109
-      rect:
-        serializedVersion: 2
-        x: 4974
-        y: 1055
-        width: 88
-        height: 436
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54c5d6b2b08d251a0800000000000000
-      internalID: -6822152943028052923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_110
-      rect:
-        serializedVersion: 2
-        x: 5089
-        y: 753
-        width: 124
-        height: 767
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 219d302c6b4d43450800000000000000
-      internalID: 6067708479379069202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_111
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 202
-        width: 230
-        height: 738
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13d38f3a3e3e44960800000000000000
-      internalID: 7585438239246794033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_112
-      rect:
-        serializedVersion: 2
-        x: 498
-        y: 826
-        width: 32
-        height: 350
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b195f39fefcab9590800000000000000
-      internalID: -7666343729564788453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_113
-      rect:
-        serializedVersion: 2
-        x: 993
-        y: 765
-        width: 138
-        height: 530
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6563493110e344a90800000000000000
-      internalID: -7330666119107955114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_114
-      rect:
-        serializedVersion: 2
-        x: 1208
-        y: 802
-        width: 57
-        height: 351
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: edaf5c6727031aad0800000000000000
-      internalID: -2692817834013754658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_115
-      rect:
-        serializedVersion: 2
-        x: 1294
-        y: 709
-        width: 38
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b7f43f7ca15c1080800000000000000
-      internalID: -9215400936196474956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_116
-      rect:
-        serializedVersion: 2
-        x: 1762
-        y: 449
-        width: 138
-        height: 840
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f59edb1803f004a0800000000000000
-      internalID: -6629031435336509962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_117
-      rect:
-        serializedVersion: 2
-        x: 1978
-        y: 804
-        width: 72
-        height: 360
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a47974454d46f6630800000000000000
-      internalID: 3922464663572813642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_118
-      rect:
-        serializedVersion: 2
-        x: 2063
-        y: 697
-        width: 38
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79a04a53f34cd7a70800000000000000
-      internalID: 8826426620477966999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_119
-      rect:
-        serializedVersion: 2
-        x: 2532
-        y: 451
-        width: 139
-        height: 839
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9af8e3cce098ba250800000000000000
-      internalID: 5957005628776812457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_120
-      rect:
-        serializedVersion: 2
-        x: 2648
-        y: 201
-        width: 227
-        height: 659
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4bea2375be56981b0800000000000000
-      internalID: -5653875795732287820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_121
-      rect:
-        serializedVersion: 2
-        x: 2748
-        y: 805
-        width: 72
-        height: 360
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0315e3df1938378f0800000000000000
-      internalID: -543946466939481808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_122
-      rect:
-        serializedVersion: 2
-        x: 3204
-        y: 201
-        width: 353
-        height: 1070
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46dcb5be7d3479380800000000000000
-      internalID: -8964621938611991196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_123
-      rect:
-        serializedVersion: 2
-        x: 4026
-        y: 193
-        width: 339
-        height: 1013
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94c6bb50f0343a430800000000000000
-      internalID: 3792949042975829065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_124
-      rect:
-        serializedVersion: 2
-        x: 4775
-        y: 174
-        width: 315
-        height: 1005
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 316e672c5686926c0800000000000000
-      internalID: -4167685193891125741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_125
-      rect:
-        serializedVersion: 2
-        x: 1109
-        y: 201
-        width: 221
-        height: 527
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 898d3b7e8d789fb40800000000000000
-      internalID: 5474556187715557528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_126
-      rect:
-        serializedVersion: 2
-        x: 1123
-        y: 728
-        width: 7
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e7a48814be1727d0800000000000000
-      internalID: -2943350072609036313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_127
-      rect:
-        serializedVersion: 2
-        x: 5091
-        y: 609
-        width: 23
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a899e255188ef99c0800000000000000
-      internalID: -3918157508611499638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_128
-      rect:
-        serializedVersion: 2
-        x: 1861
-        y: 199
-        width: 231
-        height: 519
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e40b1a3473958a20800000000000000
-      internalID: 3064017248895829225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_129
-      rect:
-        serializedVersion: 2
-        x: 2103
-        y: 350
-        width: 39
-        height: 354
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c1a4f23122aeb6e70800000000000000
-      internalID: 9109632103358614044
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_130
-      rect:
-        serializedVersion: 2
-        x: 2872
-        y: 351
-        width: 41
-        height: 355
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a0c64e20a6526920800000000000000
-      internalID: 2982041149243834536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_131
-      rect:
-        serializedVersion: 2
-        x: 3774
-        y: 331
-        width: 129
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02fba934d32c91b60800000000000000
-      internalID: 7717413004859064096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Estian.muerte_132
-      rect:
-        serializedVersion: 2
-        x: 2635
-        y: 272
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9450c206019351c80800000000000000
-      internalID: -8352707191392959159
+      spriteID: 72b8fbb085cf58d4fb2d683643c0edb8
+      internalID: -1168753748
       vertices: []
       indices: 
       edges: []
@@ -3425,7 +1115,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2c269e8e602b20f479a0856c2c619460
     internalID: 0
     vertices: []
     indices: 
@@ -3434,7 +1124,36 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Estian.muerte_0: -1791021953
+      Estian.muerte_1: 1603527533
+      Estian.muerte_10: -237085670
+      Estian.muerte_11: 1302218736
+      Estian.muerte_12: 722472872
+      Estian.muerte_13: 1503831540
+      Estian.muerte_132: -8352707191392959159
+      Estian.muerte_14: 1577975066
+      Estian.muerte_15: -864997314
+      Estian.muerte_16: 1773197662
+      Estian.muerte_17: 1561556015
+      Estian.muerte_18: 38839107
+      Estian.muerte_19: -1850321304
+      Estian.muerte_2: 1942806709
+      Estian.muerte_20: -1459741594
+      Estian.muerte_21: 359590266
+      Estian.muerte_22: -531522425
+      Estian.muerte_23: 218250385
+      Estian.muerte_24: -213367388
+      Estian.muerte_25: -1803004186
+      Estian.muerte_26: 1078632293
+      Estian.muerte_27: -1168753748
+      Estian.muerte_3: 1018199371
+      Estian.muerte_4: 312076261
+      Estian.muerte_5: -276052184
+      Estian.muerte_6: -1038154410
+      Estian.muerte_7: -1299709290
+      Estian.muerte_8: -45532129
+      Estian.muerte_9: 358340334
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

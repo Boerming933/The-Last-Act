@@ -4,12 +4,16 @@ using Unity.VisualScripting;
 
 public class Circulin : MonoBehaviour
 {
-    public Animator anim;
+    
+    //public Animator anim;
     public float meleeSpeed;
     public float damage;
     float timeUntilMelee;
 
+    [SerializeField] private Animator Estian;
     public Transform Mira;
+    public GameObject Brazo;
+    public GameObject Latigo;
     private bool canDash = true;
     private bool isDashing;
     public float dashingPower;
@@ -25,7 +29,7 @@ public class Circulin : MonoBehaviour
     public bool InJalon;
     private bool Stun = true;
     private bool muerte = false;
-    public VidasPonk ponk;
+    private bool atacando = false;
 
     void Start()
     {
@@ -35,23 +39,7 @@ public class Circulin : MonoBehaviour
 
     private void Update()
     {
-        if (muerte)
-        {
-            return;
-        }
-        if (Input.GetMouseButtonDown(0)) // 0 = botón izquierdo del mouse
-        {
-            if (ponk != null)
-            {
-                ponk.RecibirDaño(40);
-                Debug.Log("💥 Hiciste clic. Daño aplicado: " + 40);
-            }
-        }
-        if (isDashing)
-        {
-            return;
-        }
-        if (InJalon)
+        if (muerte || isDashing || InJalon)
         {
             return;
         }
@@ -60,7 +48,10 @@ public class Circulin : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                anim.SetTrigger("Attack");
+                //anim.SetTrigger("Attack");
+                atacando = true;
+                StartCoroutine(FrenarLatigo());
+                Latigo.SetActive(true);
                 timeUntilMelee = meleeSpeed;
             }
         }
@@ -70,10 +61,19 @@ public class Circulin : MonoBehaviour
         }
 
         Horizontal = Input.GetAxisRaw("Horizontal") * speed;
+        
+        Estian.SetBool("Corriendo",Horizontal != 0.0f);
+
+        //if (!atacando && Horizontal != 0)
+       // {
+        //    Vector3 scale = transform.localScale;
+       //     scale.x = Horizontal < 0 ? -Mathf.Abs(scale.x) : Mathf.Abs(scale.x);
+       //     transform.localScale = scale;
+       // }
 
         Vector3 origin = new Vector3(transform.position.x, transform.position.y - 0.43f, transform.position.z);
-        Debug.DrawRay(origin, Vector3.down * 1f, Color.red);
-        RaycastHit2D hit = Physics2D.Raycast(origin, Vector3.down, 1f);
+        Debug.DrawRay(origin, Vector3.down * 1.5f, Color.red);
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector3.down, 1.5f);
         if (hit.collider != null && hit.collider.CompareTag("Ground"))
         {
             Grounded = true;
@@ -88,14 +88,41 @@ public class Circulin : MonoBehaviour
         {
             StartCoroutine(Jalon());
         }
-        Mira.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z));
-        float angle = Mathf.Atan2(Mira.position.y - transform.position.y, Mira.position.x - transform.position.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle);
+
+        if (!atacando)
+        {
+            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(
+                new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z)
+            );
+
+            bool RotarX = mouseWorldPos.x < transform.position.x;
+            Vector3 scale = transform.localScale;
+            scale.x = RotarX ? -Mathf.Abs(scale.x) : Mathf.Abs(scale.x);
+            transform.localScale = scale;
+
+            Vector2 direccion = mouseWorldPos - Brazo.transform.position;
+            float angle = Mathf.Atan2(direccion.y, direccion.x) * Mathf.Rad2Deg;
+        
+            bool mirandoIzquierda = transform.localScale.x < 0;
+            if (mirandoIzquierda)
+            {
+                angle += 180f;
+            }
+
+            Brazo.transform.rotation = Quaternion.Euler(0f, 0f, angle);            
+        }
 
         if (Input.GetKey(KeyCode.LeftShift) && canDash)
         {
             StartCoroutine(Dash());
         }
+    }
+
+    IEnumerator FrenarLatigo()
+    {
+        yield return new WaitForSeconds(0.5f);
+        Latigo.SetActive(false);
+        atacando = false;
     }
 
     private void Jump()
@@ -132,15 +159,6 @@ public class Circulin : MonoBehaviour
         InJalon = true;
         yield return new WaitForSeconds(3f);
         InJalon = false;
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Triangulardo")
-        {
-            //other.GetComponent<Triangulardo>().TakeDamage();
-            Debug.Log("Enemy Hit");
-        }
     }
 
     private void FixedUpdate()
@@ -184,7 +202,9 @@ public class Circulin : MonoBehaviour
 
     public void Muerte(bool Muerte)
     {
+        Brazo.SetActive(false);
         muerte = Muerte;
+        Estian.SetTrigger("Muerte");
         StopAllCoroutines();
     }
 }

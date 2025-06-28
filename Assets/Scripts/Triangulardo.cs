@@ -336,6 +336,8 @@ public class Triangulardo : MonoBehaviour
         yield return new WaitForSeconds(duration);
         vidasPonk.invulnerable = true;
         Stunning = false;
+        animVisual.speed = 1f;
+        animVisual.ResetTrigger("Stunned");
         StartCoroutine(ComportamientoBoss());
         tiempoPersecucionMax = 10;
         tiempoPersecucionMin = 9;
@@ -354,9 +356,10 @@ public class Triangulardo : MonoBehaviour
 
     public void Muerte(bool Muerte)
     {
+        StopAllCoroutines();
+        StartCoroutine(RecoverFromStun(0f));
         muerte = Muerte;
         Stunning = Muerte;
-        StopAllCoroutines();
         animVisual.SetBool("Muerte", true);
     }
 
@@ -364,6 +367,7 @@ public class Triangulardo : MonoBehaviour
     {
         muerte = Muerte;
         Stunning = Muerte;
+        animVisual.speed = 0f;
         StopAllCoroutines();
     }
 }
