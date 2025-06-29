@@ -21,6 +21,7 @@ public class Circulin : MonoBehaviour
     private float dashingWait = 0.1f;
     private float dashingCooldown = 2f;
     public float JumpForce, speed;
+    private bool InJump = false;
     private bool canLand = true;
 
     private Rigidbody2D Rigidbody2D;
@@ -32,6 +33,7 @@ public class Circulin : MonoBehaviour
     private bool muerte = false;
     private bool atacando = false;
     private bool Enganchado = false;
+    private SpriteRenderer mySpriteRenderer;
 
     //VARIABLES PAL CARGADO  -Juan
     public CargaAtkEspecial CargaAtkEspecial;
@@ -58,6 +60,7 @@ public class Circulin : MonoBehaviour
         Rigidbody2D = GetComponent<Rigidbody2D>();
         trailRenderer = GetComponent<TrailRenderer>();
         cam = Camera.main;  //<---- ESTO PAL CARGADO
+        mySpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -119,17 +122,18 @@ public class Circulin : MonoBehaviour
 
         Horizontal = Input.GetAxisRaw("Horizontal") * speed;
         
-        Estian.SetBool("Corriendo",Horizontal != 0.0f);
+        if(!InJump) Estian.SetBool("Corriendo",Horizontal != 0.0f);
 
         Vector3 origin = new Vector3(transform.position.x, transform.position.y - 0.43f, transform.position.z);
-        Debug.DrawRay(origin, Vector3.down * 1.5f, Color.red);
-        RaycastHit2D hit = Physics2D.Raycast(origin, Vector3.down, 1.5f);
+        Debug.DrawRay(origin, Vector3.down * 1.1f, Color.red);
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector3.down, 1.1f);
 
         bool wasGrounded = Grounded;
 
         if (hit.collider != null && hit.collider.CompareTag("Ground"))
         {
             Grounded = true;
+            Estian.SetBool("Quieto",true);
 
             if (!wasGrounded)
             {
@@ -158,7 +162,12 @@ public class Circulin : MonoBehaviour
 
             bool RotarX = mouseWorldPos.x < transform.position.x;
             Vector3 scale = transform.localScale;
-            scale.x = RotarX ? -Mathf.Abs(scale.x) : Mathf.Abs(scale.x);
+            if (RotarX)
+            {
+                mySpriteRenderer.flipX = true;
+            }
+            else mySpriteRenderer.flipX = false;
+
             transform.localScale = scale;
 
             Vector2 direccion = mouseWorldPos - Brazo.transform.position;
@@ -176,6 +185,7 @@ public class Circulin : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift) && canDash)
         {
             ControladorSonidos.instance.ReproducirSonido(dash);
+            Estian.SetBool("Dash", true);
             StartCoroutine(Dash());
         }
 
@@ -202,10 +212,21 @@ public class Circulin : MonoBehaviour
     private void Jump()
     {
         Rigidbody2D.AddForce(Vector2.up * JumpForce);
+        InJump = true;
+        Estian.SetBool("Quieto",false);
+        StartCoroutine(TerminarSalto());
+        Estian.SetTrigger("Salto");
+    }
+
+    private IEnumerator TerminarSalto()
+    {
+        yield return new WaitForSeconds(0.4f);
+        InJump = false;
     }
 
     private IEnumerator Dash()
     {
+        Brazo.SetActive(false);
         canDash = false;
         isDashing = true;
         trailRenderer.emitting = true;
@@ -218,13 +239,17 @@ public class Circulin : MonoBehaviour
         if (Horizontal < 0f)
         {
             Rigidbody2D.linearVelocity = new Vector2(transform.localScale.x * -1f * dashingPower, 0f);
+            mySpriteRenderer.flipX = true;
         }
         yield return new WaitForSeconds(dashingTime);
         trailRenderer.emitting = false;
         Rigidbody2D.gravityScale = originalGravity;
         yield return new WaitForSeconds(dashingWait);
+        Estian.SetBool("Dash", false);  
         isDashing = false;
-        yield return new WaitForSeconds(dashingCooldown);
+        yield return new WaitForSeconds(0.3f);  
+        if (!muerte) Brazo.SetActive(true);
+        yield return new WaitForSeconds(dashingCooldown - 0.3f);    
         canDash = true;
     }
 
@@ -241,8 +266,15 @@ public class Circulin : MonoBehaviour
         if (!Enganchado)
         {
             Brazo.SetActive(true);
+            StartCoroutine(RecGancho());
         }
         else Brazo.SetActive(false);
+    }
+
+    private IEnumerator RecGancho()
+    {
+        yield return new WaitForSeconds(0.6f);
+        Estian.SetBool("CaidaG", false);
     }
 
     private void FixedUpdate()
@@ -278,10 +310,10 @@ public class Circulin : MonoBehaviour
 
     public void Muerte(bool Muerte)
     {
+        StopAllCoroutines();
         Brazo.SetActive(false);
         muerte = Muerte;
         Estian.SetTrigger("Muerte");
-        StopAllCoroutines();
     }
 
     IEnumerator DispararConRetraso(float delay)          //PAL CARGADO -Juan
