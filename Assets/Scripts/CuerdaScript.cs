@@ -1,12 +1,14 @@
+using System.Collections;
 using UnityEngine;
 
 public class CuerdaScript : MonoBehaviour
 {
 
     public float distanciaActivacion = 2f; // Distancia máxima para activarla
-    private Transform jugador;
-    public bool activada = false;
-    public PlataformaScript[] plataformas; 
+    public Transform jugador;
+    public bool activada = true;
+    public PlataformaScript[] plataformas;
+    public VidasPonk VidasPonk;
 
     void Start()
     {
@@ -33,7 +35,18 @@ public class CuerdaScript : MonoBehaviour
         foreach (PlataformaScript plataforma in plataformas)
         {
             if (plataforma != null)
+            {
                 plataforma.Activar();
+            }
+        }
+    }
+
+    public void DesactivarPlataformas()
+    {
+        foreach (PlataformaScript plataforma in plataformas)
+        {
+            if (plataforma != null)
+                plataforma.Desactivar();
         }
     }
 }

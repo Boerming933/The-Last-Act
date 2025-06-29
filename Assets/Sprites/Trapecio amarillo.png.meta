@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Trapecio amarillo_0: 929550830413161101
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juano\\Downloads\\Tech-Proof-Real-Matias\\Tech-Proof-Real-Matias\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21812BFD-99D6-D2E9-AAF0-CFCD51D324FB}|Assembly-CSharp.csproj|c:\\users\\juano\\downloads\\tech-proof-real-matias\\tech-proof-real-matias\\assets\\scripts\\vidaspj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21812BFD-99D6-D2E9-AAF0-CFCD51D324FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vidaspj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21812BFD-99D6-D2E9-AAF0-CFCD51D324FB}|Assembly-CSharp.csproj|c:\\users\\juano\\downloads\\tech-proof-real-matias\\tech-proof-real-matias\\assets\\scripts\\circulin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21812BFD-99D6-D2E9-AAF0-CFCD51D324FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\circulin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21812BFD-99D6-D2E9-AAF0-CFCD51D324FB}|Assembly-CSharp.csproj|C:\\Users\\juano\\Downloads\\Tech-Proof-Real-Matias\\Tech-Proof-Real-Matias\\assets\\scripts\\cargaatkespecial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21812BFD-99D6-D2E9-AAF0-CFCD51D324FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cargaatkespecial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VidasPj.cs",
+              "DocumentMoniker": "C:\\Users\\juano\\Downloads\\Tech-Proof-Real-Matias\\Tech-Proof-Real-Matias\\Assets\\Scripts\\VidasPj.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VidasPj.cs",
+              "ToolTip": "C:\\Users\\juano\\Downloads\\Tech-Proof-Real-Matias\\Tech-Proof-Real-Matias\\Assets\\Scripts\\VidasPj.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VidasPj.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:16:34.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Circulin.cs",
+              "DocumentMoniker": "C:\\Users\\juano\\Downloads\\Tech-Proof-Real-Matias\\Tech-Proof-Real-Matias\\Assets\\Scripts\\Circulin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Circulin.cs",
+              "ToolTip": "C:\\Users\\juano\\Downloads\\Tech-Proof-Real-Matias\\Tech-Proof-Real-Matias\\Assets\\Scripts\\Circulin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Circulin.cs",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAWwCQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T00:40:27.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CargaAtkEspecial.cs",
+              "DocumentMoniker": "C:\\Users\\juano\\Downloads\\Tech-Proof-Real-Matias\\Tech-Proof-Real-Matias\\Assets\\Scripts\\CargaAtkEspecial.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CargaAtkEspecial.cs",
+              "ToolTip": "C:\\Users\\juano\\Downloads\\Tech-Proof-Real-Matias\\Tech-Proof-Real-Matias\\Assets\\Scripts\\CargaAtkEspecial.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CargaAtkEspecial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T00:34:09.796Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

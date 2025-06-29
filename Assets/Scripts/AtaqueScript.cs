@@ -31,7 +31,7 @@ public class AtaqueScript : MonoBehaviour
         if (Jugador != null)
         {
             Jugador.Empuje(12f, 36f, transform.position);
-            vidasPj.Hit(0.5f);
+            vidasPj.Hit(1f);
         }
     }
 }

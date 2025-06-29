@@ -61,7 +61,7 @@ public class GloboScript : MonoBehaviour
             VidasPj vida = col.GetComponent<VidasPj>();
             if (vida != null)
             {
-                vida.Hit(0.5f);
+                vida.Hit(1f);
                 yaHizoDaño = true;
             }
         }

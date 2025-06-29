@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pelota verde_0: -7625757913464226847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

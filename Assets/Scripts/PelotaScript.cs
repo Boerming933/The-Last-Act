@@ -6,7 +6,7 @@ public class PelotaScript : MonoBehaviour
     public TipoPelota tipoPelota;
     public float horizontalSpeed;
     public float verticalBounceForce;
-    public float tiempoDeVida = 10f;
+    public float tiempoDeVida = 5f;
     public LayerMask groundLayer;
     private bool yaHizoDaño = false;
     private Rigidbody2D rb;
@@ -49,7 +49,7 @@ public class PelotaScript : MonoBehaviour
             VidasPj vida = other.GetComponent<VidasPj>();
             if (vida != null)
             {
-                vida.Hit(0.5f);
+                vida.Hit(1f);
                 yaHizoDaño = true;
             }
         }

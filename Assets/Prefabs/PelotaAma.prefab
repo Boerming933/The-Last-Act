@@ -107,7 +107,7 @@ MonoBehaviour:
   tipoPelota: 0
   horizontalSpeed: 8
   verticalBounceForce: 7
-  tiempoDeVida: 10
+  tiempoDeVida: 2.5
   groundLayer:
     serializedVersion: 2
     m_Bits: 0

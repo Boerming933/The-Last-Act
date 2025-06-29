@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 221ff1f37cd426744a77361c723f6457
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5182525497979849556
+    second: ponk golpe normal (4)_0
+  - first:
+      213: 3204128350946559601
+    second: ponk golpe normal (4)_1
+  - first:
+      213: -6872220482595368800
+    second: ponk golpe normal (4)_2
+  - first:
+      213: -4288764989555222309
+    second: ponk golpe normal (4)_3
+  - first:
+      213: -8905732589869847410
+    second: ponk golpe normal (4)_4
+  - first:
+      213: 7738296467715768650
+    second: ponk golpe normal (4)_5
+  - first:
+      213: 1000889417314929571
+    second: ponk golpe normal (4)_6
+  - first:
+      213: -4350544694217456577
+    second: ponk golpe normal (4)_7
+  - first:
+      213: -5857626662973217392
+    second: ponk golpe normal (4)_8
+  - first:
+      213: 1030026960849473394
+    second: ponk golpe normal (4)_9
+  - first:
+      213: 4881933366151775423
+    second: ponk golpe normal (4)_10
+  - first:
+      213: 3391650346087157590
+    second: ponk golpe normal (4)_11
+  - first:
+      213: -3373959385992441739
+    second: ponk golpe normal (4)_12
+  - first:
+      213: 5156918594585773146
+    second: ponk golpe normal (4)_13
+  - first:
+      213: -1111133729339221402
+    second: ponk golpe normal (4)_14
+  - first:
+      213: 6355655415403544391
+    second: ponk golpe normal (4)_15
+  - first:
+      213: 8324867214740937487
+    second: ponk golpe normal (4)_16
+  - first:
+      213: -7134314617481503089
+    second: ponk golpe normal (4)_17
+  - first:
+      213: -9019939349428735529
+    second: ponk golpe normal (4)_18
+  - first:
+      213: 7786547783835783976
+    second: ponk golpe normal (4)_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 3290
+        width: 824
+        height: 610
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4b18d8488f318b0800000000000000
+      internalID: -5182525497979849556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_1
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 3142
+        width: 837
+        height: 672
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1768dec42c9577c20800000000000000
+      internalID: 3204128350946559601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_2
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 3165
+        width: 906
+        height: 716
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a05db4b1e7f0a0a0800000000000000
+      internalID: -6872220482595368800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_3
+      rect:
+        serializedVersion: 2
+        x: 4806
+        y: 3119
+        width: 795
+        height: 783
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8dd6007fe3b74c0800000000000000
+      internalID: -4288764989555222309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_4
+      rect:
+        serializedVersion: 2
+        x: 6116
+        y: 3033
+        width: 823
+        height: 1051
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c2034e46b786480800000000000000
+      internalID: -8905732589869847410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_5
+      rect:
+        serializedVersion: 2
+        x: 7391
+        y: 2943
+        width: 677
+        height: 1084
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41cbdc53a3f36b60800000000000000
+      internalID: 7738296467715768650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1455
+        width: 598
+        height: 1196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab01824f9fd3ed00800000000000000
+      internalID: 1000889417314929571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_7
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 1573
+        width: 783
+        height: 1116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3445b996a2cf93c0800000000000000
+      internalID: -4350544694217456577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_8
+      rect:
+        serializedVersion: 2
+        x: 3425
+        y: 1662
+        width: 979
+        height: 1099
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095ef96c59785bea0800000000000000
+      internalID: -5857626662973217392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_9
+      rect:
+        serializedVersion: 2
+        x: 5194
+        y: 1761
+        width: 1036
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f028640146b4e00800000000000000
+      internalID: 1030026960849473394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_10
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 1781
+        width: 928
+        height: 667
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb48a9ae78c10c340800000000000000
+      internalID: 4881933366151775423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_17
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 119
+        width: 1001
+        height: 726
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e532597a2ddfc90800000000000000
+      internalID: -7134314617481503089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe normal (4)_18
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 185
+        width: 991
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d17bbd83fcb2d280800000000000000
+      internalID: -9019939349428735529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2781d52ff2c2b054787461326030f461
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ponk golpe normal (4)_0: -5182525497979849556
+      ponk golpe normal (4)_1: 3204128350946559601
+      ponk golpe normal (4)_10: 4881933366151775423
+      ponk golpe normal (4)_11: 3391650346087157590
+      ponk golpe normal (4)_12: -3373959385992441739
+      ponk golpe normal (4)_16: 8324867214740937487
+      ponk golpe normal (4)_17: -7134314617481503089
+      ponk golpe normal (4)_18: -9019939349428735529
+      ponk golpe normal (4)_19: 7786547783835783976
+      ponk golpe normal (4)_2: -6872220482595368800
+      ponk golpe normal (4)_3: -4288764989555222309
+      ponk golpe normal (4)_4: -8905732589869847410
+      ponk golpe normal (4)_5: 7738296467715768650
+      ponk golpe normal (4)_6: 1000889417314929571
+      ponk golpe normal (4)_7: -4350544694217456577
+      ponk golpe normal (4)_8: -5857626662973217392
+      ponk golpe normal (4)_9: 1030026960849473394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

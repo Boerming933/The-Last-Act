@@ -153,11 +153,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 28
-        y: 616
+        y: 618
         width: 344
         height: 342
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.9442522, y: 0.058407433}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -174,12 +174,12 @@ TextureImporter:
       name: cartel de vida,Ponk.Medio_1
       rect:
         serializedVersion: 2
-        x: 563
-        y: 609
-        width: 397
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 498
+        y: 601
+        width: 462
+        height: 361
+      alignment: 9
+      pivot: {x: 0.9436414, y: 0.12149209}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -196,12 +196,12 @@ TextureImporter:
       name: cartel de vida,Ponk.Medio_3
       rect:
         serializedVersion: 2
-        x: 1129
+        x: 1077
         y: 601
-        width: 424
-        height: 309
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 476
+        height: 341
+      alignment: 9
+      pivot: {x: 0.9532563, y: 0.42618594}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: cartel de vida,Ponk.Medio_8
       rect:
         serializedVersion: 2
-        x: 74
-        y: 119
-        width: 413
-        height: 314
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 75
+        y: 63
+        width: 410
+        height: 439
+      alignment: 9
+      pivot: {x: 0.947286, y: 0.635151}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -244,8 +244,8 @@ TextureImporter:
         y: 136
         width: 400
         height: 314
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.9584686, y: 0.8034699}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,11 +263,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 600
-        y: 107
+        y: 104
         width: 400
-        height: 315
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 320
+      alignment: 9
+      pivot: {x: 0.94947875, y: 0.79216146}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

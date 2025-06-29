@@ -103,9 +103,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cc0b0c3a83c8b441959db325a0b6b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tipoPelota: 0
   horizontalSpeed: 8
   verticalBounceForce: 7
-  tiempoDeVida: 10
+  tiempoDeVida: 4
   groundLayer:
     serializedVersion: 2
     m_Bits: 0

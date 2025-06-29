@@ -1,11 +1,13 @@
 using System;
 using System.Collections;
+using Unity.Collections;
 using Unity.Mathematics;
 using Unity.VisualScripting;
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 
 public class Triangulardo : MonoBehaviour
-{   
+{
     public float velocidadPatrulla = 2f;
     public float velocidadPersecucion = 4f;
     public GameObject Jugador;
@@ -20,16 +22,25 @@ public class Triangulardo : MonoBehaviour
 
     private Transform objetivoActual;
     public Transform jugador;
+    public GameObject Hitbox;
+    public Transform Referencia;
+    public GameObject visual;
     private bool persiguiendoJugador = false;
     private bool estaDisparando = false;
     private bool vieneDePersecucion = false;
+    private bool muerte = false;
+    private bool Atacando = false;
+    private bool HitboxActiva = false;
+    private bool DañoPosible = true;
+
 
     private Rigidbody2D rb;
 
     [SerializeField] private Transform controladorGolpe;
     [SerializeField] private float radioGolpe;
-    
-    private Animator animator;
+    [SerializeField] private VisualBridge puenteVisual;
+    [SerializeField] private Animator animVisual;
+
     [SerializeField] private float tiempoEntreAtaques = 2f;
     private float tiempoUltimoAtaque;
     public bool Stunning;
@@ -40,13 +51,13 @@ public class Triangulardo : MonoBehaviour
 
     void Start()
     {
+        puenteVisual.triangulardo = this;
         jugador = GameObject.FindGameObjectWithTag("Circulin").transform;
         rb = GetComponent<Rigidbody2D>();
         objetivoActual = puntoIzquierda;
-        animator = GetComponent<Animator>();
         StartCoroutine(ComportamientoBoss());
         vidasPonk = GetComponent<VidasPonk>();
-        if (vidasPonk != null)
+        if (vidasPonk != null) //
         {
             vidasPonk.OnCambioDeFase += VerificarCambioDeFase;
         }
@@ -54,21 +65,26 @@ public class Triangulardo : MonoBehaviour
 
     void Update()
     {
-        if(Stunning)
+        if (Stunning || muerte || Atacando)
         {
             return;
         }
-        
-        if (faseActual != FaseJefe.Fase1 && faseActual != FaseJefe.Fase3 && !estaDisparando && !persiguiendoJugador && objetivoActual == null && !vieneDePersecucion)        
+
+        //if (vidasPonk != null)
+        //{
+
+        //    vidasPonk.OnCambioDeFase += VerificarCambioDeFase;
+        //}
+
+        if (faseActual != FaseJefe.Fase1 && faseActual != FaseJefe.Fase3 && !estaDisparando && !persiguiendoJugador && objetivoActual == null && !vieneDePersecucion)
         {
             StartCoroutine(ShootOnda());
         }
 
-         if (persiguiendoJugador && !estaDisparando)
+        if (persiguiendoJugador && !estaDisparando)
         {
             Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
 
-            
             foreach (Collider2D colisionador in objetos)
             {
                 if (colisionador.CompareTag("Circulin") && Time.time >= tiempoUltimoAtaque + tiempoEntreAtaques)
@@ -79,33 +95,39 @@ public class Triangulardo : MonoBehaviour
                 }
             }
         }
-
     }
 
     void FixedUpdate()
     {
-        if(Stunning)
+        if (Stunning || Atacando)
         {
             return;
         }
         // Girar el jefe para mirar al jugador
         if (jugador != null)
         {
-            Vector3 escala = transform.localScale;
-
-            if (jugador.position.x < transform.position.x)
-                escala.x = -Mathf.Abs(escala.x); // mirar a la izquierda
-            else
-                escala.x = Mathf.Abs(escala.x);  // mirar a la derecha
-
-            transform.localScale = escala;
+            float direccion = jugador.position.x - transform.position.x;
+            float signo = direccion < 0 ? 1 : -1;
+            transform.localScale = new Vector3(signo * 1f, 1f, 1f);
         }
+
+        // if (jugador != null) //
+        // {
+        //     Vector3 escala = transform.localScale;
+
+        //     if (jugador.position.x < transform.position.x)
+        //         escala.x = Mathf.Abs(escala.x); // mirar a la izquierda
+        //     else
+        //         escala.x = -Mathf.Abs(escala.x);  // mirar a la derecha
+
+        //     transform.localScale = escala;
+        // }
 
         float velocidadActual = persiguiendoJugador ? velocidadPersecucion : velocidadPatrulla;
 
         if (persiguiendoJugador && jugador != null)
         {
-            float distanciaDeseada = 2f; 
+            float distanciaDeseada = 2f;
             float distanciaAlJugador = Vector2.Distance(rb.position, jugador.position);
 
             if (distanciaAlJugador > distanciaDeseada)
@@ -120,7 +142,7 @@ public class Triangulardo : MonoBehaviour
                 rb.linearVelocity = Vector2.zero; // se detiene si está a distancia correcta
             }
         }
-        else if (objetivoActual != null && !estaDisparando)        
+        else if (objetivoActual != null && !estaDisparando)
         {
             Vector2 destino = new Vector2(objetivoActual.position.x, rb.position.y);
             Vector2 nuevaPos = Vector2.MoveTowards(rb.position, destino, velocidadActual * Time.fixedDeltaTime);
@@ -133,7 +155,45 @@ public class Triangulardo : MonoBehaviour
         }
     }
 
-    private void VerificarCambioDeFase(float vidaRestante)
+    void LateUpdate()
+    {
+        Hitbox.transform.position = Referencia.position;
+
+        float distancia = Vector2.Distance(Referencia.position, Jugador.transform.position);
+        float margenActivacion = 1.5f;
+
+        if (distancia <= margenActivacion && Atacando)
+        {
+            ActivarHitbox();
+        }
+    }
+
+    public void ActivarHitbox()
+    {
+        if (HitboxActiva || !DañoPosible) return;
+        HitboxActiva = true;
+        Hitbox.SetActive(true);
+        StartCoroutine(DesactivarHitboxPronto());
+    }
+
+    public void ReinicioDaño()
+    {
+        Hitbox.GetComponent<HitboxMartillo>().ReiniciarDaño();
+    }
+
+    public void FrenarDaño()
+    {
+        DañoPosible = false;
+    }
+
+    IEnumerator DesactivarHitboxPronto()
+    {
+        yield return new WaitForSeconds(0.1f);
+        Hitbox.SetActive(false);
+        HitboxActiva = false;
+    }
+
+    public void VerificarCambioDeFase(float vidaRestante)
     {
         if (faseActual == FaseJefe.Fase1 && vidaRestante <= 280f)
         {
@@ -147,7 +207,6 @@ public class Triangulardo : MonoBehaviour
             tiempoPersecucionMax = 16;
             tiempoPersecucionMin = 15;
             vidasPonk.invulnerable = true;
-
         }
     }
 
@@ -163,7 +222,7 @@ public class Triangulardo : MonoBehaviour
 
         for (int i = 0; i < cantidadOndas; i++)
         {
-            Vector3 direccion = transform.localScale.x > 0 ? Vector3.right : Vector3.left;
+            Vector3 direccion = transform.localScale.x > 0 ? Vector3.left : Vector3.right;
 
             GameObject Onda = Instantiate(OndaPrefab, Origen.position, Quaternion.identity);
             Onda.GetComponent<AtaqueScript>().SetDirection(direccion);
@@ -180,8 +239,7 @@ public class Triangulardo : MonoBehaviour
 
     IEnumerator ComportamientoBoss()
     {
-        animator.Play("Normal");
-        while (true)
+        while (!muerte)
         {
             switch (faseActual)
             {
@@ -190,7 +248,7 @@ public class Triangulardo : MonoBehaviour
                     break;
                 case FaseJefe.Fase2:
                     int eleccion = UnityEngine.Random.Range(0, 2); // 0 = patrulla, 1 = persecución
-
+                    Debug.Log("Entró en el switch");
                     if (eleccion == 0)
                     {
                         Patrullar();
@@ -201,23 +259,24 @@ public class Triangulardo : MonoBehaviour
                     {
                         yield return StartCoroutine(PerseguirJugador());
                     }
-                    break; 
-                case FaseJefe.Fase3: 
+                    break;
+                case FaseJefe.Fase3:
+                    Debug.Log("Entró en el switch 3");
                     yield return StartCoroutine(PerseguirJugador());
-                    vieneDePersecucion = true; // para bloquear otros comportamientos
+                    vieneDePersecucion = true; //
                     rb.linearVelocity = Vector2.zero;
-                    animator.SetTrigger("Martillazo");
+                    Atacando = true;
+                    DañoPosible = true;
+                    animVisual.SetTrigger("Martillazo");
                     foreach (CuerdaScript cuerda in cuerdaScript)
                     {
                         cuerda.activada = true;
                     }
-                    
-                    yield return new WaitForSeconds(10f); // tiempo de animación
-
-                    vieneDePersecucion = false;
-                break; 
+                    Debug.Log("Deberia de estar frenado");
+                    yield return new WaitForSeconds(10f); // 
+                    vieneDePersecucion = false; //
+                    break;
             }
-            
         }
     }
 
@@ -249,23 +308,31 @@ public class Triangulardo : MonoBehaviour
         vieneDePersecucion = true;
         rb.linearVelocity = Vector2.zero;
         objetivoActual = null;
-        yield return new WaitForSeconds(UnityEngine.Random.Range(1f, 2f));
         vieneDePersecucion = false;
+    }
+
+    public void FinMartillazoAnim()
+    {
+        if (!muerte && !Stunning)
+        {
+            vieneDePersecucion = false;
+            animVisual.ResetTrigger("Martillazo");
+            // StopAllCoroutines(); // por seguridad
+            // StartCoroutine(ComportamientoBoss());
+            Debug.Log("FSM reanudado después del Martillazo");
+            Atacando = false;
+        }
     }
 
     private void Golpe()
     {
-        animator.SetTrigger("Martillazo");
+        if (estaDisparando || muerte || Stunning) return;
+        
+        Atacando = true;
+        DañoPosible = true;
+        animVisual.SetTrigger("Martillazo");
 
-        Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
-
-        foreach (Collider2D colisionador in objetos)
-        {
-            if (colisionador.CompareTag("Circulin"))
-            {
-                colisionador.transform.GetComponent<VidasPj>().Hit(1f);
-            }
-        }
+        rb.linearVelocity = Vector2.zero;   
     }
 
     private void OnDrawGizmos() // Para ver el gizmo
@@ -276,28 +343,58 @@ public class Triangulardo : MonoBehaviour
 
     public void Stun(float duration)
     {
-        if (Stunning) return;
+        if (Stunning) return;        
+        animVisual.speed = 0f;
         StopAllCoroutines();
         Stunning = true;
-        animator.SetTrigger("Stunned");
+        animVisual.SetTrigger("Stunned");
         rb.linearVelocity = Vector2.zero;
         vidasPonk.invulnerable = false;
         StartCoroutine(RecoverFromStun(duration));
     }
 
-    IEnumerator RecoverFromStun(float duration)
+    private IEnumerator RecoverFromStun(float duration)
     {
         yield return new WaitForSeconds(duration);
         vidasPonk.invulnerable = true;
         Stunning = false;
+        animVisual.speed = 1f;
+        animVisual.ResetTrigger("Stunned");
+        foreach (CuerdaScript cuerda in cuerdaScript)
+        {
+            cuerda.activada = false;
+            cuerda.DesactivarPlataformas();
+        }
         StartCoroutine(ComportamientoBoss());
-        tiempoPersecucionMin = 10;
+        tiempoPersecucionMax = 10;
         tiempoPersecucionMin = 9;
     }
-
 
     public bool IsStunned()
     {
         return Stunning;
+    }
+
+    public void Comienzo()
+    {
+        Debug.Log("Comportamiento del jefe iniciado manualmente");
+        StartCoroutine(ComportamientoBoss());
+    }
+
+    public void Muerte(bool Muerte)
+    {
+        StopAllCoroutines();
+        StartCoroutine(RecoverFromStun(0f));
+        muerte = Muerte;
+        Stunning = Muerte;
+        animVisual.SetBool("Muerte", true);
+    }
+
+    public void MuerteEstian(bool Muerte)
+    {
+        muerte = Muerte;
+        Stunning = Muerte;
+        animVisual.speed = 0f;
+        StopAllCoroutines();
     }
 }

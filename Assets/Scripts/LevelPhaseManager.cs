@@ -8,6 +8,8 @@ public class LevelPhaseManager : MonoBehaviour
     private float tiempoFase;
     private int faseActual = 0;
     private VidasPonk vidasPonk;
+    public float VidasEstian = 1;
+
     void Start()
     {
         jefePonk.SetActive(false);
@@ -23,14 +25,14 @@ public class LevelPhaseManager : MonoBehaviour
         switch (faseActual)
         {
             case 0: // Fase preliminar: solo pelotas
-                if (tiempoFase >= 60f)
+                if (tiempoFase >= 30f)
                 {
                     ActivarFaseGlobos();
                 }
                 break;
 
             case 1: // Fase preliminar: solo globos
-                if (tiempoFase >= 60f)
+                if (tiempoFase >= 3f)
                 {
                     ActivarFaseConPonk();
                 }
@@ -51,7 +53,6 @@ public class LevelPhaseManager : MonoBehaviour
                 break;
 
             case 4:
-                // Fase final: solo jefe
                 break;
         }
     }
@@ -80,9 +81,9 @@ public class LevelPhaseManager : MonoBehaviour
     {
         tiempoFase = 0;
         faseActual = 2;
-        ActivarPelotas(true);
         ActivarGlobos(false);
         jefePonk.SetActive(true);
+        jefePonk.GetComponent<Triangulardo>().Comienzo();
         vidasPonk.invulnerable = false;
         Debug.Log("FASE 2: Ponk + pelotas");
     }
@@ -101,6 +102,13 @@ public class LevelPhaseManager : MonoBehaviour
         ActivarPelotas(false);
         ActivarGlobos(false);
         Debug.Log("FASE 4: Solo Ponk (Rage)");
+    }
+    public void ActivarFinal()
+    {
+        faseActual = 4;
+        ActivarPelotas(false);
+        ActivarGlobos(false);
+        Debug.Log("Estian Murio");        
     }
 
     void ActivarPelotas(bool estado)

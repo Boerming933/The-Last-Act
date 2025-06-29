@@ -7,10 +7,13 @@ public class Hook : MonoBehaviour
     [SerializeField] private float lenght;
     [SerializeField] private LayerMask grappleLayer;
     [SerializeField] private LineRenderer rope;
+    public Circulin circulin;
 
     private Vector3 grapplePoint;
     private DistanceJoint2D joint;
-    public Circulin Circulin;
+
+    [SerializeField] private AudioClip gancho;
+    private bool HookDisp = true;
 
     void Start()
     {
@@ -21,23 +24,24 @@ public class Hook : MonoBehaviour
 
     void Update()
     {
-        if(Circulin.InJalon)
+        if (Input.GetKeyDown(KeyCode.E) && HookDisp)
         {
-            return;
-        }
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
+            circulin.Trapecio(true);
+            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mouseWorldPos.z = 0f;
+            Vector2 direction = (mouseWorldPos - transform.position).normalized;
             //Genera el movimiento hacia el mouse
             RaycastHit2D hit = Physics2D.Raycast(
-            origin: Camera.main.ScreenToWorldPoint(Input.mousePosition),
-            direction: Vector2.zero,
+            origin: transform.position,
+            direction: direction,
             distance: Mathf.Infinity,
             layerMask: grappleLayer
             );
 
-            if (hit.collider != null )
+            if (hit.collider != null)
             {
+                StartCoroutine(MaxHook());
+                ControladorSonidos.instance.ReproducirSonido(gancho);
                 //genera la "cuerda"
                 grapplePoint = hit.point;
                 grapplePoint.z = 0;
@@ -50,15 +54,29 @@ public class Hook : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.E))
+        if (Input.GetKeyUp(KeyCode.E) || !HookDisp)
         {
+            StartCoroutine(RecHook());
             joint.enabled = false;
             rope.enabled = false;
+            circulin.Trapecio(false);
         }
 
         if (rope.enabled == true)
         {
             rope.SetPosition(1, transform.position);
         }
-    }   
+    }
+
+    private IEnumerator MaxHook()
+    {
+        yield return new WaitForSeconds(0.2f);
+        HookDisp = false;
+    }
+
+    private IEnumerator RecHook()
+    {
+        yield return new WaitForSeconds(1.5f);
+        HookDisp = true;
+    }
 }
