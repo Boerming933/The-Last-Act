@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Estian quieto_0: 27116068258194009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

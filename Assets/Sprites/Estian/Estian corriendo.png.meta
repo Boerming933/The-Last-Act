@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Estian corriendo_0: 8835008610071452561
+      Estian corriendo_1: 4098934426523766395
+      Estian corriendo_2: 5895897169665120110
+      Estian corriendo_3: -8823897619206785182
+      Estian corriendo_4: -4881135135560351278
+      Estian corriendo_5: 4920333023610707709
+      Estian corriendo_6: 7274925244492388238
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

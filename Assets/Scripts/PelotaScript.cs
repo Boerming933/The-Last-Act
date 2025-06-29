@@ -49,7 +49,7 @@ public class PelotaScript : MonoBehaviour
             VidasPj vida = other.GetComponent<VidasPj>();
             if (vida != null)
             {
-                vida.Hit(0.5f);
+                vida.Hit(1f);
                 yaHizoDaño = true;
             }
         }

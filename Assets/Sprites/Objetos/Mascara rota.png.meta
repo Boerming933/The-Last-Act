@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mascara rota_0: 4608820170939395414
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

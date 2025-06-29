@@ -12,12 +12,11 @@ public class HitboxMartillo : MonoBehaviour
         {
             if (other.CompareTag("Circulin"))
             {
-                other.GetComponent<VidasPj>()?.Hit(1f);
+                other.GetComponent<VidasPj>()?.Hit(2f);
                 Daño = 1;
             }
         }
     }
-
     public void ReiniciarDaño()
     {
         Daño = 0;

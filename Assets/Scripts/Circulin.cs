@@ -21,6 +21,7 @@ public class Circulin : MonoBehaviour
     private float dashingWait = 0.1f;
     private float dashingCooldown = 2f;
     public float JumpForce, speed;
+    private bool canLand = true;
 
     private Rigidbody2D Rigidbody2D;
     private TrailRenderer trailRenderer;
@@ -30,17 +31,72 @@ public class Circulin : MonoBehaviour
     private bool Stun = true;
     private bool muerte = false;
     private bool atacando = false;
+    private bool Enganchado = false;
+
+    //VARIABLES PAL CARGADO  -Juan
+    public CargaAtkEspecial CargaAtkEspecial;
+    public bool puedeCargado = false;
+    private bool isFrozen = false;
+    private float freezeTimer = 0f;
+    private Vector2 frozenPosition;
+    public GameObject proyectilPrefab;
+    public float velocidadProyectil = 10f;
+    private Vector3 mouseWorldPos;
+    private Vector2 direccion;
+    Camera cam;
+
+    //AUDIOS CARGADOS -Juan
+    [SerializeField] private AudioClip ataque;
+    [SerializeField] private AudioClip correr;
+    [SerializeField] private AudioClip ataqueCargado;
+    [SerializeField] private AudioClip dash;
+    [SerializeField] private AudioClip salto;
+    [SerializeField] private AudioClip landeo;
 
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         trailRenderer = GetComponent<TrailRenderer>();
+        cam = Camera.main;  //<---- ESTO PAL CARGADO
     }
 
     private void Update()
-    {
-        if (muerte || isDashing || InJalon)
+    {    
+        if (muerte || isDashing || InJalon || Enganchado)
         {
+            return;
+        }
+        //ATAQUE CARGADO  -Juan
+        if (Input.GetMouseButtonDown(1) && puedeCargado && !isFrozen)
+        {
+            //pt1 - Barra
+            atacando = true;
+            puedeCargado = false;
+            CargaAtkEspecial.cargas = 0;
+            Vector3 escala = CargaAtkEspecial.barraCarga.localScale;
+            escala.x -= 4f;
+            CargaAtkEspecial.barraCarga.localScale = escala;
+
+            //pt2 - Ataque
+            StartCoroutine(DispararConRetraso(1f));
+
+            //pt3 - Cancelar Movimiento
+            isFrozen = true;
+            freezeTimer = 2f;
+            frozenPosition = Rigidbody2D.position;
+            Rigidbody2D.linearVelocity = Vector2.zero;
+            Rigidbody2D.gravityScale = 0f;
+        }
+
+        if (isFrozen)
+        {
+            freezeTimer -= Time.deltaTime;
+            Rigidbody2D.position = frozenPosition;
+            if (freezeTimer <= 0f)
+            {
+                isFrozen = false;
+                Rigidbody2D.gravityScale = 3f;
+            }
             return;
         }
 
@@ -48,6 +104,7 @@ public class Circulin : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
+                ControladorSonidos.instance.ReproducirSonido(ataque);
                 //anim.SetTrigger("Attack");
                 atacando = true;
                 StartCoroutine(FrenarLatigo());
@@ -64,26 +121,30 @@ public class Circulin : MonoBehaviour
         
         Estian.SetBool("Corriendo",Horizontal != 0.0f);
 
-        //if (!atacando && Horizontal != 0)
-       // {
-        //    Vector3 scale = transform.localScale;
-       //     scale.x = Horizontal < 0 ? -Mathf.Abs(scale.x) : Mathf.Abs(scale.x);
-       //     transform.localScale = scale;
-       // }
-
         Vector3 origin = new Vector3(transform.position.x, transform.position.y - 0.43f, transform.position.z);
         Debug.DrawRay(origin, Vector3.down * 1.5f, Color.red);
         RaycastHit2D hit = Physics2D.Raycast(origin, Vector3.down, 1.5f);
+
+        bool wasGrounded = Grounded;
+
         if (hit.collider != null && hit.collider.CompareTag("Ground"))
         {
             Grounded = true;
+
+            if (!wasGrounded)
+            {
+                ControladorSonidos.instance.ReproducirSonido(landeo);
+            }
         }
         else Grounded = false;
 
         if (Input.GetKeyDown(KeyCode.Space) && Grounded)
         {
             Jump();
+            ControladorSonidos.instance.ReproducirSonido(salto);
+            canLand = true;
         }
+
         if (Input.GetKeyDown(KeyCode.Q))
         {
             StartCoroutine(Jalon());
@@ -91,7 +152,7 @@ public class Circulin : MonoBehaviour
 
         if (!atacando)
         {
-            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(
+            mouseWorldPos = Camera.main.ScreenToWorldPoint(
                 new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z)
             );
 
@@ -114,7 +175,20 @@ public class Circulin : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift) && canDash)
         {
+            ControladorSonidos.instance.ReproducirSonido(dash);
             StartCoroutine(Dash());
+        }
+
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+        {
+            if (Grounded)
+            {
+                ControladorSonidos.instance.ReproducirSonido(correr);
+            }
+        }
+        else
+        {
+            ControladorSonidos.instance.ReproducirSonido(null);
         }
     }
 
@@ -161,17 +235,19 @@ public class Circulin : MonoBehaviour
         InJalon = false;
     }
 
+    public void Trapecio(bool n)
+    {
+        Enganchado = n;
+        if (!Enganchado)
+        {
+            Brazo.SetActive(true);
+        }
+        else Brazo.SetActive(false);
+    }
+
     private void FixedUpdate()
     {
-        if (muerte)
-        {
-            return;
-        }
-        if (isDashing)
-        {
-            return;
-        }
-        if (InJalon)
+        if (muerte || isDashing || InJalon)
         {
             return;
         }
@@ -206,5 +282,36 @@ public class Circulin : MonoBehaviour
         muerte = Muerte;
         Estian.SetTrigger("Muerte");
         StopAllCoroutines();
+    }
+
+    IEnumerator DispararConRetraso(float delay)          //PAL CARGADO -Juan
+    {
+        mouseWorldPos = cam.ScreenToWorldPoint(Input.mousePosition);
+        mouseWorldPos.z = 0f;
+
+        direccion = (mouseWorldPos - transform.position).normalized;
+
+        yield return new WaitForSeconds(delay);
+        for (int n = 0; n <= 9; n++)
+        {
+            yield return new WaitForSeconds(0.1f);
+            ControladorSonidos.instance.ReproducirSonido(ataqueCargado);
+            DispararProyectil();
+        }        
+        atacando = false;
+    }
+
+    void DispararProyectil()             //PAL CARGADO -Juan
+    {
+        GameObject proyectil = Instantiate(proyectilPrefab, transform.position, Quaternion.identity);
+        Destroy(proyectil, 3f);
+
+        Rigidbody2D rb = proyectil.GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.linearVelocity = direccion * velocidadProyectil;
+        }
+        float angle = Mathf.Atan2(direccion.y, direccion.x) * Mathf.Rad2Deg;
+        proyectil.transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 }
