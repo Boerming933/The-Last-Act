@@ -25,7 +25,7 @@ public class LevelPhaseManager : MonoBehaviour
         switch (faseActual)
         {
             case 0: // Fase preliminar: solo pelotas
-                if (tiempoFase >= 15f)
+                if (tiempoFase >= 3f)
                 {
                     ActivarFaseGlobos();
                 }

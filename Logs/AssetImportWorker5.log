@@ -11,19 +11,19 @@ D:\Program Files(x86)\6000.0.47f1\Editor\Unity.exe
 -name
 AssetImportWorker5
 -projectPath
-D:/Proyectos/Unity/Tech-Proof-Real-Juan
+D:/Proyectos/Unity/Tech-Proof-Real-Rubia
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-60953
+56567
 -job-worker-count
 7
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: D:/Proyectos/Unity/Tech-Proof-Real-Juan
-D:/Proyectos/Unity/Tech-Proof-Real-Juan
+Successfully changed project path to: D:/Proyectos/Unity/Tech-Proof-Real-Rubia
+D:/Proyectos/Unity/Tech-Proof-Real-Rubia
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,14 +59,12 @@ D:/Proyectos/Unity/Tech-Proof-Real-Juan
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4928]  Target information:
+Player connection [25220]  Target information:
 
-Player connection [4928]  * "[IP] 169.254.3.252 [Port] 0 [Flags] 2 [Guid] 2927075520 [EditorId] 2927075520 [Version] 1048832 [Id] WindowsEditor(7,Matias) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25220]  * "[IP] 192.168.100.158 [Port] 0 [Flags] 2 [Guid] 3629975981 [EditorId] 3629975981 [Version] 1048832 [Id] WindowsEditor(7,Matias) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4928]  * "[IP] 192.168.100.156 [Port] 0 [Flags] 2 [Guid] 2927075520 [EditorId] 2927075520 [Version] 1048832 [Id] WindowsEditor(7,Matias) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [4928] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [4928] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25220] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25220] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -78,11 +76,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.47f1 (2ad1ed33fd3b)
 [Subsystems] Discovering subsystems at path D:/Program Files(x86)/6000.0.47f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Proyectos/Unity/Tech-Proof-Real-Juan/Assets
+[Subsystems] Discovering subsystems at path D:/Proyectos/Unity/Tech-Proof-Real-Rubia/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -94,43 +92,43 @@ Initialize mono
 Mono path[0] = 'D:/Program Files(x86)/6000.0.47f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files(x86)/6000.0.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files(x86)/6000.0.47f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files(x86)/6000.0.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001863 seconds.
-- Loaded All Assemblies, in  0.308 seconds
+Registered in 0.001392 seconds.
+- Loaded All Assemblies, in  0.315 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.254 seconds
-Domain Reload Profiling: 561ms
-	BeginReloadAssembly (121ms)
+- Finished resetting the current domain, in  0.244 seconds
+Domain Reload Profiling: 558ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (121ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (130ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (111ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (100ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (99ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (254ms)
+	FinalizeReload (244ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (222ms)
+		SetupLoadedEditorAssemblies (212ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
+			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (119ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,96 +138,96 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.624 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.777 seconds
-Domain Reload Profiling: 1400ms
+- Finished resetting the current domain, in  0.785 seconds
+Domain Reload Profiling: 1409ms
 	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (27ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (422ms)
-		LoadAssemblies (303ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (314ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (129ms)
-			BuildScriptInfoCaches (49ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (777ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (128ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (786ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (674ms)
+		SetupLoadedEditorAssemblies (682ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (449ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6581 unused Assets / (4.4 MB). Loaded Objects now: 7295.
-Memory consumption went from 182.1 MB to 177.7 MB.
-Total: 8.678200 ms (FindLiveObjects: 0.522700 ms CreateObjectMapping: 0.507700 ms MarkObjects: 5.435500 ms  DeleteObjects: 2.209100 ms)
+Unloading 6584 unused Assets / (4.1 MB). Loaded Objects now: 7298.
+Memory consumption went from 176.4 MB to 172.2 MB.
+Total: 9.357900 ms (FindLiveObjects: 0.745100 ms CreateObjectMapping: 0.718100 ms MarkObjects: 5.852100 ms  DeleteObjects: 2.039800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 89236.413891 seconds.
-  path: Assets/Sprites/Ponk/Ponk GMC.png
-  artifactKey: Guid(1a68ebb9ba7146a4eb1f71b396172efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Ponk/Ponk GMC.png using Guid(1a68ebb9ba7146a4eb1f71b396172efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd4e284d18a84f999713aaad4572eb50') in 0.2704968 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+  Time since last request: 180960.848541 seconds.
+  path: Assets/Sprites/Ponk/Estias_ataque cargado..png
+  artifactKey: Guid(c99a97180a677fe48803cc32d07c612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Estias_ataque cargado..png using Guid(c99a97180a677fe48803cc32d07c612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c107319965c44cbdc8442b32640911de') in 0.097213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Ponk/ponk.subida 2.png
-  artifactKey: Guid(8c91c8403f3a52c4090d9ec1c0e236e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Ponk/ponk.subida 2.png using Guid(8c91c8403f3a52c4090d9ec1c0e236e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c53fadf860a532edd116bedff95f851') in 0.0263247 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 194.952185 seconds.
+  path: Assets/Sprites/Estian/Estian ataque..png
+  artifactKey: Guid(516e4a45058e50340aae87832fc08fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Estian ataque..png using Guid(516e4a45058e50340aae87832fc08fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f0404b7c0026fae0c882540d52f52f9') in 0.1325868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Ponk/Ponk GMC 13.png
-  artifactKey: Guid(9a87966b2d3772b4382665c74b26179f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Ponk/Ponk GMC 13.png using Guid(9a87966b2d3772b4382665c74b26179f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b17f3cba0a1f4f21f0db4f593732efb0') in 0.0722017 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Estian/Estian corriendo.png
+  artifactKey: Guid(f584544741e768245b2e8bf08a493ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Estian corriendo.png using Guid(f584544741e768245b2e8bf08a493ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f628cd994fa3d81b345a73a613949f38') in 0.0639434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Ponk/ponk.subida.png
-  artifactKey: Guid(3f5ebccb592606848af7cc51c80eb4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Ponk/ponk.subida.png using Guid(3f5ebccb592606848af7cc51c80eb4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df026beebcb02c6b293988940b30cd7a') in 0.0231871 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  path: Assets/Sprites/Estian/Estian corriendo 2.png
+  artifactKey: Guid(5d72eb0c711595a49863980b9df4a7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Estian corriendo 2.png using Guid(5d72eb0c711595a49863980b9df4a7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e77213dee4620584e5b91618a361cd8') in 0.056145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Ponk/Ponk GMC 6.png
-  artifactKey: Guid(440480b557553cf4594e3b9c8698863f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Ponk/Ponk GMC 6.png using Guid(440480b557553cf4594e3b9c8698863f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65e066d1782a99a64bb0f3c4e0f90072') in 0.0643168 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Estian/estian gancho 2.png
+  artifactKey: Guid(241bc86b7fa31f54ebbe0f2ea6267584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/estian gancho 2.png using Guid(241bc86b7fa31f54ebbe0f2ea6267584) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2e9d6d7d7d037c7cf3c8d8ebd5c7fec') in 0.0362093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprites/Ponk/Ponk GMC 7.png
-  artifactKey: Guid(e8a6db4ef57924f4b981c94d9e77cf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Ponk/Ponk GMC 7.png using Guid(e8a6db4ef57924f4b981c94d9e77cf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67065813fa311a5f508ae662a338bcd9') in 0.0696674 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Estian/Estian.muerte.png
+  artifactKey: Guid(ba0c195ec0b9f364e9dd455bf1c9e0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Estian.muerte.png using Guid(ba0c195ec0b9f364e9dd455bf1c9e0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fb7f3f3a13f373563eed0682cf1aab8') in 0.1125949 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

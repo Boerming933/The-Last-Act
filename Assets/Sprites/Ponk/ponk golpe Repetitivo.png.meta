@@ -1,0 +1,525 @@
+fileFormatVersion: 2
+guid: 03cf56d8563f18b42aed3b4d44effe97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -543042535911712974
+    second: ponk golpe Repetitivo_0
+  - first:
+      213: -1276478942592359284
+    second: ponk golpe Repetitivo_1
+  - first:
+      213: -3579075352800944911
+    second: ponk golpe Repetitivo_2
+  - first:
+      213: 6904415044410397737
+    second: ponk golpe Repetitivo_3
+  - first:
+      213: -3415281534705085870
+    second: ponk golpe Repetitivo_4
+  - first:
+      213: -7763493993787846444
+    second: ponk golpe Repetitivo_5
+  - first:
+      213: 7903338249440019080
+    second: ponk golpe Repetitivo_6
+  - first:
+      213: -2496197589592851444
+    second: ponk golpe Repetitivo_7
+  - first:
+      213: -2015439353684293496
+    second: ponk golpe Repetitivo_8
+  - first:
+      213: 4971098535273885947
+    second: ponk golpe Repetitivo_9
+  - first:
+      213: 6914530387614789411
+    second: ponk golpe Repetitivo_10
+  - first:
+      213: 3363880745742938579
+    second: ponk golpe Repetitivo_11
+  - first:
+      213: 4584941181960910391
+    second: ponk golpe Repetitivo_12
+  - first:
+      213: 3308420481625141313
+    second: ponk golpe Repetitivo_13
+  - first:
+      213: -6117422826548362807
+    second: ponk golpe Repetitivo_14
+  - first:
+      213: 3268385662874977437
+    second: ponk golpe Repetitivo_15
+  - first:
+      213: -7871941888919108928
+    second: ponk golpe Repetitivo_16
+  - first:
+      213: -970893385306838028
+    second: ponk golpe Repetitivo_17
+  - first:
+      213: -6585125736838559865
+    second: ponk golpe Repetitivo_18
+  - first:
+      213: 8154857996138332566
+    second: ponk golpe Repetitivo_19
+  - first:
+      213: -1366998152854953602
+    second: ponk golpe Repetitivo_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_0
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 2935
+        width: 902
+        height: 668
+      alignment: 9
+      pivot: {x: 0.62, y: 0.513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2371e05d0b9b678f0800000000000000
+      internalID: -543042535911712974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_1
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 2818
+        width: 971
+        height: 780
+      alignment: 9
+      pivot: {x: 0.6, y: 0.584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84248f2a29094ee0800000000000000
+      internalID: -1276478942592359284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_2
+      rect:
+        serializedVersion: 2
+        x: 3283
+        y: 2939
+        width: 1095
+        height: 865
+      alignment: 9
+      pivot: {x: 0.514, y: 0.388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc91fbede1945ec0800000000000000
+      internalID: -3579075352800944911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_3
+      rect:
+        serializedVersion: 2
+        x: 4740
+        y: 2877
+        width: 935
+        height: 920
+      alignment: 9
+      pivot: {x: 0.605, y: 0.367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924d1f7d6e861df50800000000000000
+      internalID: 6904415044410397737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_4
+      rect:
+        serializedVersion: 2
+        x: 6067
+        y: 2876
+        width: 856
+        height: 1093
+      alignment: 9
+      pivot: {x: 0.735, y: 0.308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252d3f30a8b7a90d0800000000000000
+      internalID: -3415281534705085870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_5
+      rect:
+        serializedVersion: 2
+        x: 7365
+        y: 2878
+        width: 677
+        height: 1082
+      alignment: 9
+      pivot: {x: 1.04, y: 0.313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0956c6857824490800000000000000
+      internalID: -7763493993787846444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_6
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1389
+        width: 603
+        height: 1205
+      alignment: 9
+      pivot: {x: 1.38, y: 0.281}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88241a1a34c4ead60800000000000000
+      internalID: 7903338249440019080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_7
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1386
+        width: 788
+        height: 1125
+      alignment: 9
+      pivot: {x: 1.18, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cb1278489bb5dd0800000000000000
+      internalID: -2496197589592851444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_8
+      rect:
+        serializedVersion: 2
+        x: 3437
+        y: 1385
+        width: 944
+        height: 1059
+      alignment: 9
+      pivot: {x: 1.115, y: 0.321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8880e490698b704e0800000000000000
+      internalID: -2015439353684293496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_10
+      rect:
+        serializedVersion: 2
+        x: 5156
+        y: 1377
+        width: 963
+        height: 647
+      alignment: 9
+      pivot: {x: 1.23, y: 0.538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f6c66b0c855ff50800000000000000
+      internalID: 6914530387614789411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_13
+      rect:
+        serializedVersion: 2
+        x: 6695
+        y: 1382
+        width: 921
+        height: 661
+      alignment: 9
+      pivot: {x: 1.31, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140b4e636eed9ed20800000000000000
+      internalID: 3308420481625141313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_15
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 312
+        width: 852
+        height: 671
+      alignment: 9
+      pivot: {x: 1.21, y: 0.553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9484a89173ab5d20800000000000000
+      internalID: 3268385662874977437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_16
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 309
+        width: 953
+        height: 691
+      alignment: 9
+      pivot: {x: 1.17, y: 0.575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c285723f8e31c290800000000000000
+      internalID: -7871941888919108928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_17
+      rect:
+        serializedVersion: 2
+        x: 3236
+        y: 351
+        width: 1057
+        height: 664
+      alignment: 9
+      pivot: {x: 1.057, y: 0.597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb620e2c91b682f0800000000000000
+      internalID: -970893385306838028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponk golpe Repetitivo_19
+      rect:
+        serializedVersion: 2
+        x: 4697
+        y: 382
+        width: 1063
+        height: 671
+      alignment: 9
+      pivot: {x: 1.046, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69144952420eb2170800000000000000
+      internalID: 8154857996138332566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4842482a93ab8834182e6b87b3413b9b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ponk golpe Repetitivo_0: -543042535911712974
+      ponk golpe Repetitivo_1: -1276478942592359284
+      ponk golpe Repetitivo_10: 6914530387614789411
+      ponk golpe Repetitivo_13: 3308420481625141313
+      ponk golpe Repetitivo_15: 3268385662874977437
+      ponk golpe Repetitivo_16: -7871941888919108928
+      ponk golpe Repetitivo_17: -970893385306838028
+      ponk golpe Repetitivo_19: 8154857996138332566
+      ponk golpe Repetitivo_2: -3579075352800944911
+      ponk golpe Repetitivo_3: 6904415044410397737
+      ponk golpe Repetitivo_4: -3415281534705085870
+      ponk golpe Repetitivo_5: -7763493993787846444
+      ponk golpe Repetitivo_6: 7903338249440019080
+      ponk golpe Repetitivo_7: -2496197589592851444
+      ponk golpe Repetitivo_8: -2015439353684293496
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

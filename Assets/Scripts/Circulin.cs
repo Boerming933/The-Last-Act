@@ -12,6 +12,7 @@ public class Circulin : MonoBehaviour
 
     [SerializeField] private Animator Estian;
     public Transform Mira;
+    public Transform Ponk;
     public GameObject Brazo;
     public GameObject Latigo;
     private bool canDash = true;
@@ -34,6 +35,7 @@ public class Circulin : MonoBehaviour
     private bool atacando = false;
     private bool Enganchado = false;
     private SpriteRenderer mySpriteRenderer;
+    public SpriteRenderer BrazoSprite;
 
     //VARIABLES PAL CARGADO  -Juan
     public CargaAtkEspecial CargaAtkEspecial;
@@ -74,10 +76,12 @@ public class Circulin : MonoBehaviour
         {
             //pt1 - Barra
             atacando = true;
+            Brazo.SetActive(false);
+            Estian.SetTrigger("Charge");
             puedeCargado = false;
             CargaAtkEspecial.cargas = 0;
             Vector3 escala = CargaAtkEspecial.barraCarga.localScale;
-            escala.x -= 4f;
+            escala.y -= 54f;
             CargaAtkEspecial.barraCarga.localScale = escala;
 
             //pt2 - Ataque
@@ -133,7 +137,10 @@ public class Circulin : MonoBehaviour
         if (hit.collider != null && hit.collider.CompareTag("Ground"))
         {
             Grounded = true;
-            Estian.SetBool("Quieto",true);
+            if (!atacando)
+            {
+                Estian.SetBool("Quieto",true);                
+            }
 
             if (!wasGrounded)
             {
@@ -165,9 +172,13 @@ public class Circulin : MonoBehaviour
             if (RotarX)
             {
                 mySpriteRenderer.flipX = true;
+                BrazoSprite.flipY = true;
             }
-            else mySpriteRenderer.flipX = false;
-
+            else
+            {
+                mySpriteRenderer.flipX = false;
+                BrazoSprite.flipY = false;
+            }
             transform.localScale = scale;
 
             Vector2 direccion = mouseWorldPos - Brazo.transform.position;
@@ -329,20 +340,20 @@ public class Circulin : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
             ControladorSonidos.instance.ReproducirSonido(ataqueCargado);
             DispararProyectil();
-        }        
+        }
+        Estian.SetBool("Cargado", true);
+        yield return new WaitForSeconds(1f);
+        Estian.SetBool("Cargado", false);
+        Brazo.SetActive(true);
         atacando = false;
     }
 
     void DispararProyectil()             //PAL CARGADO -Juan
     {
-        GameObject proyectil = Instantiate(proyectilPrefab, transform.position, Quaternion.identity);
-        Destroy(proyectil, 3f);
+        Vector3 Cargado = new Vector3(Ponk.position.x,Random.Range(Ponk.position.y-3f,Ponk.position.y+3f),Ponk.position.z + 2f);
+        GameObject proyectil = Instantiate(proyectilPrefab, Cargado, Quaternion.identity);
+        Destroy(proyectil, 0.2f);
 
-        Rigidbody2D rb = proyectil.GetComponent<Rigidbody2D>();
-        if (rb != null)
-        {
-            rb.linearVelocity = direccion * velocidadProyectil;
-        }
         float angle = Mathf.Atan2(direccion.y, direccion.x) * Mathf.Rad2Deg;
         proyectil.transform.rotation = Quaternion.Euler(0, 0, angle);
     }

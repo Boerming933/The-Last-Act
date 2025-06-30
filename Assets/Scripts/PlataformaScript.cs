@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class PlataformaScript : MonoBehaviour
 {
-    public GameObject jefe;
+    public Triangulardo jefe;
     public float velocidadCaida = 5f;
     public float distanciaCaida = 2f;
     private Vector3 posicionInicial;
-    private bool activada = false;
+    public bool activada = false;
     private bool bajando = false;
     private bool subiendo = false;
     private float alturaMinima;
@@ -16,7 +16,7 @@ public class PlataformaScript : MonoBehaviour
     {
         posicionInicial = transform.position;
         alturaMinima = posicionInicial.y - distanciaCaida;
-        jefe = GameObject.FindGameObjectWithTag("Triangulardo");
+        jefe = GetComponent<Triangulardo>();
         boxCollider = GetComponent<BoxCollider2D>();
     }
 
@@ -45,6 +45,7 @@ public class PlataformaScript : MonoBehaviour
                 transform.position = posicionInicial;
                 subiendo = false;
                 boxCollider.isTrigger = false;
+                activada = false;
             }
         }
     }
@@ -59,20 +60,18 @@ public class PlataformaScript : MonoBehaviour
 
     }
 
+    public void Desactivar()
+    {
+        activada = false;
+        bajando = false;            
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (bajando == true)
-        {
-            if (other.CompareTag("Triangulardo"))
-            {
-                Triangulardo jefeScript = jefe.GetComponent<Triangulardo>();
+        if (!bajando || !other.CompareTag("Triangulardo")) return;
 
-                if (!jefeScript.IsStunned()) // usamos un getter para seguridad
-                {
-                    jefeScript.Stun(10f);
-                }
-
-            }
-        }
+        var jefeHit = other.GetComponent<Triangulardo>();
+        if (jefeHit != null && !jefeHit.IsStunned())
+            jefeHit.Stun(10f);
     }
 }

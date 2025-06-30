@@ -24,7 +24,6 @@ public class CuerdaScript : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    StartCoroutine(Activado());
                     ActivarPlataformas();
                 }
             }
@@ -38,15 +37,16 @@ public class CuerdaScript : MonoBehaviour
             if (plataforma != null)
             {
                 plataforma.Activar();
-                activada = true;
             }
         }
     }
 
-    public IEnumerator Activado()
+    public void DesactivarPlataformas()
     {
-        activada = false;
-        yield return new WaitForSeconds(30f);
-        activada = true;
+        foreach (PlataformaScript plataforma in plataformas)
+        {
+            if (plataforma != null)
+                plataforma.Desactivar();
+        }
     }
 }

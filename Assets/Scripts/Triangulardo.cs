@@ -30,6 +30,7 @@ public class Triangulardo : MonoBehaviour
     private bool vieneDePersecucion = false;
     private bool muerte = false;
     private bool Atacando = false;
+    private bool Patrullando;
     private bool HitboxActiva = false;
     private bool DañoPosible = true;
 
@@ -57,6 +58,10 @@ public class Triangulardo : MonoBehaviour
         objetivoActual = puntoIzquierda;
         StartCoroutine(ComportamientoBoss());
         vidasPonk = GetComponent<VidasPonk>();
+        if (vidasPonk != null) //
+        {
+            vidasPonk.OnCambioDeFase += VerificarCambioDeFase;
+        }
     }
 
     void Update()
@@ -65,12 +70,6 @@ public class Triangulardo : MonoBehaviour
         {
             return;
         }
-
-        //if (vidasPonk != null)
-        //{
-
-        //    vidasPonk.OnCambioDeFase += VerificarCambioDeFase;
-        //}
 
         if (faseActual != FaseJefe.Fase1 && faseActual != FaseJefe.Fase3 && !estaDisparando && !persiguiendoJugador && objetivoActual == null && !vieneDePersecucion)
         {
@@ -99,19 +98,24 @@ public class Triangulardo : MonoBehaviour
         {
             return;
         }
-        // Girar el jefe para mirar al jugador
-        if (jugador != null)
+
+        if (jugador != null && !Patrullando) //
         {
-            float direccion = jugador.position.x - transform.position.x;
-            float signo = direccion < 0 ? 1 : -1;
-            transform.localScale = new Vector3(signo * 1f, 1f, 1f);
+            Vector3 escala = transform.localScale;
+
+            if (jugador.position.x < transform.position.x)
+                escala.x = Mathf.Abs(escala.x); // mirar a la izquierda
+            else
+                escala.x = -Mathf.Abs(escala.x);  // mirar a la derecha
+
+            transform.localScale = escala;
         }
 
         float velocidadActual = persiguiendoJugador ? velocidadPersecucion : velocidadPatrulla;
 
         if (persiguiendoJugador && jugador != null)
         {
-            float distanciaDeseada = 4f;
+            float distanciaDeseada = 2f;
             float distanciaAlJugador = Vector2.Distance(rb.position, jugador.position);
 
             if (distanciaAlJugador > distanciaDeseada)
@@ -198,11 +202,15 @@ public class Triangulardo : MonoBehaviour
     {
         estaDisparando = true;
         rb.linearVelocity = Vector2.zero; // por si acaso
+        
+        yield return new WaitForSeconds(0.6f);
+        Patrullando = false;
+        animVisual.SetBool("Onda", true);
+        yield return new WaitForSeconds(0.6f);
 
-        yield return new WaitForSeconds(1.2f);
 
         int cantidadOndas = 3;
-        float tiempoEntreOndas = 0.85f;
+        float tiempoEntreOndas = 1f;
 
         for (int i = 0; i < cantidadOndas; i++)
         {
@@ -216,9 +224,10 @@ public class Triangulardo : MonoBehaviour
         }
 
         yield return new WaitForSeconds(2f); // espera extra después de disparar
+        
+        animVisual.SetBool("Onda", false);
 
         estaDisparando = false;
-
     }
 
     IEnumerator ComportamientoBoss()
@@ -232,7 +241,7 @@ public class Triangulardo : MonoBehaviour
                     break;
                 case FaseJefe.Fase2:
                     int eleccion = UnityEngine.Random.Range(0, 2); // 0 = patrulla, 1 = persecución
-
+                    Debug.Log("Entró en el switch");
                     if (eleccion == 0)
                     {
                         Patrullar();
@@ -241,11 +250,16 @@ public class Triangulardo : MonoBehaviour
                     }
                     else
                     {
-                        yield return StartCoroutine(PerseguirJugador());
+                        if (!Patrullando)
+                        {
+                            yield return StartCoroutine(PerseguirJugador());
+                        }
                     }
                     break;
                 case FaseJefe.Fase3:
+                    Debug.Log("Entró en el switch 3");
                     yield return StartCoroutine(PerseguirJugador());
+                    vieneDePersecucion = true; //
                     rb.linearVelocity = Vector2.zero;
                     Atacando = true;
                     DañoPosible = true;
@@ -254,6 +268,9 @@ public class Triangulardo : MonoBehaviour
                     {
                         cuerda.activada = true;
                     }
+                    Debug.Log("Deberia de estar frenado");
+                    yield return new WaitForSeconds(10f); // 
+                    vieneDePersecucion = false; //
                     break;
             }
         }
@@ -262,12 +279,17 @@ public class Triangulardo : MonoBehaviour
     void Patrullar()
     {
         persiguiendoJugador = false;
+        Patrullando = true;
 
         if (Vector2.Distance(transform.position, puntoIzquierda.position) < Vector2.Distance(transform.position, puntoDerecha.position))
             objetivoActual = puntoDerecha;
         else
             objetivoActual = puntoIzquierda;
         Debug.Log("Nuevo objetivo de patrulla: " + objetivoActual.name);
+        
+        Vector3 scale = transform.localScale;
+        scale.x = objetivoActual.position.x <= transform.position.x ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
+        transform.localScale = scale;
     }
 
     IEnumerator PerseguirJugador()
@@ -287,6 +309,7 @@ public class Triangulardo : MonoBehaviour
         vieneDePersecucion = true;
         rb.linearVelocity = Vector2.zero;
         objetivoActual = null;
+        vieneDePersecucion = false;
     }
 
     public void FinMartillazoAnim()
@@ -295,8 +318,8 @@ public class Triangulardo : MonoBehaviour
         {
             vieneDePersecucion = false;
             animVisual.ResetTrigger("Martillazo");
-            StopAllCoroutines(); // por seguridad
-            StartCoroutine(ComportamientoBoss());
+            // StopAllCoroutines(); // por seguridad
+            // StartCoroutine(ComportamientoBoss());
             Debug.Log("FSM reanudado después del Martillazo");
             Atacando = false;
         }
@@ -325,7 +348,7 @@ public class Triangulardo : MonoBehaviour
         animVisual.speed = 0f;
         StopAllCoroutines();
         Stunning = true;
-        animVisual.SetTrigger("Stunned");
+        animVisual.SetBool("Stun",true);
         rb.linearVelocity = Vector2.zero;
         vidasPonk.invulnerable = false;
         StartCoroutine(RecoverFromStun(duration));
@@ -337,7 +360,12 @@ public class Triangulardo : MonoBehaviour
         vidasPonk.invulnerable = true;
         Stunning = false;
         animVisual.speed = 1f;
-        animVisual.ResetTrigger("Stunned");
+        animVisual.SetBool("Stun",false);
+        foreach (CuerdaScript cuerda in cuerdaScript)
+        {
+            cuerda.activada = false;
+            cuerda.DesactivarPlataformas();
+        }
         StartCoroutine(ComportamientoBoss());
         tiempoPersecucionMax = 10;
         tiempoPersecucionMin = 9;
