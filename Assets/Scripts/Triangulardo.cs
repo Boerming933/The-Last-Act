@@ -104,24 +104,24 @@ public class Triangulardo : MonoBehaviour
             return;
         }
         // Girar el jefe para mirar al jugador
-        if (jugador != null)
-        {
-            float direccion = jugador.position.x - transform.position.x;
-            float signo = direccion < 0 ? 1 : -1;
-            transform.localScale = new Vector3(signo * 1f, 1f, 1f);
-        }
-
-        // if (jugador != null) //
+        // if (jugador != null)
         // {
-        //     Vector3 escala = transform.localScale;
-
-        //     if (jugador.position.x < transform.position.x)
-        //         escala.x = Mathf.Abs(escala.x); // mirar a la izquierda
-        //     else
-        //         escala.x = -Mathf.Abs(escala.x);  // mirar a la derecha
-
-        //     transform.localScale = escala;
+        //     float direccion = jugador.position.x - transform.position.x;
+        //     float signo = direccion < 0 ? 1 : -1;
+        //     transform.localScale = new Vector3(signo * 1f, 1f, 1f);
         // }
+
+        if (jugador != null) //
+        {
+            Vector3 escala = transform.localScale;
+
+            if (jugador.position.x < transform.position.x)
+                escala.x = Mathf.Abs(escala.x); // mirar a la izquierda
+            else
+                escala.x = -Mathf.Abs(escala.x);  // mirar a la derecha
+
+            transform.localScale = escala;
+        }
 
         float velocidadActual = persiguiendoJugador ? velocidadPersecucion : velocidadPatrulla;
 

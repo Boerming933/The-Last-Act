@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Triangulardo.cs" />
     <Compile Include="Assets\Scripts\HitboxMartillo.cs" />
     <Compile Include="Assets\Scripts\IndicadoresPonk.cs" />
+    <Compile Include="Assets\Scripts\VuduEstatico.cs" />
     <Compile Include="Assets\Scripts\CargaAtkEspecial.cs" />
     <Compile Include="Assets\Scripts\VidasPonk.cs" />
     <Compile Include="Assets\Scripts\Hook.cs" />

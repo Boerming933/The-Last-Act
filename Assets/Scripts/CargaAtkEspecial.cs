@@ -47,7 +47,7 @@ public class CargaAtkEspecial : MonoBehaviour
         if (barraCarga != null)
         {
             Vector3 escala = barraCarga.localScale;
-            escala.x += 0.4f;
+            escala.y += 5.4f;
             barraCarga.localScale = escala;
         }
     }

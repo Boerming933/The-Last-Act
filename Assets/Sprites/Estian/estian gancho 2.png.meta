@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 241bc86b7fa31f54ebbe0f2ea6267584
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3758382704319778103
+    second: estian gancho 2_0
+  - first:
+      213: -5272154997496546412
+    second: estian gancho 2_1
+  - first:
+      213: 8121301045187648080
+    second: estian gancho 2_2
+  - first:
+      213: 3302153316173440776
+    second: estian gancho 2_3
+  - first:
+      213: -2769714694544026307
+    second: estian gancho 2_4
+  - first:
+      213: -7463083158362876683
+    second: estian gancho 2_5
+  - first:
+      213: 7032129519084320398
+    second: estian gancho 2_6
+  - first:
+      213: 765881193634354220
+    second: estian gancho 2_7
+  - first:
+      213: 6462018792278507283
+    second: estian gancho 2_8
+  - first:
+      213: 579706651835926497
+    second: estian gancho 2_9
+  - first:
+      213: 360176603172294088
+    second: estian gancho 2_10
+  - first:
+      213: -8726187255859136587
+    second: estian gancho 2_11
+  - first:
+      213: 464828547884616696
+    second: estian gancho 2_12
+  - first:
+      213: 4028078970549414841
+    second: estian gancho 2_13
+  - first:
+      213: 7711466262132902088
+    second: estian gancho 2_14
+  - first:
+      213: 7158568213543116559
+    second: estian gancho 2_15
+  - first:
+      213: -2804948875269298102
+    second: estian gancho 2_16
+  - first:
+      213: -3446626167476959754
+    second: estian gancho 2_17
+  - first:
+      213: 6633735253813269208
+    second: estian gancho 2_18
+  - first:
+      213: 8468984494912953364
+    second: estian gancho 2_19
+  - first:
+      213: 1480562877353565373
+    second: estian gancho 2_20
+  - first:
+      213: 6943812820074037555
+    second: estian gancho 2_21
+  - first:
+      213: 8220487659857083735
+    second: estian gancho 2_22
+  - first:
+      213: -4457441238168495104
+    second: estian gancho 2_23
+  - first:
+      213: -3473450043606013738
+    second: estian gancho 2_24
+  - first:
+      213: -8462915628163735143
+    second: estian gancho 2_25
+  - first:
+      213: -9193536919665605048
+    second: estian gancho 2_26
+  - first:
+      213: 3545386220523214762
+    second: estian gancho 2_27
+  - first:
+      213: -5637710520623910139
+    second: estian gancho 2_28
+  - first:
+      213: -6230885241334014649
+    second: estian gancho 2_29
+  - first:
+      213: -1188943021122705835
+    second: estian gancho 2_30
+  - first:
+      213: -1987908076576511151
+    second: estian gancho 2_31
+  - first:
+      213: -5290927097417884743
+    second: estian gancho 2_32
+  - first:
+      213: 7390590552431167553
+    second: estian gancho 2_33
+  - first:
+      213: 6074519580556676249
+    second: estian gancho 2_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: estian gancho 2_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 648
+        width: 163
+        height: 566
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c23c0bd7da87dbc0800000000000000
+      internalID: -3758382704319778103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estian gancho 2_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 647
+        width: 235
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bfa6d76fa85d6b0800000000000000
+      internalID: -5272154997496546412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estian gancho 2_2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 629
+        width: 270
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a1b68a548a4b070800000000000000
+      internalID: 8121301045187648080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estian gancho 2_4
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 632
+        width: 213
+        height: 566
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35168ee82fff89d0800000000000000
+      internalID: -2769714694544026307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estian gancho 2_5
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 607
+        width: 222
+        height: 606
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f49498986dcd6890800000000000000
+      internalID: -7463083158362876683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estian gancho 2_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 23
+        width: 297
+        height: 549
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fd3acccd7585360800000000000000
+      internalID: 7158568213543116559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estian gancho 2_16
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 141
+        width: 421
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a482174fbd1d219d0800000000000000
+      internalID: -2804948875269298102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estian gancho 2_19
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 128
+        width: 527
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cd39b0780e78570800000000000000
+      internalID: 8468984494912953364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estian gancho 2_22
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 36
+        width: 371
+        height: 552
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d734ef8f9051270800000000000000
+      internalID: 8220487659857083735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 85097062342e5884a86e2c3fde54a8fa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      estian gancho 2_0: -3758382704319778103
+      estian gancho 2_1: -5272154997496546412
+      estian gancho 2_15: 7158568213543116559
+      estian gancho 2_16: -2804948875269298102
+      estian gancho 2_19: 8468984494912953364
+      estian gancho 2_2: 8121301045187648080
+      estian gancho 2_22: 8220487659857083735
+      estian gancho 2_4: -2769714694544026307
+      estian gancho 2_5: -7463083158362876683
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

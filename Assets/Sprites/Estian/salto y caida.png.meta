@@ -32,6 +32,12 @@ TextureImporter:
   - first:
       213: -4683634977626012247
     second: salto y caida_9
+  - first:
+      213: -5248944335791737187
+    second: salto y caida_10
+  - first:
+      213: -8755046056587392147
+    second: salto y caida_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -123,19 +129,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -143,12 +136,12 @@ TextureImporter:
       name: salto y caida_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 716
-        width: 165
-        height: 235
+        x: 477
+        y: 1657
+        width: 336
+        height: 477
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +158,12 @@ TextureImporter:
       name: salto y caida_1
       rect:
         serializedVersion: 2
-        x: 231
-        y: 707
-        width: 123
-        height: 242
+        x: 938
+        y: 1637
+        width: 250
+        height: 493
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,12 +180,12 @@ TextureImporter:
       name: salto y caida_2
       rect:
         serializedVersion: 2
-        x: 448
-        y: 705
-        width: 132
-        height: 262
+        x: 1382
+        y: 1634
+        width: 268
+        height: 533
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +202,12 @@ TextureImporter:
       name: salto y caida_3
       rect:
         serializedVersion: 2
-        x: 650
-        y: 707
-        width: 133
-        height: 266
+        x: 1794
+        y: 1636
+        width: 271
+        height: 542
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -228,37 +221,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salto y caida_4
-      rect:
-        serializedVersion: 2
-        x: 859
-        y: 710
-        width: 134
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5f73d569d73ec850800000000000000
-      internalID: 6399113527395843935
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: salto y caida_5
       rect:
         serializedVersion: 2
-        x: 6
-        y: 146
-        width: 151
-        height: 354
+        x: 2221
+        y: 1644
+        width: 272
+        height: 501
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -272,37 +243,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salto y caida_6
-      rect:
-        serializedVersion: 2
-        x: 189
-        y: 232
-        width: 201
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a42c61edb6ae61730800000000000000
-      internalID: 3969617870582104650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: salto y caida_7
       rect:
         serializedVersion: 2
-        x: 426
-        y: 204
-        width: 196
-        height: 295
+        x: 480
+        y: 492
+        width: 275
+        height: 720
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +268,12 @@ TextureImporter:
       name: salto y caida_8
       rect:
         serializedVersion: 2
-        x: 642
-        y: 191
-        width: 154
-        height: 300
+        x: 853
+        y: 667
+        width: 408
+        height: 530
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,12 +290,12 @@ TextureImporter:
       name: salto y caida_9
       rect:
         serializedVersion: 2
-        x: 817
-        y: 173
-        width: 180
-        height: 214
+        x: 1336
+        y: 610
+        width: 307
+        height: 600
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -359,11 +308,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: salto y caida_10
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 583
+        width: 256
+        height: 613
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96b55bcfe00827b0800000000000000
+      internalID: -5248944335791737187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salto y caida_11
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 457
+        width: 389
+        height: 526
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b8cec6ff3df7680800000000000000
+      internalID: -8755046056587392147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: be95f4bf09fc87240942a7b8ed286ed1
     internalID: 0
     vertices: []
     indices: 
@@ -375,11 +368,11 @@ TextureImporter:
     nameFileIdTable:
       salto y caida_0: 8160875904597272982
       salto y caida_1: -4594841973039211038
+      salto y caida_10: -5248944335791737187
+      salto y caida_11: -8755046056587392147
       salto y caida_2: -264645888402787779
       salto y caida_3: 2759068618847620088
-      salto y caida_4: 6399113527395843935
       salto y caida_5: -3147035608325510618
-      salto y caida_6: 3969617870582104650
       salto y caida_7: -9155688467158084786
       salto y caida_8: -2134192658264695248
       salto y caida_9: -4683634977626012247
