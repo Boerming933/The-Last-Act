@@ -3,7 +3,7 @@ using UnityEngine;
 public class AtaqueScript : MonoBehaviour
 {
     public float Speed;
-    private Vector2 Direction;
+    private Vector3 Direction;
     private Rigidbody2D rigi2D;
 
 
@@ -15,9 +15,13 @@ public class AtaqueScript : MonoBehaviour
     void Update()
     {
         rigi2D.linearVelocity = Direction * Speed;
+        if (Direction == Vector3.right)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x,transform.localScale.y,transform.localScale.z);
+        }
     }
 
-    public void SetDirection(Vector2 direction)
+    public void SetDirection(Vector3 direction)
     {
         Direction = direction;
     }
