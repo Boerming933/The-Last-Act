@@ -195,6 +195,11 @@ public class Triangulardo : MonoBehaviour
             tiempoPersecucionMax = 16;
             tiempoPersecucionMin = 15;
             vidasPonk.invulnerable = true;
+            // StopAllCoroutines();
+            Patrullando = false;
+            objetivoActual = null;
+            persiguiendoJugador = true;
+            // StartCoroutine(ComportamientoBoss());
         }
     }
 
@@ -205,9 +210,8 @@ public class Triangulardo : MonoBehaviour
         
         yield return new WaitForSeconds(0.6f);
         Patrullando = false;
-        animVisual.SetBool("Onda", true);
+        animVisual.SetTrigger("Onda");
         yield return new WaitForSeconds(0.6f);
-
 
         int cantidadOndas = 3;
         float tiempoEntreOndas = 1f;
@@ -225,7 +229,7 @@ public class Triangulardo : MonoBehaviour
 
         yield return new WaitForSeconds(2f); // espera extra después de disparar
         
-        animVisual.SetBool("Onda", false);
+        animVisual.SetTrigger("OndaF");
 
         estaDisparando = false;
     }
@@ -263,13 +267,16 @@ public class Triangulardo : MonoBehaviour
                     rb.linearVelocity = Vector2.zero;
                     Atacando = true;
                     DañoPosible = true;
-                    animVisual.SetTrigger("Martillazo");
+                    animVisual.SetTrigger("Onda");
+                    //En vez de "Martillazo debe ser "Ondas" o el nombre del trigger que pusiste e indicarle que sea en Loop
                     foreach (CuerdaScript cuerda in cuerdaScript)
                     {
                         cuerda.activada = true;
                     }
                     Debug.Log("Deberia de estar frenado");
                     yield return new WaitForSeconds(10f); // 
+                    animVisual.SetTrigger("OndaF");
+                    // Acá frenas la animacion de "Ondas" e inicias las de siempre
                     vieneDePersecucion = false; //
                     break;
             }
@@ -346,6 +353,7 @@ public class Triangulardo : MonoBehaviour
     {
         if (Stunning) return;        
         animVisual.speed = 0f;
+        animVisual.SetTrigger("OndaF");
         StopAllCoroutines();
         Stunning = true;
         animVisual.SetBool("Stun",true);
@@ -366,10 +374,20 @@ public class Triangulardo : MonoBehaviour
             cuerda.activada = false;
             cuerda.DesactivarPlataformas();
         }
+        ResetBossState();
         StartCoroutine(ComportamientoBoss());
         tiempoPersecucionMax = 10;
         tiempoPersecucionMin = 9;
     }
+    private void ResetBossState()
+    {
+        Atacando            = false;
+        persiguiendoJugador = false;
+        Patrullando         = false;
+        vieneDePersecucion  = false;
+        objetivoActual      = null;
+    }
+
 
     public bool IsStunned()
     {

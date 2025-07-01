@@ -30,6 +30,7 @@ public class Circulin : MonoBehaviour
     private float Horizontal;
     private bool Grounded;
     public bool InJalon;
+    private bool GuardadoMuerte = false;
     private bool Stun = true;
     private bool muerte = false;
     private bool atacando = false;
@@ -322,8 +323,8 @@ public class Circulin : MonoBehaviour
     public void Muerte(bool Muerte)
     {
         StopAllCoroutines();
-        Brazo.SetActive(false);
-        muerte = Muerte;
+        GuardadoMuerte = Muerte;
+        muerte = GuardadoMuerte;
         Estian.SetTrigger("Muerte");
     }
 
@@ -350,7 +351,7 @@ public class Circulin : MonoBehaviour
 
     void DispararProyectil()             //PAL CARGADO -Juan
     {
-        Vector3 Cargado = new Vector3(Ponk.position.x,Random.Range(Ponk.position.y-3f,Ponk.position.y+3f),Ponk.position.z + 2f);
+        Vector3 Cargado = new Vector3(Ponk.position.x,Random.Range(Ponk.position.y-1.5f,Ponk.position.y+1.5f),Ponk.position.z-2f);
         GameObject proyectil = Instantiate(proyectilPrefab, Cargado, Quaternion.identity);
         Destroy(proyectil, 0.2f);
 

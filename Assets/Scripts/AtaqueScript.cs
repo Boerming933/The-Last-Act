@@ -15,15 +15,15 @@ public class AtaqueScript : MonoBehaviour
     void Update()
     {
         rigi2D.linearVelocity = Direction * Speed;
-        if (Direction == Vector3.right)
-        {
-            transform.localScale = new Vector3(-transform.localScale.x,transform.localScale.y,transform.localScale.z);
-        }
     }
 
     public void SetDirection(Vector3 direction)
     {
         Direction = direction;
+        if (Direction == Vector3.right)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x,transform.localScale.y,transform.localScale.z);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class VidasPonk : MonoBehaviour
@@ -7,6 +8,7 @@ public class VidasPonk : MonoBehaviour
     public float vidaMaxima = 480f;
     public float vidaActual;
     public Triangulardo jefe;
+    public GameObject Señal;
 
     public delegate void CambioDeFaseDelegate(float vidaRestante);
     //public event CambioDeFaseDelegate OnCambioDeFase;
@@ -22,6 +24,8 @@ public class VidasPonk : MonoBehaviour
     {
         if (invulnerable || vidaActual <= 0) return;
 
+        Señal.SetActive(true);
+        StartCoroutine(SeñalDaño());
         vidaActual -= cantidad;
         vidaActual = Mathf.Max(vidaActual, 0);
         Debug.Log("Ponk recibe daño. Vida restante: " + vidaActual);
@@ -34,6 +38,12 @@ public class VidasPonk : MonoBehaviour
         {
             Muerte();
         }
+    }
+
+    private IEnumerator SeñalDaño()
+    {
+        yield return new WaitForSeconds(0.15f);
+        Señal.SetActive(false);
     }
 
     private void Muerte()
