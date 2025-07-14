@@ -167,11 +167,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29b94fcf53ebf8a47bfb86e01956e002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tipoGlobo: 0
   radioExplosion: 1.5
   tiempoDeVida: 10
   velocidadHorizontal: 2
   amplitudVertical: 1.5
   frecuenciaVertical: 1
+  Globo: {fileID: 8300000, guid: c7e99d9fa9aeecc4691cb88e9e2cd827, type: 3}
 --- !u!95 &-3560028082673884691
 Animator:
   serializedVersion: 7

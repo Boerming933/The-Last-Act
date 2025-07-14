@@ -9,6 +9,8 @@ public class CañonScript : MonoBehaviour
     [SerializeField] private int diferencia;
     public bool activo = false;
     
+    [SerializeField] private AudioClip Pelota;
+    
     private void Start()
     {
         StartCoroutine(SpawnPelotasRoutine());
@@ -35,6 +37,7 @@ public class CañonScript : MonoBehaviour
 
     private void SpawnPelota()
     {
+        ControladorSonidos.instance.ReproducirSonido(Pelota);
         int i = Random.Range(0, pelotaPrefab.Length);
         GameObject pelota = Instantiate(pelotaPrefab[i], spawnPoint.position, Quaternion.identity);
         pelota.GetComponent<PelotaScript>().SetDirection(direccion);

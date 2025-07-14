@@ -3,7 +3,6 @@ using System.Collections;
 using Unity.Collections;
 using Unity.Mathematics;
 using Unity.VisualScripting;
-using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 
 public class Triangulardo : MonoBehaviour
@@ -19,6 +18,7 @@ public class Triangulardo : MonoBehaviour
     public float distanciaMinima = 0.1f;
     public float tiempoPersecucionMin = 2f;
     public float tiempoPersecucionMax = 5f;
+    int n = 1;
 
     private Transform objetivoActual;
     public Transform jugador;
@@ -41,8 +41,14 @@ public class Triangulardo : MonoBehaviour
     [SerializeField] private float radioGolpe;
     [SerializeField] private VisualBridge puenteVisual;
     [SerializeField] private Animator animVisual;
-
     [SerializeField] private float tiempoEntreAtaques = 2f;
+    [SerializeField] private AudioClip FraseRepetitivo;
+    [SerializeField] private AudioClip FraseMartillo;
+    [SerializeField] private AudioClip FraseMitadVida;
+    [SerializeField] private AudioClip Campana;
+    [SerializeField] private AudioClip Martillo;
+    [SerializeField] private AudioClip Ovacion;
+
     private float tiempoUltimoAtaque;
     public bool Stunning;
     private VidasPonk vidasPonk;
@@ -185,6 +191,7 @@ public class Triangulardo : MonoBehaviour
     {
         if (faseActual == FaseJefe.Fase1 && vidaRestante <= 280f)
         {
+            ControladorSonidos.instance.ReproducirSonido(FraseMitadVida);
             faseActual = FaseJefe.Fase2;
             Debug.Log("Fase 2 activada: ataques combinados");
         }
@@ -205,6 +212,7 @@ public class Triangulardo : MonoBehaviour
 
     private IEnumerator ShootOnda()
     {
+        ControladorSonidos.instance.ReproducirSonido(FraseRepetitivo);
         estaDisparando = true;
         rb.linearVelocity = Vector2.zero; // por si acaso
         
@@ -220,17 +228,18 @@ public class Triangulardo : MonoBehaviour
         {
             Vector3 direccion = transform.localScale.x > 0 ? Vector3.left : Vector3.right;
 
-            GameObject Onda = Instantiate(OndaPrefab, Origen.position, Quaternion.identity);
+            Vector3 PositionOnda = new Vector3(Origen.position.x,Origen.position.y-1f,Origen.position.z);
+
+            GameObject Onda = Instantiate(OndaPrefab, PositionOnda, Quaternion.identity);
             Onda.GetComponent<AtaqueScript>().SetDirection(direccion);
             Destroy(Onda, 5f);
 
             yield return new WaitForSeconds(tiempoEntreOndas);
         }
+        animVisual.SetTrigger("OndaF");
 
         yield return new WaitForSeconds(2f); // espera extra después de disparar
         
-        animVisual.SetTrigger("OndaF");
-
         estaDisparando = false;
     }
 
@@ -263,11 +272,7 @@ public class Triangulardo : MonoBehaviour
                 case FaseJefe.Fase3:
                     Debug.Log("Entró en el switch 3");
                     yield return StartCoroutine(PerseguirJugador());
-                    vieneDePersecucion = true; //
-                    rb.linearVelocity = Vector2.zero;
-                    Atacando = true;
-                    DañoPosible = true;
-                    animVisual.SetTrigger("Onda");
+                    StartCoroutine(ShootOnda());
                     //En vez de "Martillazo debe ser "Ondas" o el nombre del trigger que pusiste e indicarle que sea en Loop
                     foreach (CuerdaScript cuerda in cuerdaScript)
                     {
@@ -331,16 +336,25 @@ public class Triangulardo : MonoBehaviour
             Atacando = false;
         }
     }
+    public void SonidoMartillo()
+    {
+        if (n == 1)
+        {
+            ControladorSonidos.instance.ReproducirSonido(FraseMartillo);            
+        }
+        n++;
+        ControladorSonidos.instance.ReproducirSonido(Martillo);
+    }
 
     private void Golpe()
     {
         if (estaDisparando || muerte || Stunning) return;
-        
+
         Atacando = true;
         DañoPosible = true;
         animVisual.SetTrigger("Martillazo");
 
-        rb.linearVelocity = Vector2.zero;   
+        rb.linearVelocity = Vector2.zero;
     }
 
     private void OnDrawGizmos() // Para ver el gizmo
@@ -403,10 +417,12 @@ public class Triangulardo : MonoBehaviour
     public void Muerte(bool Muerte)
     {
         StopAllCoroutines();
-        StartCoroutine(RecoverFromStun(0f));
+        StartCoroutine(RecoverFromStun(0f));        
+        ControladorSonidos.instance.ReproducirSonido(Campana);
+        ControladorSonidos.instance.ReproducirSonido(Ovacion);
         muerte = Muerte;
         Stunning = Muerte;
-        animVisual.SetBool("Muerte", true);
+        animVisual.SetTrigger("Muerte");
     }
 
     public void MuerteEstian(bool Muerte)

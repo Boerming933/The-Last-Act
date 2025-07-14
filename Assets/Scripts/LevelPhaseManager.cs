@@ -5,10 +5,12 @@ public class LevelPhaseManager : MonoBehaviour
     public CañonScript[] cañones;
     public SpawnGlobos spawnGlobos;
     public GameObject jefePonk;
+    [SerializeField] private AudioClip FraseInicio;
     private float tiempoFase;
     private int faseActual = 0;
     private VidasPonk vidasPonk;
     public float VidasEstian = 1;
+    int n = 0;
 
     void Start()
     {
@@ -25,14 +27,14 @@ public class LevelPhaseManager : MonoBehaviour
         switch (faseActual)
         {
             case 0: // Fase preliminar: solo pelotas
-                if (tiempoFase >= 3f)
+                if (tiempoFase >= 30f)
                 {
                     ActivarFaseGlobos();
                 }
                 break;
 
             case 1: // Fase preliminar: solo globos
-                if (tiempoFase >= 3f)
+                if (tiempoFase >= 30f)
                 {
                     ActivarFaseConPonk();
                 }
@@ -71,7 +73,7 @@ public class LevelPhaseManager : MonoBehaviour
     {
         tiempoFase = 0;
         faseActual = 1;
-        ActivarPelotas(false);
+        ActivarPelotas(true);
         ActivarGlobos(true);
         jefePonk.SetActive(false);
         Debug.Log("FASE 1: Solo globos");
@@ -81,8 +83,14 @@ public class LevelPhaseManager : MonoBehaviour
     {
         tiempoFase = 0;
         faseActual = 2;
+        ActivarPelotas(false);
         ActivarGlobos(false);
         jefePonk.SetActive(true);
+        if (n == 0)
+        {
+            ControladorSonidos.instance.ReproducirSonido(FraseInicio);
+        }
+        n++;
         jefePonk.GetComponent<Triangulardo>().Comienzo();
         vidasPonk.invulnerable = false;
         Debug.Log("FASE 2: Ponk + pelotas");

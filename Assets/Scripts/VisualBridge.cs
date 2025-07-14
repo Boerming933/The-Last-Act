@@ -18,4 +18,9 @@ public class VisualBridge : MonoBehaviour
     {
         triangulardo?.FrenarDaño();
     }
+
+    public void Evento_SonidoMartillo()
+    {
+        triangulardo?.SonidoMartillo();
+    }
 }

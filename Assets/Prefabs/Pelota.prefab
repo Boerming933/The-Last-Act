@@ -105,7 +105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipoPelota: 0
   horizontalSpeed: 8
-  verticalBounceForce: 7
+  verticalBounceForce: 6
   tiempoDeVida: 4
   groundLayer:
     serializedVersion: 2

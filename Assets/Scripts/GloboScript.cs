@@ -19,6 +19,8 @@ public class GloboScript : MonoBehaviour
     private bool yaHizoDaño = false;
     private bool explotando = false;
     private Animator animator;
+    
+    [SerializeField] private AudioClip Globo;
 
     void Start()
     {
@@ -77,6 +79,7 @@ public class GloboScript : MonoBehaviour
                 animator.SetTrigger("Amarillo");
                 break;
         }
+        
         Destroy(gameObject, 0.5f);
     }
 
@@ -84,6 +87,7 @@ public class GloboScript : MonoBehaviour
     {
         if (other.CompareTag("Latigo") || other.CompareTag("Circulin"))
         {
+            ControladorSonidos.instance.ReproducirSonido(Globo);
             Explotar();
         }
     }

@@ -15,6 +15,7 @@ public class Hook : MonoBehaviour
 
     [SerializeField] private AudioClip gancho;
     private bool HookDisp = true;
+    private bool muerte = false;
 
     void Start()
     {
@@ -25,6 +26,10 @@ public class Hook : MonoBehaviour
 
     void Update()
     {
+        if (muerte)
+        {
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.E) && HookDisp)
         {
             circulin.Trapecio(true);
@@ -71,6 +76,11 @@ public class Hook : MonoBehaviour
         {
             rope.SetPosition(1, transform.position);
         }
+    }
+
+    public void Muerte(bool Muerte)
+    {
+        muerte = Muerte;
     }
 
     private IEnumerator MaxHook()

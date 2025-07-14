@@ -9,6 +9,9 @@ public class VidasPonk : MonoBehaviour
     public float vidaActual;
     public Triangulardo jefe;
     public GameObject Señal;
+    public Circulin Estian;
+
+    [SerializeField] private AudioClip FraseDaño;
 
     public delegate void CambioDeFaseDelegate(float vidaRestante);
     //public event CambioDeFaseDelegate OnCambioDeFase;
@@ -51,5 +54,6 @@ public class VidasPonk : MonoBehaviour
         Debug.Log("Ponk ha sido derrotado!");
         // Animación de muerte, desactivación, etc
         jefe.Muerte(true);
+        Estian.MuertePonk(true);
     }
 }

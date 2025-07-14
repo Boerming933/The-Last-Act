@@ -9,6 +9,8 @@ public class CuerdaScript : MonoBehaviour
     public bool activada = true;
     public PlataformaScript[] plataformas;
     public VidasPonk VidasPonk;
+    
+    [SerializeField] private AudioClip Polea;
 
     void Start()
     {
@@ -24,6 +26,7 @@ public class CuerdaScript : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    ControladorSonidos.instance.ReproducirSonido(Polea);
                     ActivarPlataformas();
                 }
             }
