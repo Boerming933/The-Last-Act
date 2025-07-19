@@ -562,11 +562,11 @@ TextureImporter:
       name: Estian muerte 2_0
       rect:
         serializedVersion: 2
-        x: 4794
-        y: 74
-        width: 548
-        height: 1782
-      alignment: 0
+        x: 291
+        y: 6093
+        width: 190
+        height: 578
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -574,7 +574,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7bb718228fbe864ea6c73ed44821c48
+      spriteID: 4da598baec7b581499facacd30a1c25e
       internalID: -2104009796
       vertices: []
       indices: 
@@ -584,19 +584,19 @@ TextureImporter:
       name: Estian muerte 2_1
       rect:
         serializedVersion: 2
-        x: 279
-        y: 6080
-        width: 213
-        height: 596
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 6091
+        width: 184
+        height: 577
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abfc0937e1ffce84c9f28f8930ea2f99
+      spriteID: 2f71cdf6bed9a6443b24ec29b61b6d61
       internalID: -711095965
       vertices: []
       indices: 
@@ -606,19 +606,19 @@ TextureImporter:
       name: Estian muerte 2_2
       rect:
         serializedVersion: 2
-        x: 1015
-        y: 6078
-        width: 192
-        height: 607
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1705
+        y: 6089
+        width: 242
+        height: 1487
+      alignment: 9
+      pivot: {x: 0.5, y: 0.195}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ce5ed740a60ad4418a6d6c3a935539e
+      spriteID: b0d66cd2a11f6c345a42569bcd35d03a
       internalID: 195526600
       vertices: []
       indices: 
@@ -628,19 +628,19 @@ TextureImporter:
       name: Estian muerte 2_3
       rect:
         serializedVersion: 2
-        x: 1643
-        y: 6059
-        width: 366
-        height: 1517
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2485
+        y: 6094
+        width: 264
+        height: 1480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.194}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62349e742ddf88245add5a8da200a0bf
+      spriteID: 23c47cf53a87b16458d05b515025c7d5
       internalID: -524268993
       vertices: []
       indices: 
@@ -650,19 +650,19 @@ TextureImporter:
       name: Estian muerte 2_4
       rect:
         serializedVersion: 2
-        x: 2425
-        y: 6075
-        width: 345
-        height: 1501
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3252
+        y: 6092
+        width: 329
+        height: 1484
+      alignment: 9
+      pivot: {x: 0.5, y: 0.195}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0a450b1d6bee474397b6a8eea790b86
+      spriteID: 3a8ee29b503854647a3bd858199efcd7
       internalID: 218175198
       vertices: []
       indices: 
@@ -672,19 +672,19 @@ TextureImporter:
       name: Estian muerte 2_5
       rect:
         serializedVersion: 2
-        x: 3238
-        y: 6049
-        width: 361
-        height: 1527
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4169
+        y: 6089
+        width: 294
+        height: 1484
+      alignment: 9
+      pivot: {x: 0.5, y: 0.195}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ae752b34ddb5d34ba9cee17fa474382
+      spriteID: ff3d8fd4acf6f5346bfc49f98c1a994d
       internalID: 549190442
       vertices: []
       indices: 
@@ -694,19 +694,19 @@ TextureImporter:
       name: Estian muerte 2_6
       rect:
         serializedVersion: 2
-        x: 4119
-        y: 6046
-        width: 359
-        height: 1530
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4856
+        y: 6092
+        width: 291
+        height: 1484
+      alignment: 9
+      pivot: {x: 0.5, y: 0.195}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55e337777423e8544b753d501db7f737
+      spriteID: 38bf020d057f7ba49aedd0ac51330ac2
       internalID: -1054512397
       vertices: []
       indices: 
@@ -716,19 +716,19 @@ TextureImporter:
       name: Estian muerte 2_7
       rect:
         serializedVersion: 2
-        x: 4815
-        y: 6046
-        width: 353
-        height: 1530
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 272
+        y: 4333
+        width: 303
+        height: 1491
+      alignment: 9
+      pivot: {x: 0.5, y: 0.193}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 855b0ec86f1232b4da0bc6cf6476703d
+      spriteID: 081b3679a87c2d14ca27ceedae3294f8
       internalID: -591125735
       vertices: []
       indices: 
@@ -738,19 +738,19 @@ TextureImporter:
       name: Estian muerte 2_8
       rect:
         serializedVersion: 2
-        x: 213
-        y: 4258
-        width: 384
-        height: 1684
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1009
+        y: 4331
+        width: 300
+        height: 1512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.192}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1441895032371f4c80d563a6632a683
+      spriteID: 6ca474cf043719641b7ef6dce0793b36
       internalID: -1221973371
       vertices: []
       indices: 
@@ -760,19 +760,19 @@ TextureImporter:
       name: Estian muerte 2_9
       rect:
         serializedVersion: 2
-        x: 927
-        y: 4268
-        width: 418
-        height: 1640
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1763
+        y: 4323
+        width: 313
+        height: 1547
+      alignment: 9
+      pivot: {x: 0.5, y: 0.186}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daa9da8599cffe149aa152cb11a8becd
+      spriteID: bf5f3600b3b797b479d2581cb5700a2a
       internalID: -196244364
       vertices: []
       indices: 
@@ -782,19 +782,19 @@ TextureImporter:
       name: Estian muerte 2_10
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 4300
-        width: 431
-        height: 1652
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2537
+        y: 4328
+        width: 314
+        height: 1535
+      alignment: 9
+      pivot: {x: 0.5, y: 0.188}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9e1dcc04b311ce46b824c12b0d780c2
+      spriteID: bf7a7345b36226741a32237e2c8267d2
       internalID: -308980301
       vertices: []
       indices: 
@@ -804,19 +804,19 @@ TextureImporter:
       name: Estian muerte 2_11
       rect:
         serializedVersion: 2
-        x: 2496
-        y: 4289
-        width: 434
-        height: 1637
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3351
+        y: 4324
+        width: 287
+        height: 1527
+      alignment: 9
+      pivot: {x: 0.5, y: 0.189}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5743efa3c958a74793718a5f0f77bc3
+      spriteID: 100ec558ab6abba49ae2803172855e3f
       internalID: 1285660782
       vertices: []
       indices: 
@@ -826,19 +826,19 @@ TextureImporter:
       name: Estian muerte 2_12
       rect:
         serializedVersion: 2
-        x: 3275
-        y: 4281
-        width: 439
-        height: 1590
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4045
+        y: 4338
+        width: 333
+        height: 1544
+      alignment: 9
+      pivot: {x: 0.6, y: 0.186}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e275b49925e5c334482d2f51cbcfc596
+      spriteID: a28431ae4252b794e9706b1a4ab81995
       internalID: 1314970700
       vertices: []
       indices: 
@@ -848,19 +848,19 @@ TextureImporter:
       name: Estian muerte 2_13
       rect:
         serializedVersion: 2
-        x: 3996
-        y: 4294
-        width: 408
-        height: 1616
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4791
+        y: 4341
+        width: 356
+        height: 1595
+      alignment: 9
+      pivot: {x: 0.59, y: 0.185}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 629548081c4f23045982ff73a53d50fe
+      spriteID: 8bb67526da2b37d44a5f5e9c43a73d05
       internalID: -1569736028
       vertices: []
       indices: 
@@ -870,19 +870,19 @@ TextureImporter:
       name: Estian muerte 2_14
       rect:
         serializedVersion: 2
-        x: 4747
-        y: 4308
-        width: 439
-        height: 1628
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 312
+        y: 2131
+        width: 267
+        height: 1898
+      alignment: 9
+      pivot: {x: 0.495, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a765dbd17932694db1a8f80cc70792c
+      spriteID: c6a0bb91ce1040a4bbddc2108758bacb
       internalID: 1004065023
       vertices: []
       indices: 
@@ -892,19 +892,19 @@ TextureImporter:
       name: Estian muerte 2_15
       rect:
         serializedVersion: 2
-        x: 225
-        y: 2121
-        width: 394
+        x: 962
+        y: 2128
+        width: 271
         height: 1925
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.48, y: 0.151}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15381be5cf692fb4ea0046bb0be8e126
+      spriteID: 0a10fdf7e469b51479873b5d95a8ea6b
       internalID: -1718075177
       vertices: []
       indices: 
@@ -914,19 +914,19 @@ TextureImporter:
       name: Estian muerte 2_16
       rect:
         serializedVersion: 2
-        x: 920
-        y: 2098
-        width: 348
-        height: 1951
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1695
+        y: 2142
+        width: 282
+        height: 1965
+      alignment: 9
+      pivot: {x: 0.45, y: 0.147}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac6a1f1e8270c8f4e99e068909a17467
+      spriteID: b94f080be3dcc1d43ba609cc1a90bda1
       internalID: -970107556
       vertices: []
       indices: 
@@ -936,19 +936,19 @@ TextureImporter:
       name: Estian muerte 2_17
       rect:
         serializedVersion: 2
-        x: 1645
-        y: 2118
-        width: 370
-        height: 2000
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2516
+        y: 2134
+        width: 243
+        height: 1988
+      alignment: 9
+      pivot: {x: 0.45, y: 0.145}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 469e8372ad5cf47488d66354aaf20450
+      spriteID: 91e075e5e4366e64885b5951496d7423
       internalID: 832679244
       vertices: []
       indices: 
@@ -958,19 +958,19 @@ TextureImporter:
       name: Estian muerte 2_18
       rect:
         serializedVersion: 2
-        x: 2461
-        y: 2098
-        width: 385
-        height: 2054
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3273
+        y: 2150
+        width: 261
+        height: 2033
+      alignment: 9
+      pivot: {x: 0.46, y: 0.142}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cef81b2ea53a5c04da76726b06c832cb
+      spriteID: 041fe7190d4e39e43838c34a8f0d8e94
       internalID: 1066290439
       vertices: []
       indices: 
@@ -980,19 +980,19 @@ TextureImporter:
       name: Estian muerte 2_19
       rect:
         serializedVersion: 2
-        x: 3225
-        y: 2138
-        width: 385
-        height: 2074
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4022
+        y: 2143
+        width: 252
+        height: 2040
+      alignment: 9
+      pivot: {x: 0.38, y: 0.142}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6facc5651b53966468f771d9ae9175cd
+      spriteID: f75dc242aa8d4fe47b59d0924dae079a
       internalID: -145636437
       vertices: []
       indices: 
@@ -1002,19 +1002,19 @@ TextureImporter:
       name: Estian muerte 2_20
       rect:
         serializedVersion: 2
-        x: 3952
-        y: 2109
-        width: 405
-        height: 2095
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4755
+        y: 2144
+        width: 266
+        height: 2035
+      alignment: 9
+      pivot: {x: 0.5, y: 0.142}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdad17a99c77b2e42b66af48172db604
+      spriteID: e5dc1e657afbd3140ae2f00b4a6d525b
       internalID: -1234995439
       vertices: []
       indices: 
@@ -1024,19 +1024,19 @@ TextureImporter:
       name: Estian muerte 2_21
       rect:
         serializedVersion: 2
-        x: 4699
-        y: 2109
-        width: 385
-        height: 2049
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 365
+        y: 102
+        width: 337
+        height: 1902
+      alignment: 9
+      pivot: {x: 0.53, y: 0.152}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f45c2ea6210f6148a750f354e5b3e33
+      spriteID: 53dc5e2e69f0b1e43840b45c5a144530
       internalID: 1369738016
       vertices: []
       indices: 
@@ -1046,19 +1046,19 @@ TextureImporter:
       name: Estian muerte 2_22
       rect:
         serializedVersion: 2
-        x: 300
-        y: 86
-        width: 414
-        height: 1940
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1051
+        y: 104
+        width: 479
+        height: 1906
+      alignment: 9
+      pivot: {x: 0.52, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5bdc0a383de4324580ed70a8832d420
+      spriteID: b10f854c6501aaf4ea0688d31b1e3fd0
       internalID: 2095560179
       vertices: []
       indices: 
@@ -1068,19 +1068,19 @@ TextureImporter:
       name: Estian muerte 2_23
       rect:
         serializedVersion: 2
-        x: 1001
-        y: 72
-        width: 546
-        height: 1965
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1806
+        y: 101
+        width: 478
+        height: 1891
+      alignment: 9
+      pivot: {x: 0.55, y: 0.151}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07d6450a6b593364a87ed6b30b697855
+      spriteID: cf27a144aee61cc44bc2daa840d319a0
       internalID: -738300860
       vertices: []
       indices: 
@@ -1090,19 +1090,19 @@ TextureImporter:
       name: Estian muerte 2_24
       rect:
         serializedVersion: 2
-        x: 1771
-        y: 66
-        width: 580
-        height: 1969
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2583
+        y: 103
+        width: 481
+        height: 1861
+      alignment: 9
+      pivot: {x: 0.53, y: 0.154}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f98ad2e88c2296247b0e490ba7a089e5
+      spriteID: 5b7b4780883c9a64ab4e2ac61a5b64cb
       internalID: 709854194
       vertices: []
       indices: 
@@ -1112,19 +1112,19 @@ TextureImporter:
       name: Estian muerte 2_25
       rect:
         serializedVersion: 2
-        x: 2535
-        y: 81
-        width: 549
-        height: 1936
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3269
+        y: 106
+        width: 480
+        height: 1826
+      alignment: 9
+      pivot: {x: 0.5, y: 0.157}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1b6861fde557874498aa799537a1907
+      spriteID: 07451b0fb7955a14b96270fa12bcbef5
       internalID: 1351055498
       vertices: []
       indices: 
@@ -1134,19 +1134,19 @@ TextureImporter:
       name: Estian muerte 2_26
       rect:
         serializedVersion: 2
-        x: 3211
-        y: 95
-        width: 540
-        height: 1876
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4088
+        y: 96
+        width: 484
+        height: 1789
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b009709b4bce2964885098310c78267b
+      spriteID: 42e1193888275f746b9df492532e9e96
       internalID: 2143370315
       vertices: []
       indices: 
@@ -1156,19 +1156,19 @@ TextureImporter:
       name: Estian muerte 2_27
       rect:
         serializedVersion: 2
-        x: 4052
-        y: 72
-        width: 558
-        height: 1891
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4819
+        y: 104
+        width: 481
+        height: 1737
+      alignment: 9
+      pivot: {x: 0.55, y: 0.165}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 880cca6d3a05dbe468e07b7afd0c8f8c
+      spriteID: 64afdc39c8b21eb4f9d57c782245ca21
       internalID: 324777834
       vertices: []
       indices: 

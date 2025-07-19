@@ -11,10 +11,13 @@ public class Circulin : MonoBehaviour
     float timeUntilMelee;
 
     [SerializeField] private Animator Estian;
+    [SerializeField] private Hook hook;
+
     public Transform Mira;
     public Transform Ponk;
     public GameObject Brazo;
     public GameObject Latigo;
+    public VidasPj vidasPj;
     private bool canDash = true;
     private bool isDashing;
     public float dashingPower;
@@ -30,6 +33,7 @@ public class Circulin : MonoBehaviour
     private float Horizontal;
     private bool Grounded;
     public bool InJalon;
+    private bool GuardadoMuerte = false;
     private bool Stun = true;
     private bool muerte = false;
     private bool atacando = false;
@@ -56,6 +60,7 @@ public class Circulin : MonoBehaviour
     [SerializeField] private AudioClip dash;
     [SerializeField] private AudioClip salto;
     [SerializeField] private AudioClip landeo;
+    [SerializeField] private AudioClip Abucheo;
 
     void Start()
     {
@@ -238,6 +243,7 @@ public class Circulin : MonoBehaviour
     private IEnumerator Dash()
     {
         Brazo.SetActive(false);
+        vidasPj.InDash(true);
         canDash = false;
         isDashing = true;
         trailRenderer.emitting = true;
@@ -258,7 +264,8 @@ public class Circulin : MonoBehaviour
         yield return new WaitForSeconds(dashingWait);
         Estian.SetBool("Dash", false);  
         isDashing = false;
-        yield return new WaitForSeconds(0.3f);  
+        vidasPj.InDash(false); 
+        yield return new WaitForSeconds(0.3f); 
         if (!muerte) Brazo.SetActive(true);
         yield return new WaitForSeconds(dashingCooldown - 0.3f);    
         canDash = true;
@@ -322,9 +329,17 @@ public class Circulin : MonoBehaviour
     public void Muerte(bool Muerte)
     {
         StopAllCoroutines();
+        hook.Muerte(true);
         Brazo.SetActive(false);
-        muerte = Muerte;
+        GuardadoMuerte = Muerte;
+        muerte = GuardadoMuerte;
+        ControladorSonidos.instance.ReproducirSonido(Abucheo);
         Estian.SetTrigger("Muerte");
+    }
+
+    public void MuertePonk(bool PonkMuerte)
+    {
+        muerte = PonkMuerte;
     }
 
     IEnumerator DispararConRetraso(float delay)          //PAL CARGADO -Juan
@@ -350,7 +365,7 @@ public class Circulin : MonoBehaviour
 
     void DispararProyectil()             //PAL CARGADO -Juan
     {
-        Vector3 Cargado = new Vector3(Ponk.position.x,Random.Range(Ponk.position.y-3f,Ponk.position.y+3f),Ponk.position.z + 2f);
+        Vector3 Cargado = new Vector3(Ponk.position.x,Random.Range(Ponk.position.y-1.5f,Ponk.position.y+1.5f),Ponk.position.z-2f);
         GameObject proyectil = Instantiate(proyectilPrefab, Cargado, Quaternion.identity);
         Destroy(proyectil, 0.2f);
 

@@ -12,10 +12,12 @@ public class VidasPj : MonoBehaviour
     public LevelPhaseManager levelManager;
     public Circulin Estian;
     private float Daño;
+    private bool IsDashing = false;
     public List<GameObject> IndicadoresDeVida; //Aqui van los 5 corazones de la UI
 
     public void Hit(float daño)
     {
+        if (IsDashing) return;
         Vidas = Vidas - daño;
         Daño = daño;
 
@@ -29,6 +31,11 @@ public class VidasPj : MonoBehaviour
             StartCoroutine(ReiniciarNivel());
         }
     }
+
+    public void InDash(bool Dash)
+    {
+        IsDashing = Dash;
+    }
     
     public void ActualizarIndicadoresDeVida()
     {
@@ -41,7 +48,7 @@ public class VidasPj : MonoBehaviour
                 IndicadoresDeVida.RemoveAt(ultimoIndice);
                 if (IndicadoresDeVida.Count > 0)
                 {
-                    IndicadoresDeVida[ultimoIndice-1].SetActive(true);                    
+                    IndicadoresDeVida[ultimoIndice - 1].SetActive(true);
                 }
             }
             else if (Daño == 2)
@@ -53,9 +60,9 @@ public class VidasPj : MonoBehaviour
                     IndicadoresDeVida.RemoveAt(ultimoIndice);
                     if (IndicadoresDeVida.Count > 0)
                     {
-                        IndicadoresDeVida[ultimoIndice-1].SetActive(true);                    
+                        IndicadoresDeVida[ultimoIndice - 1].SetActive(true);
                     }
-                }                              
+                }
             }
         }
     }
@@ -74,6 +81,7 @@ public class VidasPj : MonoBehaviour
 
     public void ReiniciarEscena()
     {
+        ControladorSonidos.instance.DetenerSonido();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

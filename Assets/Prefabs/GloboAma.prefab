@@ -173,6 +173,7 @@ MonoBehaviour:
   velocidadHorizontal: 2
   amplitudVertical: 1.5
   frecuenciaVertical: 1
+  Globo: {fileID: 8300000, guid: c7e99d9fa9aeecc4691cb88e9e2cd827, type: 3}
 --- !u!95 &5779550203374060317
 Animator:
   serializedVersion: 7

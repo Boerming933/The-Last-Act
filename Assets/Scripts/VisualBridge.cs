@@ -18,4 +18,22 @@ public class VisualBridge : MonoBehaviour
     {
         triangulardo?.FrenarDaño();
     }
+
+    public void Evento_SonidoMartillo()
+    {
+        triangulardo?.SonidoMartillo();
+    }
+
+    public void Evento_SpawnOnda()
+    {
+        triangulardo.SpawnOnda();
+        Debug.Log("[VisualBridge] Event SpawnWave recibido");
+    }
+
+    public void Evento_FinOnda()
+    {
+        triangulardo.FinOnda();
+        Debug.Log("[VisualBridge] Event EndWaveAttack recibido");
+    }
+
 }

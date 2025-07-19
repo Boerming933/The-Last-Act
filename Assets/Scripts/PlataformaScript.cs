@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlataformaScript : MonoBehaviour
@@ -72,6 +73,17 @@ public class PlataformaScript : MonoBehaviour
 
         var jefeHit = other.GetComponent<Triangulardo>();
         if (jefeHit != null && !jefeHit.IsStunned())
+        {
             jefeHit.Stun(10f);
+        }
+            
+        StartCoroutine(RebotePlataforma());
+    }
+    
+    private IEnumerator RebotePlataforma()
+    {
+        bajando = false;
+        yield return new WaitForSeconds(1f);
+        subiendo = true;
     }
 }

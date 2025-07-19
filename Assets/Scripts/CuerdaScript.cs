@@ -10,13 +10,32 @@ public class CuerdaScript : MonoBehaviour
     public PlataformaScript[] plataformas;
     public VidasPonk VidasPonk;
 
+    [SerializeField] private float velocidadCaida = 5f;
+    [SerializeField] private Vector3 posicionFinal;
+    private bool cayendo = false;
+
+    [SerializeField] private AudioClip Polea;
+
     void Start()
     {
         jugador = GameObject.FindGameObjectWithTag("Circulin").transform;
+        posicionFinal = transform.position;
+        transform.position += Vector3.up * 10f;
     }
 
     void Update()
     {
+        if (cayendo)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, posicionFinal, velocidadCaida * Time.deltaTime);
+
+            if (Vector3.Distance(transform.position, posicionFinal) <= 0.01f)
+            {
+                cayendo = false;
+            }
+
+            return; // para evitar que la lógica de activación corra mientras cae
+        }
         if (!activada) return;
         if (jugador != null)
         {
@@ -24,6 +43,7 @@ public class CuerdaScript : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    ControladorSonidos.instance.ReproducirSonido(Polea);
                     ActivarPlataformas();
                 }
             }
@@ -48,5 +68,9 @@ public class CuerdaScript : MonoBehaviour
             if (plataforma != null)
                 plataforma.Desactivar();
         }
+    }
+    public void LlamarDesdeTecho()
+    {
+        cayendo = true;
     }
 }

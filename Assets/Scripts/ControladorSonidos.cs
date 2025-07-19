@@ -22,6 +22,9 @@ public class ControladorSonidos : MonoBehaviour
     public void ReproducirSonido(AudioClip sonido)
     {
         audioSource.PlayOneShot(sonido);
-
+    }
+    public void DetenerSonido()
+    {
+        audioSource.Stop();
     }
 }
