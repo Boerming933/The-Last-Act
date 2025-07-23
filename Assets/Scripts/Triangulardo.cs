@@ -12,6 +12,9 @@ public class Triangulardo : MonoBehaviour
     public GameObject Jugador;
     public GameObject OndaPrefab;
     public Transform Origen;
+    private int totalWavesToSpawn;
+    private int wavesSpawned;
+    private bool cycleDone;
 
     public Transform puntoIzquierda;
     public Transform puntoDerecha;
@@ -28,6 +31,7 @@ public class Triangulardo : MonoBehaviour
     private bool persiguiendoJugador = false;
     private bool estaDisparando = false;
     private bool vieneDePersecucion = false;
+    private bool Presentando = true;
     private bool muerte = false;
     private bool Atacando = false;
     private bool Patrullando;
@@ -48,6 +52,7 @@ public class Triangulardo : MonoBehaviour
     [SerializeField] private AudioClip Campana;
     [SerializeField] private AudioClip Martillo;
     [SerializeField] private AudioClip Ovacion;
+    [SerializeField] private AudioClip AtaqueOndas;
 
     private float tiempoUltimoAtaque;
     public bool Stunning;
@@ -72,14 +77,9 @@ public class Triangulardo : MonoBehaviour
 
     void Update()
     {
-        if (Stunning || muerte || Atacando)
+        if (Stunning || muerte || Atacando || Presentando)
         {
             return;
-        }
-
-        if (faseActual != FaseJefe.Fase1 && faseActual != FaseJefe.Fase3 && !estaDisparando && !persiguiendoJugador && objetivoActual == null && !vieneDePersecucion)
-        {
-            StartCoroutine(ShootOnda());
         }
 
         if (persiguiendoJugador && !estaDisparando)
@@ -100,7 +100,7 @@ public class Triangulardo : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Stunning || Atacando)
+        if (Stunning || Atacando || Presentando)
         {
             return;
         }
@@ -180,6 +180,11 @@ public class Triangulardo : MonoBehaviour
         DañoPosible = false;
     }
 
+    public void TerminarPresentacion()
+    {
+        Presentando = false;
+    }
+
     IEnumerator DesactivarHitboxPronto()
     {
         yield return new WaitForSeconds(0.1f);
@@ -210,38 +215,79 @@ public class Triangulardo : MonoBehaviour
         }
     }
 
-    private IEnumerator ShootOnda()
+    public void SpawnOnda()
     {
-        ControladorSonidos.instance.ReproducirSonido(FraseRepetitivo);
+        ControladorSonidos.instance.ReproducirSonido(AtaqueOndas);
+        Vector3 direccion = transform.localScale.x > 0 ? Vector3.left : Vector3.right;
+        Vector3 PositionOnda = new Vector3(Origen.position.x, Origen.position.y - 1f, Origen.position.z);
+        GameObject Onda = Instantiate(OndaPrefab, PositionOnda, Quaternion.identity);
+        Onda.GetComponent<AtaqueScript>().SetDirection(direccion);
+        Destroy(Onda, 5f);
+    }
+
+    public void FinOnda()
+    {
+        cycleDone = true;
+    }
+
+    public IEnumerator WaveAttackRoutine(int count)
+    {
         estaDisparando = true;
-        rb.linearVelocity = Vector2.zero; // por si acaso
-        
-        yield return new WaitForSeconds(0.6f);
         Patrullando = false;
-        animVisual.SetTrigger("Onda");
-        yield return new WaitForSeconds(0.6f);
-
-        int cantidadOndas = 3;
-        float tiempoEntreOndas = 1f;
-
-        for (int i = 0; i < cantidadOndas; i++)
+        for (int i = 0; i < count; i++)
         {
-            Vector3 direccion = transform.localScale.x > 0 ? Vector3.left : Vector3.right;
+            cycleDone = false;
 
-            Vector3 PositionOnda = new Vector3(Origen.position.x,Origen.position.y-1f,Origen.position.z);
+            animVisual.SetTrigger("Onda");
 
-            GameObject Onda = Instantiate(OndaPrefab, PositionOnda, Quaternion.identity);
-            Onda.GetComponent<AtaqueScript>().SetDirection(direccion);
-            Destroy(Onda, 5f);
-
-            yield return new WaitForSeconds(tiempoEntreOndas);
+            yield return new WaitUntil(() => cycleDone);
+            // opcional: si quieres un pequeño respiro
+            // yield return new WaitForSeconds(0.1f);
+            animVisual.ResetTrigger("Onda");
         }
-        animVisual.SetTrigger("OndaF");
-
-        yield return new WaitForSeconds(2f); // espera extra después de disparar
         
         estaDisparando = false;
     }
+
+    // private IEnumerator ShootOnda()
+    // {
+    //     ControladorSonidos.instance.ReproducirSonido(FraseRepetitivo);
+    //     estaDisparando = true;
+    //     rb.linearVelocity = Vector2.zero; // por si acaso
+
+    //     /// yield return new WaitForSeconds(1f);
+    //     Patrullando = false;
+    //     animVisual.SetBool("Onda", true);
+
+    //     int cantidadOndas = 3;
+    //     float tiempoEntreOndas = 1f;
+
+    //     for (int i = 0; i < cantidadOndas; i++)
+    //     {
+
+            // Vector3 direccion = transform.localScale.x > 0 ? Vector3.left : Vector3.right;
+
+            // Vector3 PositionOnda = new Vector3(Origen.position.x, Origen.position.y - 1f, Origen.position.z);
+
+            // GameObject Onda = Instantiate(OndaPrefab, PositionOnda, Quaternion.identity);
+            // Onda.GetComponent<AtaqueScript>().SetDirection(direccion);
+            // Destroy(Onda, 5f);
+    //         if (i == 2)
+    //         {
+    //             yield return new WaitForSeconds(0.1f);
+    //         }
+    //         else
+    //         {
+    //             yield return new WaitForSeconds(tiempoEntreOndas);
+    //         }
+
+    //     }
+    //     animVisual.SetBool("Onda", false);
+
+    //     yield return new WaitForSeconds(0.5f); // espera extra después de disparar
+
+    //     estaDisparando = false;
+    // }
 
     IEnumerator ComportamientoBoss()
     {
@@ -257,9 +303,7 @@ public class Triangulardo : MonoBehaviour
                     Debug.Log("Entró en el switch");
                     if (eleccion == 0)
                     {
-                        Patrullar();
-                        yield return new WaitUntil(() => objetivoActual == null);
-                        yield return new WaitForSeconds(4f);
+                        yield return StartCoroutine(WaveAttackRoutine(3));
                     }
                     else
                     {
@@ -271,18 +315,18 @@ public class Triangulardo : MonoBehaviour
                     break;
                 case FaseJefe.Fase3:
                     Debug.Log("Entró en el switch 3");
-                    yield return StartCoroutine(PerseguirJugador());
-                    StartCoroutine(ShootOnda());
+                    Patrullar();
+                    yield return new WaitUntil(() => objetivoActual == null);
+                    StartCoroutine(WaveAttackRoutine(3));
                     //En vez de "Martillazo debe ser "Ondas" o el nombre del trigger que pusiste e indicarle que sea en Loop
                     foreach (CuerdaScript cuerda in cuerdaScript)
                     {
                         cuerda.activada = true;
                     }
                     Debug.Log("Deberia de estar frenado");
-                    yield return new WaitForSeconds(10f); // 
-                    animVisual.SetTrigger("OndaF");
+                    yield return new WaitForSeconds(10f);
+                    animVisual.ResetTrigger("Onda");
                     // Acá frenas la animacion de "Ondas" e inicias las de siempre
-                    vieneDePersecucion = false; //
                     break;
             }
         }
@@ -298,7 +342,7 @@ public class Triangulardo : MonoBehaviour
         else
             objetivoActual = puntoIzquierda;
         Debug.Log("Nuevo objetivo de patrulla: " + objetivoActual.name);
-        
+
         Vector3 scale = transform.localScale;
         scale.x = objetivoActual.position.x <= transform.position.x ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
         transform.localScale = scale;
@@ -340,7 +384,7 @@ public class Triangulardo : MonoBehaviour
     {
         if (n == 1)
         {
-            ControladorSonidos.instance.ReproducirSonido(FraseMartillo);            
+            ControladorSonidos.instance.ReproducirSonido(FraseMartillo);
         }
         n++;
         ControladorSonidos.instance.ReproducirSonido(Martillo);
@@ -365,9 +409,8 @@ public class Triangulardo : MonoBehaviour
 
     public void Stun(float duration)
     {
-        if (Stunning) return;        
-        animVisual.speed = 0f;
-        animVisual.SetTrigger("OndaF");
+        if (Stunning) return;
+        animVisual.ResetTrigger("Onda");
         StopAllCoroutines();
         Stunning = true;
         animVisual.SetBool("Stun",true);
@@ -381,7 +424,6 @@ public class Triangulardo : MonoBehaviour
         yield return new WaitForSeconds(duration);
         vidasPonk.invulnerable = true;
         Stunning = false;
-        animVisual.speed = 1f;
         animVisual.SetBool("Stun",false);
         foreach (CuerdaScript cuerda in cuerdaScript)
         {
@@ -402,7 +444,6 @@ public class Triangulardo : MonoBehaviour
         objetivoActual      = null;
     }
 
-
     public bool IsStunned()
     {
         return Stunning;
@@ -417,7 +458,7 @@ public class Triangulardo : MonoBehaviour
     public void Muerte(bool Muerte)
     {
         StopAllCoroutines();
-        StartCoroutine(RecoverFromStun(0f));        
+        StartCoroutine(RecoverFromStun(0f));
         ControladorSonidos.instance.ReproducirSonido(Campana);
         ControladorSonidos.instance.ReproducirSonido(Ovacion);
         muerte = Muerte;
