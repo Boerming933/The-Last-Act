@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: b4e1ee8a8d9ba0341afacc6034f83c5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -786602614455399231
+    second: pelota verde.romper_0
+  - first:
+      213: -2572243811054700649
+    second: pelota verde.romper_1
+  - first:
+      213: -8355143168489565423
+    second: pelota verde.romper_2
+  - first:
+      213: 8965299063887977765
+    second: pelota verde.romper_3
+  - first:
+      213: -417409716159672575
+    second: pelota verde.romper_4
+  - first:
+      213: -1259718659549956240
+    second: pelota verde.romper_5
+  - first:
+      213: -5114514821070618772
+    second: pelota verde.romper_6
+  - first:
+      213: -9056104593870614912
+    second: pelota verde.romper_7
+  - first:
+      213: -702736002001297572
+    second: pelota verde.romper_8
+  - first:
+      213: 4623639575417719669
+    second: pelota verde.romper_9
+  - first:
+      213: 1045275385905178378
+    second: pelota verde.romper_10
+  - first:
+      213: -5931690373169875552
+    second: pelota verde.romper_11
+  - first:
+      213: -6854722827916234748
+    second: pelota verde.romper_12
+  - first:
+      213: -6180411608790929748
+    second: pelota verde.romper_13
+  - first:
+      213: 5014524708743326696
+    second: pelota verde.romper_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pelota verde.romper_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 554
+        width: 390
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7973366d1ed8d4cd0800000000000000
+      internalID: -2572243811054700649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pelota verde.romper_3
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 545
+        width: 390
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d5f289ff32b6c70800000000000000
+      internalID: 8965299063887977765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pelota verde.romper_5
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 543
+        width: 390
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077f79cad84948ee0800000000000000
+      internalID: -1259718659549956240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pelota verde.romper_6
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 536
+        width: 390
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f7d9b3ed79509b0800000000000000
+      internalID: -5114514821070618772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pelota verde.romper_7
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 520
+        width: 390
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e0f896ad0425280800000000000000
+      internalID: -9056104593870614912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pelota verde.romper_10
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 30
+        width: 390
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a076655ec60918e00800000000000000
+      internalID: 1045275385905178378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pelota verde.romper_11
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 32
+        width: 390
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5fa9578076eada0800000000000000
+      internalID: -5931690373169875552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d03525f7b54237349bf02fba97438c6e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pelota verde.romper_1: -2572243811054700649
+      pelota verde.romper_10: 1045275385905178378
+      pelota verde.romper_11: -5931690373169875552
+      pelota verde.romper_3: 8965299063887977765
+      pelota verde.romper_5: -1259718659549956240
+      pelota verde.romper_6: -5114514821070618772
+      pelota verde.romper_7: -9056104593870614912
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

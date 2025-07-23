@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 872854b2ab94b3d4284aaad3e88a5b02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2254864278230101663
+    second: Corte_0
+  - first:
+      213: -5325073635051452667
+    second: Corte_1
+  - first:
+      213: 5944631344604988282
+    second: Corte_2
+  - first:
+      213: -4899155377038590481
+    second: Corte_3
+  - first:
+      213: 5728064209322330859
+    second: Corte_4
+  - first:
+      213: -7844653057061415968
+    second: Corte_5
+  - first:
+      213: -6135187746859235484
+    second: Corte_6
+  - first:
+      213: -323527243408551914
+    second: Corte_7
+  - first:
+      213: 1942389031467034963
+    second: Corte_8
+  - first:
+      213: 6544992063335249434
+    second: Corte_9
+  - first:
+      213: -2433436989409310331
+    second: Corte_10
+  - first:
+      213: 5829761273453847900
+    second: Corte_11
+  - first:
+      213: -2702152810459300732
+    second: Corte_12
+  - first:
+      213: 7628292970319454003
+    second: Corte_13
+  - first:
+      213: -3557208591338533746
+    second: Corte_14
+  - first:
+      213: -2028748760714828710
+    second: Corte_15
+  - first:
+      213: -7382116757590531543
+    second: Corte_16
+  - first:
+      213: -3845481688436053462
+    second: Corte_17
+  - first:
+      213: 3031381195488100029
+    second: Corte_18
+  - first:
+      213: -8862328553192573307
+    second: Corte_19
+  - first:
+      213: -4520234038885571763
+    second: Corte_20
+  - first:
+      213: -5288775812900167680
+    second: Corte_21
+  - first:
+      213: -3759242962168270572
+    second: Corte_22
+  - first:
+      213: 7382236696361133589
+    second: Corte_23
+  - first:
+      213: -2439917066881324037
+    second: Corte_24
+  - first:
+      213: 7378463277241132851
+    second: Corte_25
+  - first:
+      213: 933316881791183390
+    second: Corte_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Corte_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 358
+        width: 158
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc901d7e662b08c449b8bc4285a2dbe5
+      internalID: 1351026261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corte_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 353
+        width: 143
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e1d721b5f02ae4bad3bd8349f9228d
+      internalID: -1651259258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corte_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 199
+        width: 159
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac956cfacc9d04b4b8a0aa91664f73db
+      internalID: 1586227839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corte_3
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 180
+        width: 153
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad30bb6c8f965e4c960bdb504f11e7d
+      internalID: -279712312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corte_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 7
+        width: 129
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220cf8f2350b50049bc5fc764f155409
+      internalID: -1690555640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corte_5
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 12
+        width: 160
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651d359564a72ac49986e4e182997e33
+      internalID: 1408234373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e46c69c9cf1c95f4492c93a7911a8454
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Corte_0: 1351026261
+      Corte_1: -1651259258
+      Corte_2: 1586227839
+      Corte_3: -279712312
+      Corte_4: -1690555640
+      Corte_5: 1408234373
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

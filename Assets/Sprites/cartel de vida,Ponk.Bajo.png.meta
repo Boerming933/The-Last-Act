@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: 1bbb1bbc2d4455849981ec625a49cc6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5682749038419524140
+    second: cartel de vida,Ponk.Bajo_0
+  - first:
+      213: -3405044002843579080
+    second: cartel de vida,Ponk.Bajo_1
+  - first:
+      213: 4738801502071329513
+    second: cartel de vida,Ponk.Bajo_2
+  - first:
+      213: -2970724919170501326
+    second: cartel de vida,Ponk.Bajo_3
+  - first:
+      213: 9153726035571307229
+    second: cartel de vida,Ponk.Bajo_4
+  - first:
+      213: -9145009444446360991
+    second: cartel de vida,Ponk.Bajo_5
+  - first:
+      213: -8823859491863410939
+    second: cartel de vida,Ponk.Bajo_6
+  - first:
+      213: -9009277314690229788
+    second: cartel de vida,Ponk.Bajo_7
+  - first:
+      213: -5073702213025408230
+    second: cartel de vida,Ponk.Bajo_8
+  - first:
+      213: -7128290285829997698
+    second: cartel de vida,Ponk.Bajo_9
+  - first:
+      213: 2434523611460761552
+    second: cartel de vida,Ponk.Bajo_10
+  - first:
+      213: 794791521632210501
+    second: cartel de vida,Ponk.Bajo_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cartel de vida,Ponk.Bajo_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 650
+        width: 338
+        height: 314
+      alignment: 9
+      pivot: {x: 0.031904016, y: 0.09919126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5cf49abd1d221b0800000000000000
+      internalID: -5682749038419524140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel de vida,Ponk.Bajo_1
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 582
+        width: 384
+        height: 328
+      alignment: 9
+      pivot: {x: 0.03014502, y: 0.3463809}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d2fe5258adeb0d0800000000000000
+      internalID: -3405044002843579080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel de vida,Ponk.Bajo_4
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 503
+        width: 384
+        height: 337
+      alignment: 9
+      pivot: {x: 0.055203754, y: 0.61203647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2f871b451980f70800000000000000
+      internalID: 9153726035571307229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel de vida,Ponk.Bajo_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 103
+        width: 391
+        height: 323
+      alignment: 9
+      pivot: {x: 0.053970102, y: 0.8284118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507c58ffa8a5b8580800000000000000
+      internalID: -8823859491863410939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel de vida,Ponk.Bajo_8
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 88
+        width: 371
+        height: 327
+      alignment: 9
+      pivot: {x: 0.049310155, y: 0.8298927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bd18808b69699b0800000000000000
+      internalID: -5073702213025408230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel de vida,Ponk.Bajo_10
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 96
+        width: 368
+        height: 312
+      alignment: 9
+      pivot: {x: 0.06517858, y: 0.8515155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d77b62735a29c120800000000000000
+      internalID: 2434523611460761552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d71a984962664af41b553637bc7e947e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cartel de vida,Ponk.Bajo_0: -5682749038419524140
+      cartel de vida,Ponk.Bajo_1: -3405044002843579080
+      cartel de vida,Ponk.Bajo_10: 2434523611460761552
+      cartel de vida,Ponk.Bajo_4: 9153726035571307229
+      cartel de vida,Ponk.Bajo_6: -8823859491863410939
+      cartel de vida,Ponk.Bajo_8: -5073702213025408230
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

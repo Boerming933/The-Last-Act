@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 516e4a45058e50340aae87832fc08fc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4140741665440019750
+    second: Estian ataque._0
+  - first:
+      213: 177986338448770872
+    second: Estian ataque._1
+  - first:
+      213: -1904592831852932069
+    second: Estian ataque._2
+  - first:
+      213: 8480926328657665725
+    second: Estian ataque._3
+  - first:
+      213: -1409801891229779084
+    second: Estian ataque._4
+  - first:
+      213: 679849289891160722
+    second: Estian ataque._5
+  - first:
+      213: 8720772458285379058
+    second: Estian ataque._6
+  - first:
+      213: 6425523138385067067
+    second: Estian ataque._7
+  - first:
+      213: 2185664774548088335
+    second: Estian ataque._8
+  - first:
+      213: -509269119254368727
+    second: Estian ataque._9
+  - first:
+      213: -8738038900255826183
+    second: Estian ataque._10
+  - first:
+      213: 1005875124329605386
+    second: Estian ataque._11
+  - first:
+      213: 949108479937385765
+    second: Estian ataque._12
+  - first:
+      213: 3869269351359200275
+    second: Estian ataque._13
+  - first:
+      213: -6600685734576361531
+    second: Estian ataque._14
+  - first:
+      213: 8950249962078271273
+    second: Estian ataque._15
+  - first:
+      213: 8124023926757974011
+    second: Estian ataque._16
+  - first:
+      213: -2797549709544073183
+    second: Estian ataque._17
+  - first:
+      213: -8305697373473110994
+    second: Estian ataque._18
+  - first:
+      213: 8855877630906127116
+    second: Estian ataque._19
+  - first:
+      213: -219801834143975570
+    second: Estian ataque._20
+  - first:
+      213: -9055112066073884386
+    second: Estian ataque._21
+  - first:
+      213: -4706317004912924547
+    second: Estian ataque._22
+  - first:
+      213: 5304783722140468821
+    second: Estian ataque._23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Estian ataque._0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 317
+        width: 187
+        height: 574
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adac9c4d4612986c0800000000000000
+      internalID: -4140741665440019750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian ataque._1
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 316
+        width: 253
+        height: 574
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8378c1eb1a5587200800000000000000
+      internalID: 177986338448770872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian ataque._2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 307
+        width: 274
+        height: 578
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1496af09e68195e0800000000000000
+      internalID: -1904592831852932069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian ataque._3
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 782
+        width: 171
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbed5e1ef8d42b570800000000000000
+      internalID: 8480926328657665725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian ataque._4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 236
+        width: 166
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746abb7c53d2ba84d86a3aef922cd15f
+      internalID: -44609610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian ataque._5
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 235
+        width: 335
+        height: 24
+      alignment: 9
+      pivot: {x: 0.24, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1b412c5c16cbb47a1395bfa176d058
+      internalID: 679656395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian ataque._6
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 235
+        width: 470
+        height: 26
+      alignment: 9
+      pivot: {x: 0.168, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237d2d457c93bad47be4d26e8e7a1aeb
+      internalID: 1503542702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian ataque._7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 131
+        width: 670
+        height: 23
+      alignment: 9
+      pivot: {x: 0.117, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c771dbc68e3144db083fb4e653f64a
+      internalID: 787712619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian ataque._8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 37
+        width: 1021
+        height: 23
+      alignment: 9
+      pivot: {x: 0.077, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c28bd0e167531944b41326abd9c6f41
+      internalID: -1155986986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e58720a01c5768a49b7fb917f74feaf5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Estian ataque._0: -4140741665440019750
+      Estian ataque._1: 177986338448770872
+      Estian ataque._2: -1904592831852932069
+      Estian ataque._3: 8480926328657665725
+      Estian ataque._4: -44609610
+      Estian ataque._5: 679656395
+      Estian ataque._6: 1503542702
+      Estian ataque._7: 787712619
+      Estian ataque._8: -1155986986
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

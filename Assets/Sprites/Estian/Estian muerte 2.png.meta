@@ -1,0 +1,1377 @@
+fileFormatVersion: 2
+guid: fc92d552c387fb445b7d862270954bbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7915530223714677039
+    second: Estian muerte_0
+  - first:
+      213: -1962549305407745226
+    second: Estian muerte_1
+  - first:
+      213: -7523908233761128876
+    second: Estian muerte_2
+  - first:
+      213: -5300792933210442162
+    second: Estian muerte_3
+  - first:
+      213: -8422504395136681851
+    second: Estian muerte_4
+  - first:
+      213: 2192128199444981854
+    second: Estian muerte_5
+  - first:
+      213: 4509727778954405134
+    second: Estian muerte_6
+  - first:
+      213: -1778518966898315124
+    second: Estian muerte_7
+  - first:
+      213: -2307243316259236479
+    second: Estian muerte_8
+  - first:
+      213: 1730130813269230733
+    second: Estian muerte_9
+  - first:
+      213: 3283277143486376206
+    second: Estian muerte_10
+  - first:
+      213: -7387366642196047104
+    second: Estian muerte_11
+  - first:
+      213: 569725797946601164
+    second: Estian muerte_12
+  - first:
+      213: -8757141721992225431
+    second: Estian muerte_13
+  - first:
+      213: 3368251595951528630
+    second: Estian muerte_14
+  - first:
+      213: -506964975596580958
+    second: Estian muerte_15
+  - first:
+      213: 6014149976392492451
+    second: Estian muerte_16
+  - first:
+      213: -508682111797343545
+    second: Estian muerte_17
+  - first:
+      213: -483090476961829909
+    second: Estian muerte_18
+  - first:
+      213: 5282281781107287488
+    second: Estian muerte_19
+  - first:
+      213: -6033383993994334011
+    second: Estian muerte_20
+  - first:
+      213: -4730067829532451234
+    second: Estian muerte_21
+  - first:
+      213: 542694550393117377
+    second: Estian muerte_22
+  - first:
+      213: 7714010696103408911
+    second: Estian muerte_23
+  - first:
+      213: 4189441940648845432
+    second: Estian muerte_24
+  - first:
+      213: 1479816053216444758
+    second: Estian muerte_25
+  - first:
+      213: -9182541914639945355
+    second: Estian muerte_26
+  - first:
+      213: -283203144884967378
+    second: Estian muerte_27
+  - first:
+      213: -9167092258911598625
+    second: Estian muerte_28
+  - first:
+      213: -2397033508889319037
+    second: Estian muerte_29
+  - first:
+      213: 4580125225496772125
+    second: Estian muerte_30
+  - first:
+      213: -5228289079691187171
+    second: Estian muerte_31
+  - first:
+      213: -6514597628924511466
+    second: Estian muerte_32
+  - first:
+      213: 8393091657187753821
+    second: Estian muerte_33
+  - first:
+      213: 1796706826516623810
+    second: Estian muerte_34
+  - first:
+      213: -2896557068743038842
+    second: Estian muerte_35
+  - first:
+      213: 8808458361862815782
+    second: Estian muerte_36
+  - first:
+      213: 4343540919750760881
+    second: Estian muerte_37
+  - first:
+      213: 7780497903333016532
+    second: Estian muerte_38
+  - first:
+      213: -4145879302175683797
+    second: Estian muerte_39
+  - first:
+      213: 5691742259238457941
+    second: Estian muerte_40
+  - first:
+      213: -2174688379347241429
+    second: Estian muerte_41
+  - first:
+      213: 3986933060921779759
+    second: Estian muerte_42
+  - first:
+      213: 1126725635463632744
+    second: Estian muerte_43
+  - first:
+      213: 6990346367221029653
+    second: Estian muerte_44
+  - first:
+      213: 3407843148533499242
+    second: Estian muerte_45
+  - first:
+      213: 156616033698043965
+    second: Estian muerte_46
+  - first:
+      213: 9027534292865295103
+    second: Estian muerte_47
+  - first:
+      213: -5195235405568310725
+    second: Estian muerte_48
+  - first:
+      213: -7998706616522515456
+    second: Estian muerte_49
+  - first:
+      213: 7800000897665826059
+    second: Estian muerte_50
+  - first:
+      213: -5088096191280844368
+    second: Estian muerte_51
+  - first:
+      213: 4819464795725344024
+    second: Estian muerte_52
+  - first:
+      213: -6927059769687501088
+    second: Estian muerte_53
+  - first:
+      213: 3698000201341405202
+    second: Estian muerte_54
+  - first:
+      213: 3500595775261990440
+    second: Estian muerte_55
+  - first:
+      213: 2275268390727123959
+    second: Estian muerte_56
+  - first:
+      213: -7791644427896278799
+    second: Estian muerte_57
+  - first:
+      213: -759022771185736816
+    second: Estian muerte_58
+  - first:
+      213: -6491343617660368981
+    second: Estian muerte_59
+  - first:
+      213: -4983920942104812118
+    second: Estian muerte_60
+  - first:
+      213: -2213508626563354007
+    second: Estian muerte_61
+  - first:
+      213: -2752556239708793466
+    second: Estian muerte_62
+  - first:
+      213: 659482616156776533
+    second: Estian muerte_63
+  - first:
+      213: 5488281623968198736
+    second: Estian muerte_64
+  - first:
+      213: 4631202365988063730
+    second: Estian muerte_65
+  - first:
+      213: 9137918529520261960
+    second: Estian muerte_66
+  - first:
+      213: 2005520319610983642
+    second: Estian muerte_67
+  - first:
+      213: -1856272062125666441
+    second: Estian muerte_68
+  - first:
+      213: 337925106020977578
+    second: Estian muerte_69
+  - first:
+      213: 5872122981508768496
+    second: Estian muerte_70
+  - first:
+      213: 1712384601703840455
+    second: Estian muerte_71
+  - first:
+      213: -7850712959592552024
+    second: Estian muerte_72
+  - first:
+      213: -1143360009353415128
+    second: Estian muerte_73
+  - first:
+      213: -2886676205965309322
+    second: Estian muerte_74
+  - first:
+      213: 4051018698719305882
+    second: Estian muerte_75
+  - first:
+      213: -5943332280801735522
+    second: Estian muerte_76
+  - first:
+      213: 4268763443725298024
+    second: Estian muerte_77
+  - first:
+      213: -3781674811367206675
+    second: Estian muerte_78
+  - first:
+      213: 7434085218130680281
+    second: Estian muerte_79
+  - first:
+      213: 8027008534286882267
+    second: Estian muerte_80
+  - first:
+      213: -2460928411964223837
+    second: Estian muerte_81
+  - first:
+      213: -8262567240862274345
+    second: Estian muerte_82
+  - first:
+      213: 891871288398241275
+    second: Estian muerte_83
+  - first:
+      213: -7245675886243763258
+    second: Estian muerte_84
+  - first:
+      213: -2068793425381482898
+    second: Estian muerte_85
+  - first:
+      213: -8432953709664582442
+    second: Estian muerte_86
+  - first:
+      213: -1132942653808465381
+    second: Estian muerte_87
+  - first:
+      213: 6061509385883351119
+    second: Estian muerte_88
+  - first:
+      213: 9045078522145730145
+    second: Estian muerte_89
+  - first:
+      213: -5702447618640618090
+    second: Estian muerte_90
+  - first:
+      213: -8233741700591623719
+    second: Estian muerte_91
+  - first:
+      213: 1222999652570466386
+    second: Estian muerte_92
+  - first:
+      213: 7198789155943745424
+    second: Estian muerte_93
+  - first:
+      213: 4266689175318916096
+    second: Estian muerte_94
+  - first:
+      213: 3904015067448549466
+    second: Estian muerte_95
+  - first:
+      213: 2092005684703651003
+    second: Estian muerte_96
+  - first:
+      213: -8594458212723696304
+    second: Estian muerte_97
+  - first:
+      213: 543221509378599956
+    second: Estian muerte_98
+  - first:
+      213: -4411269412088939178
+    second: Estian muerte_99
+  - first:
+      213: -8467513795184807660
+    second: Estian muerte_100
+  - first:
+      213: 7567099151469472840
+    second: Estian muerte_101
+  - first:
+      213: 5748498722152680395
+    second: Estian muerte_102
+  - first:
+      213: 670724009945081645
+    second: Estian muerte_103
+  - first:
+      213: -5417808764898873762
+    second: Estian muerte_104
+  - first:
+      213: -835949962378733731
+    second: Estian muerte_105
+  - first:
+      213: -6333101082303517977
+    second: Estian muerte_106
+  - first:
+      213: 5143160880911291606
+    second: Estian muerte_107
+  - first:
+      213: 5536618174079518861
+    second: Estian muerte_108
+  - first:
+      213: 4959297329013608577
+    second: Estian muerte_109
+  - first:
+      213: 138501969856320088
+    second: Estian muerte_110
+  - first:
+      213: 280091767302215038
+    second: Estian muerte_111
+  - first:
+      213: -8109346019979771255
+    second: Estian muerte_112
+  - first:
+      213: 6517420958670237114
+    second: Estian muerte_113
+  - first:
+      213: 233557891244290213
+    second: Estian muerte_114
+  - first:
+      213: 1293910471997787224
+    second: Estian muerte_115
+  - first:
+      213: -8278140493821458800
+    second: Estian muerte_116
+  - first:
+      213: -7262645750405709488
+    second: Estian muerte_117
+  - first:
+      213: 5253471112615658953
+    second: Estian muerte_118
+  - first:
+      213: -3601759218122661834
+    second: Estian muerte_119
+  - first:
+      213: -7331289886230064659
+    second: Estian muerte_120
+  - first:
+      213: 6776364508589547688
+    second: Estian muerte_121
+  - first:
+      213: 8757400841256249802
+    second: Estian muerte_122
+  - first:
+      213: 6272151566031019224
+    second: Estian muerte_123
+  - first:
+      213: -1772855915130839056
+    second: Estian muerte_124
+  - first:
+      213: -7054483483864258967
+    second: Estian muerte_125
+  - first:
+      213: -9083417020572885772
+    second: Estian muerte_126
+  - first:
+      213: -192408546947151556
+    second: Estian muerte_127
+  - first:
+      213: -5217893925671539700
+    second: Estian muerte_128
+  - first:
+      213: 3181858104874495734
+    second: Estian muerte_129
+  - first:
+      213: -1803243453117581321
+    second: Estian muerte_130
+  - first:
+      213: -2198492616539696149
+    second: Estian muerte_131
+  - first:
+      213: -6901877552130263046
+    second: Estian muerte_132
+  - first:
+      213: 6822141358742462928
+    second: Estian muerte_133
+  - first:
+      213: -6430290984099141619
+    second: Estian muerte_134
+  - first:
+      213: -8261330255505741654
+    second: Estian muerte_135
+  - first:
+      213: -546820523501208974
+    second: Estian muerte_136
+  - first:
+      213: 46180643715295551
+    second: Estian muerte_137
+  - first:
+      213: -2364724012435542952
+    second: Estian muerte_138
+  - first:
+      213: -3549631529701206948
+    second: Estian muerte_139
+  - first:
+      213: 7851361548691143150
+    second: Estian muerte_140
+  - first:
+      213: -60715866783826316
+    second: Estian muerte_141
+  - first:
+      213: -3651119676398443266
+    second: Estian muerte_142
+  - first:
+      213: 6226829456164715709
+    second: Estian muerte_143
+  - first:
+      213: -9118149848278672673
+    second: Estian muerte_144
+  - first:
+      213: -7031047050766754493
+    second: Estian muerte_145
+  - first:
+      213: -1637823860794633224
+    second: Estian muerte_146
+  - first:
+      213: 1353349943270696761
+    second: Estian muerte_147
+  - first:
+      213: 3834412175304888440
+    second: Estian muerte_148
+  - first:
+      213: -6875886145700430970
+    second: Estian muerte_149
+  - first:
+      213: -8822540132741442286
+    second: Estian muerte_150
+  - first:
+      213: 4792196741617269646
+    second: Estian muerte_151
+  - first:
+      213: -6297018531684168413
+    second: Estian muerte_152
+  - first:
+      213: -247624701045615469
+    second: Estian muerte_153
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Estian muerte 2_0
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 6093
+        width: 190
+        height: 578
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da598baec7b581499facacd30a1c25e
+      internalID: -2104009796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_1
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 6091
+        width: 184
+        height: 577
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f71cdf6bed9a6443b24ec29b61b6d61
+      internalID: -711095965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_2
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 6089
+        width: 242
+        height: 1487
+      alignment: 9
+      pivot: {x: 0.5, y: 0.195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d66cd2a11f6c345a42569bcd35d03a
+      internalID: 195526600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_3
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 6094
+        width: 264
+        height: 1480
+      alignment: 9
+      pivot: {x: 0.5, y: 0.194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c47cf53a87b16458d05b515025c7d5
+      internalID: -524268993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_4
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 6092
+        width: 329
+        height: 1484
+      alignment: 9
+      pivot: {x: 0.5, y: 0.195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8ee29b503854647a3bd858199efcd7
+      internalID: 218175198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_5
+      rect:
+        serializedVersion: 2
+        x: 4169
+        y: 6089
+        width: 294
+        height: 1484
+      alignment: 9
+      pivot: {x: 0.5, y: 0.195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3d8fd4acf6f5346bfc49f98c1a994d
+      internalID: 549190442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_6
+      rect:
+        serializedVersion: 2
+        x: 4856
+        y: 6092
+        width: 291
+        height: 1484
+      alignment: 9
+      pivot: {x: 0.5, y: 0.195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bf020d057f7ba49aedd0ac51330ac2
+      internalID: -1054512397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 4333
+        width: 303
+        height: 1491
+      alignment: 9
+      pivot: {x: 0.5, y: 0.193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081b3679a87c2d14ca27ceedae3294f8
+      internalID: -591125735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_8
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 4331
+        width: 300
+        height: 1512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca474cf043719641b7ef6dce0793b36
+      internalID: -1221973371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_9
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 4323
+        width: 313
+        height: 1547
+      alignment: 9
+      pivot: {x: 0.5, y: 0.186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5f3600b3b797b479d2581cb5700a2a
+      internalID: -196244364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_10
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 4328
+        width: 314
+        height: 1535
+      alignment: 9
+      pivot: {x: 0.5, y: 0.188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7a7345b36226741a32237e2c8267d2
+      internalID: -308980301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_11
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 4324
+        width: 287
+        height: 1527
+      alignment: 9
+      pivot: {x: 0.5, y: 0.189}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100ec558ab6abba49ae2803172855e3f
+      internalID: 1285660782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_12
+      rect:
+        serializedVersion: 2
+        x: 4045
+        y: 4338
+        width: 333
+        height: 1544
+      alignment: 9
+      pivot: {x: 0.6, y: 0.186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28431ae4252b794e9706b1a4ab81995
+      internalID: 1314970700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_13
+      rect:
+        serializedVersion: 2
+        x: 4791
+        y: 4341
+        width: 356
+        height: 1595
+      alignment: 9
+      pivot: {x: 0.59, y: 0.185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb67526da2b37d44a5f5e9c43a73d05
+      internalID: -1569736028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2131
+        width: 267
+        height: 1898
+      alignment: 9
+      pivot: {x: 0.495, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a0bb91ce1040a4bbddc2108758bacb
+      internalID: 1004065023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_15
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 2128
+        width: 271
+        height: 1925
+      alignment: 9
+      pivot: {x: 0.48, y: 0.151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a10fdf7e469b51479873b5d95a8ea6b
+      internalID: -1718075177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_16
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 2142
+        width: 282
+        height: 1965
+      alignment: 9
+      pivot: {x: 0.45, y: 0.147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94f080be3dcc1d43ba609cc1a90bda1
+      internalID: -970107556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_17
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 2134
+        width: 243
+        height: 1988
+      alignment: 9
+      pivot: {x: 0.45, y: 0.145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e075e5e4366e64885b5951496d7423
+      internalID: 832679244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_18
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 2150
+        width: 261
+        height: 2033
+      alignment: 9
+      pivot: {x: 0.46, y: 0.142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041fe7190d4e39e43838c34a8f0d8e94
+      internalID: 1066290439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_19
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 2143
+        width: 252
+        height: 2040
+      alignment: 9
+      pivot: {x: 0.38, y: 0.142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75dc242aa8d4fe47b59d0924dae079a
+      internalID: -145636437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_20
+      rect:
+        serializedVersion: 2
+        x: 4755
+        y: 2144
+        width: 266
+        height: 2035
+      alignment: 9
+      pivot: {x: 0.5, y: 0.142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dc1e657afbd3140ae2f00b4a6d525b
+      internalID: -1234995439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_21
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 102
+        width: 337
+        height: 1902
+      alignment: 9
+      pivot: {x: 0.53, y: 0.152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dc5e2e69f0b1e43840b45c5a144530
+      internalID: 1369738016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_22
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 104
+        width: 479
+        height: 1906
+      alignment: 9
+      pivot: {x: 0.52, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10f854c6501aaf4ea0688d31b1e3fd0
+      internalID: 2095560179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_23
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 101
+        width: 478
+        height: 1891
+      alignment: 9
+      pivot: {x: 0.55, y: 0.151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf27a144aee61cc44bc2daa840d319a0
+      internalID: -738300860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_24
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 103
+        width: 481
+        height: 1861
+      alignment: 9
+      pivot: {x: 0.53, y: 0.154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7b4780883c9a64ab4e2ac61a5b64cb
+      internalID: 709854194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_25
+      rect:
+        serializedVersion: 2
+        x: 3269
+        y: 106
+        width: 480
+        height: 1826
+      alignment: 9
+      pivot: {x: 0.5, y: 0.157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07451b0fb7955a14b96270fa12bcbef5
+      internalID: 1351055498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_26
+      rect:
+        serializedVersion: 2
+        x: 4088
+        y: 96
+        width: 484
+        height: 1789
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e1193888275f746b9df492532e9e96
+      internalID: 2143370315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estian muerte 2_27
+      rect:
+        serializedVersion: 2
+        x: 4819
+        y: 104
+        width: 481
+        height: 1737
+      alignment: 9
+      pivot: {x: 0.55, y: 0.165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64afdc39c8b21eb4f9d57c782245ca21
+      internalID: 324777834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 622c9c39de2991d429e28b3434ed26ad
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Estian muerte 2_0: -2104009796
+      Estian muerte 2_1: -711095965
+      Estian muerte 2_10: -308980301
+      Estian muerte 2_11: 1285660782
+      Estian muerte 2_12: 1314970700
+      Estian muerte 2_13: -1569736028
+      Estian muerte 2_14: 1004065023
+      Estian muerte 2_15: -1718075177
+      Estian muerte 2_16: -970107556
+      Estian muerte 2_17: 832679244
+      Estian muerte 2_18: 1066290439
+      Estian muerte 2_19: -145636437
+      Estian muerte 2_2: 195526600
+      Estian muerte 2_20: -1234995439
+      Estian muerte 2_21: 1369738016
+      Estian muerte 2_22: 2095560179
+      Estian muerte 2_23: -738300860
+      Estian muerte 2_24: 709854194
+      Estian muerte 2_25: 1351055498
+      Estian muerte 2_26: 2143370315
+      Estian muerte 2_27: 324777834
+      Estian muerte 2_3: -524268993
+      Estian muerte 2_4: 218175198
+      Estian muerte 2_5: 549190442
+      Estian muerte 2_6: -1054512397
+      Estian muerte 2_7: -591125735
+      Estian muerte 2_8: -1221973371
+      Estian muerte 2_9: -196244364
+      Estian muerte_0: -7915530223714677039
+      Estian muerte_1: -1962549305407745226
+      Estian muerte_10: 3283277143486376206
+      Estian muerte_100: -8467513795184807660
+      Estian muerte_101: 7567099151469472840
+      Estian muerte_102: 5748498722152680395
+      Estian muerte_103: 670724009945081645
+      Estian muerte_104: -5417808764898873762
+      Estian muerte_105: -835949962378733731
+      Estian muerte_106: -6333101082303517977
+      Estian muerte_107: 5143160880911291606
+      Estian muerte_108: 5536618174079518861
+      Estian muerte_109: 4959297329013608577
+      Estian muerte_11: -7387366642196047104
+      Estian muerte_110: 138501969856320088
+      Estian muerte_111: 280091767302215038
+      Estian muerte_112: -8109346019979771255
+      Estian muerte_113: 6517420958670237114
+      Estian muerte_114: 233557891244290213
+      Estian muerte_115: 1293910471997787224
+      Estian muerte_116: -8278140493821458800
+      Estian muerte_117: -7262645750405709488
+      Estian muerte_118: 5253471112615658953
+      Estian muerte_119: -3601759218122661834
+      Estian muerte_12: 569725797946601164
+      Estian muerte_120: -7331289886230064659
+      Estian muerte_121: 6776364508589547688
+      Estian muerte_122: 8757400841256249802
+      Estian muerte_123: 6272151566031019224
+      Estian muerte_124: -1772855915130839056
+      Estian muerte_125: -7054483483864258967
+      Estian muerte_126: -9083417020572885772
+      Estian muerte_127: -192408546947151556
+      Estian muerte_128: -5217893925671539700
+      Estian muerte_129: 3181858104874495734
+      Estian muerte_13: -8757141721992225431
+      Estian muerte_130: -1803243453117581321
+      Estian muerte_131: -2198492616539696149
+      Estian muerte_132: -6901877552130263046
+      Estian muerte_133: 6822141358742462928
+      Estian muerte_134: -6430290984099141619
+      Estian muerte_135: -8261330255505741654
+      Estian muerte_136: -546820523501208974
+      Estian muerte_137: 46180643715295551
+      Estian muerte_138: -2364724012435542952
+      Estian muerte_139: -3549631529701206948
+      Estian muerte_14: 3368251595951528630
+      Estian muerte_140: 7851361548691143150
+      Estian muerte_141: -60715866783826316
+      Estian muerte_142: -3651119676398443266
+      Estian muerte_143: 6226829456164715709
+      Estian muerte_144: -9118149848278672673
+      Estian muerte_145: -7031047050766754493
+      Estian muerte_146: -1637823860794633224
+      Estian muerte_147: 1353349943270696761
+      Estian muerte_148: 3834412175304888440
+      Estian muerte_149: -6875886145700430970
+      Estian muerte_15: -506964975596580958
+      Estian muerte_150: -8822540132741442286
+      Estian muerte_151: 4792196741617269646
+      Estian muerte_152: -6297018531684168413
+      Estian muerte_153: -247624701045615469
+      Estian muerte_16: 6014149976392492451
+      Estian muerte_17: -508682111797343545
+      Estian muerte_18: -483090476961829909
+      Estian muerte_19: 5282281781107287488
+      Estian muerte_2: -7523908233761128876
+      Estian muerte_20: -6033383993994334011
+      Estian muerte_21: -4730067829532451234
+      Estian muerte_22: 542694550393117377
+      Estian muerte_23: 7714010696103408911
+      Estian muerte_24: 4189441940648845432
+      Estian muerte_25: 1479816053216444758
+      Estian muerte_26: -9182541914639945355
+      Estian muerte_27: -283203144884967378
+      Estian muerte_28: -9167092258911598625
+      Estian muerte_29: -2397033508889319037
+      Estian muerte_3: -5300792933210442162
+      Estian muerte_30: 4580125225496772125
+      Estian muerte_31: -5228289079691187171
+      Estian muerte_32: -6514597628924511466
+      Estian muerte_33: 8393091657187753821
+      Estian muerte_34: 1796706826516623810
+      Estian muerte_35: -2896557068743038842
+      Estian muerte_36: 8808458361862815782
+      Estian muerte_37: 4343540919750760881
+      Estian muerte_38: 7780497903333016532
+      Estian muerte_39: -4145879302175683797
+      Estian muerte_4: -8422504395136681851
+      Estian muerte_40: 5691742259238457941
+      Estian muerte_41: -2174688379347241429
+      Estian muerte_42: 3986933060921779759
+      Estian muerte_43: 1126725635463632744
+      Estian muerte_44: 6990346367221029653
+      Estian muerte_45: 3407843148533499242
+      Estian muerte_46: 156616033698043965
+      Estian muerte_47: 9027534292865295103
+      Estian muerte_48: -5195235405568310725
+      Estian muerte_49: -7998706616522515456
+      Estian muerte_5: 2192128199444981854
+      Estian muerte_50: 7800000897665826059
+      Estian muerte_51: -5088096191280844368
+      Estian muerte_52: 4819464795725344024
+      Estian muerte_53: -6927059769687501088
+      Estian muerte_54: 3698000201341405202
+      Estian muerte_55: 3500595775261990440
+      Estian muerte_56: 2275268390727123959
+      Estian muerte_57: -7791644427896278799
+      Estian muerte_58: -759022771185736816
+      Estian muerte_59: -6491343617660368981
+      Estian muerte_6: 4509727778954405134
+      Estian muerte_60: -4983920942104812118
+      Estian muerte_61: -2213508626563354007
+      Estian muerte_62: -2752556239708793466
+      Estian muerte_63: 659482616156776533
+      Estian muerte_64: 5488281623968198736
+      Estian muerte_65: 4631202365988063730
+      Estian muerte_66: 9137918529520261960
+      Estian muerte_67: 2005520319610983642
+      Estian muerte_68: -1856272062125666441
+      Estian muerte_69: 337925106020977578
+      Estian muerte_7: -1778518966898315124
+      Estian muerte_70: 5872122981508768496
+      Estian muerte_71: 1712384601703840455
+      Estian muerte_72: -7850712959592552024
+      Estian muerte_73: -1143360009353415128
+      Estian muerte_74: -2886676205965309322
+      Estian muerte_75: 4051018698719305882
+      Estian muerte_76: -5943332280801735522
+      Estian muerte_77: 4268763443725298024
+      Estian muerte_78: -3781674811367206675
+      Estian muerte_79: 7434085218130680281
+      Estian muerte_8: -2307243316259236479
+      Estian muerte_80: 8027008534286882267
+      Estian muerte_81: -2460928411964223837
+      Estian muerte_82: -8262567240862274345
+      Estian muerte_83: 891871288398241275
+      Estian muerte_84: -7245675886243763258
+      Estian muerte_85: -2068793425381482898
+      Estian muerte_86: -8432953709664582442
+      Estian muerte_87: -1132942653808465381
+      Estian muerte_88: 6061509385883351119
+      Estian muerte_89: 9045078522145730145
+      Estian muerte_9: 1730130813269230733
+      Estian muerte_90: -5702447618640618090
+      Estian muerte_91: -8233741700591623719
+      Estian muerte_92: 1222999652570466386
+      Estian muerte_93: 7198789155943745424
+      Estian muerte_94: 4266689175318916096
+      Estian muerte_95: 3904015067448549466
+      Estian muerte_96: 2092005684703651003
+      Estian muerte_97: -8594458212723696304
+      Estian muerte_98: 543221509378599956
+      Estian muerte_99: -4411269412088939178
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

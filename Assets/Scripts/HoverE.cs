@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class HoverE : MonoBehaviour
@@ -5,7 +6,8 @@ public class HoverE : MonoBehaviour
     public GameObject keybindEPrefab;
     private GameObject currentKeybind;
     private Camera mainCam;
-    private bool canHook = false;
+    public Circulin Circulin;
+    public Hook hook;
 
     void Start()
     {
@@ -21,21 +23,20 @@ public class HoverE : MonoBehaviour
         {
             if (currentKeybind == null)
             {
+                hook.HookDisp = true;
                 Vector3 spawnPos = hit.transform.position + new Vector3(0.4f, -0.2f, 0);
-                currentKeybind = Instantiate(keybindEPrefab, spawnPos, Quaternion.identity);
+                currentKeybind = Instantiate(keybindEPrefab, mousePos, Quaternion.identity);
             }
-
-            canHook = true;
         }
         else
         {
+            hook.HookDisp = false;
             if (currentKeybind != null)
             {
                 Destroy(currentKeybind);
                 currentKeybind = null;
+                
             }
-
-            canHook = false;
         }
     }
 }

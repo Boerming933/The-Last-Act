@@ -5,13 +5,15 @@ public class CargaAtkEspecial : MonoBehaviour
 {
     public Circulin Personaje;
     public float cargas = 0;
- 
+
     float cooldown = 0.2f;
     float timer = 0f;
 
     public bool puedeGanarCargas = true;
 
     public RectTransform barraCarga;
+
+    public Latigo latigo;
 
     void Update()
     {
@@ -28,13 +30,22 @@ public class CargaAtkEspecial : MonoBehaviour
             cargas = cargas + 1;
             Debug.Log("Carga: " + cargas);
             AumentarCarga();
-
         }
 
         if (cargas >= 10)
         {
             puedeGanarCargas = false;
             Personaje.puedeCargado = true;
+        }
+        else
+        {
+            puedeGanarCargas = true;
+            Personaje.puedeCargado = false;
+        }
+
+        if (other.CompareTag("Triangulardo"))
+        {
+            latigo.latigo.SetActive(false);
         }
     }
 
@@ -43,19 +54,8 @@ public class CargaAtkEspecial : MonoBehaviour
         if (barraCarga != null)
         {
             Vector3 escala = barraCarga.localScale;
-            escala.x += 2f;
+            escala.y += 5.4f;
             barraCarga.localScale = escala;
         }
     }
-
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
-    }
-
-  
 }
-

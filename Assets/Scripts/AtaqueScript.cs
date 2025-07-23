@@ -2,22 +2,40 @@ using UnityEngine;
 
 public class AtaqueScript : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    private Vector2 Direction;
-    public float speed;
+    public float Speed;
+    private Vector3 Direction;
+    private Rigidbody2D rigi2D;
+
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rigi2D = GetComponent<Rigidbody2D>();
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        rb.linearVelocity = Direction * speed;
+        rigi2D.linearVelocity = Direction * Speed;
     }
 
     public void SetDirection(Vector3 direction)
     {
         Direction = direction;
+        if (Direction == Vector3.right)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x,transform.localScale.y,transform.localScale.z);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Golpeo");
+        
+        Circulin Jugador = collision.GetComponent<Circulin>();
+        VidasPj vidasPj = collision.GetComponent<VidasPj>();
+        if (Jugador != null)
+        {
+            Jugador.Empuje(12f, 36f, transform.position);
+            vidasPj.Hit(1f);
+        }
     }
 }

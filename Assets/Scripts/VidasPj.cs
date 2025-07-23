@@ -1,73 +1,88 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
 
 public class VidasPj : MonoBehaviour
 {
-    public int Vidas = 5;
+    public float Vidas = 6;
     public GameObject BotonReiniciar;
-
+    public Triangulardo Ponk;
+    public LevelPhaseManager levelManager;
+    public Circulin Estian;
+    private float Daño;
+    private bool IsDashing = false;
     public List<GameObject> IndicadoresDeVida; //Aqui van los 5 corazones de la UI
 
-
-    void Start()
+    public void Hit(float daño)
     {
+        if (IsDashing) return;
+        Vidas = Vidas - daño;
+        Daño = daño;
 
-    }
+        ActualizarIndicadoresDeVida();
 
-
-    void Update()
-    {
-
-    }
-
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Triangulardo")
+        if (Vidas <= 0 && Estian.canDie)
         {
-            Vidas -= 1;
-
-            ActualizarIndicadoresDeVida();
-
-            if (Vidas <= 0)
-            {
-                gameObject.SetActive(false);
-                ActivarBotonReinicio();
-            }
+            Estian.canDie = false;
+            levelManager.ActivarFinal();
+            Ponk.MuerteEstian(true);
+            Estian.Muerte(true);
+            StartCoroutine(ReiniciarNivel());
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void InDash(bool Dash)
     {
-        if (other.gameObject.tag == "Ataques")
-        {
-            Vidas -= 1;
-
-            ActualizarIndicadoresDeVida();
-
-            if (Vidas <= 0)
-            {
-                gameObject.SetActive(false);
-                ActivarBotonReinicio();
-            }
-        }
+        IsDashing = Dash;
     }
-
-
+    
     public void ActualizarIndicadoresDeVida()
     {
         if (IndicadoresDeVida.Count > 0)
         {
-            // Desactiva el ultimo (de derecha a izquierda)
-            int ultimoIndice = IndicadoresDeVida.Count - 1;
-            IndicadoresDeVida[ultimoIndice].SetActive(false);
-
-            // Lo quita de la lista
-            IndicadoresDeVida.RemoveAt(ultimoIndice);
+            if (Daño == 1)
+            {
+                int ultimoIndice = IndicadoresDeVida.Count - 1;
+                IndicadoresDeVida[ultimoIndice].SetActive(false);
+                IndicadoresDeVida.RemoveAt(ultimoIndice);
+                if (IndicadoresDeVida.Count > 0)
+                {
+                    IndicadoresDeVida[ultimoIndice - 1].SetActive(true);
+                }
+            }
+            else if (Daño == 2)
+            {
+                if (IndicadoresDeVida.Count > 1)
+                {
+                    for (int n = 0; n < 2; n++)
+                    {
+                        int ultimoIndice = IndicadoresDeVida.Count - 1;
+                        IndicadoresDeVida[ultimoIndice].SetActive(false);
+                        IndicadoresDeVida.RemoveAt(ultimoIndice);
+                        if (IndicadoresDeVida.Count > 0)
+                        {
+                            IndicadoresDeVida[ultimoIndice - 1].SetActive(true);
+                        }
+                    }
+                }
+                else
+                {
+                    int ultimoIndice = IndicadoresDeVida.Count - 1;
+                    IndicadoresDeVida[ultimoIndice].SetActive(false);
+                    IndicadoresDeVida.RemoveAt(ultimoIndice);                
+                }
+            }
         }
     }
 
+    private IEnumerator ReiniciarNivel()
+    {
+        yield return new WaitForSeconds(10f);
+        ReiniciarEscena();
+    }
+    
     public void ActivarBotonReinicio()
     {
         BotonReiniciar.SetActive(true);
@@ -76,6 +91,7 @@ public class VidasPj : MonoBehaviour
 
     public void ReiniciarEscena()
     {
+        ControladorSonidos.instance.DetenerSonido();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: f7cb0f2a53e0b45438bd5776067b7c28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1158053262924437587
+    second: viento_0
+  - first:
+      213: -8485215858824245332
+    second: viento_1
+  - first:
+      213: 7633975596974103299
+    second: viento_2
+  - first:
+      213: 6811684470918427573
+    second: viento_3
+  - first:
+      213: -2106655993441503635
+    second: viento_4
+  - first:
+      213: -6364685652593001130
+    second: viento_5
+  - first:
+      213: 7532179927499239548
+    second: viento_6
+  - first:
+      213: 6064507464785175353
+    second: viento_7
+  - first:
+      213: 8546781360707578873
+    second: viento_8
+  - first:
+      213: 6514085207101074398
+    second: viento_9
+  - first:
+      213: -5082560848277150922
+    second: viento_10
+  - first:
+      213: 3143427681766660783
+    second: viento_11
+  - first:
+      213: 138252391124068372
+    second: viento_12
+  - first:
+      213: 5469068853180039346
+    second: viento_13
+  - first:
+      213: 379480355196179311
+    second: viento_14
+  - first:
+      213: 3760405498300907243
+    second: viento_15
+  - first:
+      213: -2759892870474938103
+    second: viento_16
+  - first:
+      213: -8762649674784756167
+    second: viento_17
+  - first:
+      213: -916517480487942234
+    second: viento_18
+  - first:
+      213: 6094697827978530554
+    second: viento_19
+  - first:
+      213: 4462567545045063157
+    second: viento_20
+  - first:
+      213: 2227411433791935332
+    second: viento_21
+  - first:
+      213: -9065054871039206693
+    second: viento_22
+  - first:
+      213: 2615468498698790033
+    second: viento_23
+  - first:
+      213: 954425247846391134
+    second: viento_24
+  - first:
+      213: 6778850870334297507
+    second: viento_25
+  - first:
+      213: -131370751125588851
+    second: viento_26
+  - first:
+      213: 4751917574334692326
+    second: viento_27
+  - first:
+      213: -8003542312190260645
+    second: viento_28
+  - first:
+      213: -3447570986988888770
+    second: viento_29
+  - first:
+      213: 365675728644486474
+    second: viento_30
+  - first:
+      213: 8083765048343501930
+    second: viento_31
+  - first:
+      213: -502796725645205504
+    second: viento_32
+  - first:
+      213: 2462348155677387064
+    second: viento_33
+  - first:
+      213: -2748503713867178385
+    second: viento_34
+  - first:
+      213: 2267591299968347075
+    second: viento_35
+  - first:
+      213: 4609840210517746861
+    second: viento_36
+  - first:
+      213: 5736628845320152911
+    second: viento_37
+  - first:
+      213: -4226621885252840247
+    second: viento_38
+  - first:
+      213: -5604231548945701175
+    second: viento_39
+  - first:
+      213: 8291578349998298353
+    second: viento_40
+  - first:
+      213: 5604509623019185464
+    second: viento_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: viento_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 119
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7286861b4cdefe0800000000000000
+      internalID: -1158053262924437587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: viento_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 113
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf054c02257e3a80800000000000000
+      internalID: -8485215858824245332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: viento_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 104
+        width: 97
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b54a1eb5451f960800000000000000
+      internalID: 7633975596974103299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: viento_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 85
+        width: 95
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3332bbfe6f78e50800000000000000
+      internalID: 6811684470918427573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: viento_4
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 87
+        width: 94
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66b8f61987a3c2e0800000000000000
+      internalID: -2106655993441503635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: viento_5
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 83
+        width: 120
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d3b2ade181ca7a0800000000000000
+      internalID: -6364685652593001130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: viento_7
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 76
+        width: 141
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933a9387865792450800000000000000
+      internalID: 6064507464785175353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: viento_9
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 66
+        width: 174
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbe2e59bfda66a50800000000000000
+      internalID: 6514085207101074398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: viento_10
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 62
+        width: 207
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633e12946dd1779b0800000000000000
+      internalID: -5082560848277150922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: viento_11
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 59
+        width: 227
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faad4dc62d2bf9b20800000000000000
+      internalID: 3143427681766660783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: viento_12
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 65
+        width: 236
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4186c4631db2be100800000000000000
+      internalID: 138252391124068372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: viento_23
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 58
+        width: 269
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1946a220eb20c4420800000000000000
+      internalID: 2615468498698790033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 540ed419b5cbf854192814dd3e66e702
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      viento_0: -1158053262924437587
+      viento_1: -8485215858824245332
+      viento_10: -5082560848277150922
+      viento_11: 3143427681766660783
+      viento_12: 138252391124068372
+      viento_16: -2759892870474938103
+      viento_2: 7633975596974103299
+      viento_23: 2615468498698790033
+      viento_3: 6811684470918427573
+      viento_37: 5736628845320152911
+      viento_4: -2106655993441503635
+      viento_5: -6364685652593001130
+      viento_7: 6064507464785175353
+      viento_9: 6514085207101074398
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
