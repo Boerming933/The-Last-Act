@@ -3,6 +3,7 @@ using UnityEngine;
 public class VisualBridge : MonoBehaviour
 {
     public Triangulardo triangulardo;
+    public Circulin Estian;
 
     public void Evento_FinMartillazoAnim()
     {
@@ -22,6 +23,12 @@ public class VisualBridge : MonoBehaviour
     public void Evento_SonidoMartillo()
     {
         triangulardo?.SonidoMartillo();
+    }
+
+    public void Terminar_Presentacion()
+    {
+        triangulardo?.TerminarPresentacion();
+        Estian.FinPresentacion();
     }
 
     public void Evento_SpawnOnda()

@@ -13,6 +13,8 @@ public class PlataformaScript : MonoBehaviour
     private float alturaMinima;
     private BoxCollider2D boxCollider;
 
+    [SerializeField] private AudioClip ImpactoTrapecio;
+
     void Start()
     {
         posicionInicial = transform.position;
@@ -74,7 +76,8 @@ public class PlataformaScript : MonoBehaviour
         var jefeHit = other.GetComponent<Triangulardo>();
         if (jefeHit != null && !jefeHit.IsStunned())
         {
-            jefeHit.Stun(10f);
+            ControladorSonidos.instance.ReproducirSonido(ImpactoTrapecio);
+            jefeHit.Stun(7f);
         }
             
         StartCoroutine(RebotePlataforma());

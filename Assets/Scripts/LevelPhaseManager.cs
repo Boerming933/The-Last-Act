@@ -5,6 +5,7 @@ public class LevelPhaseManager : MonoBehaviour
     public CañonScript[] cañones;
     public SpawnGlobos spawnGlobos;
     public GameObject jefePonk;
+    public Circulin Estian;
     [SerializeField] private AudioClip FraseInicio;
     private float tiempoFase;
     private int faseActual = 0;
@@ -12,6 +13,7 @@ public class LevelPhaseManager : MonoBehaviour
     public float VidasEstian = 1;
     int n = 0;
     public CuerdaScript[] cuerdas;
+    [SerializeField] private AudioClip Poleas;
 
 
     void Start()
@@ -87,6 +89,7 @@ public class LevelPhaseManager : MonoBehaviour
         faseActual = 2;
         ActivarPelotas(false);
         ActivarGlobos(false);
+        Estian.PresentacionPonk();
         jefePonk.SetActive(true);
         if (n == 0)
         {
@@ -114,6 +117,8 @@ public class LevelPhaseManager : MonoBehaviour
         Debug.Log("FASE 4: Solo Ponk (Rage)");
         foreach (CuerdaScript cuerda in cuerdas)
         {
+            ControladorSonidos.instance.ReproducirSonido(Poleas);
+
             cuerda.gameObject.SetActive(true);   
             cuerda.LlamarDesdeTecho();            
         }

@@ -31,6 +31,7 @@ public class Triangulardo : MonoBehaviour
     private bool persiguiendoJugador = false;
     private bool estaDisparando = false;
     private bool vieneDePersecucion = false;
+    private bool Presentando = true;
     private bool muerte = false;
     private bool Atacando = false;
     private bool Patrullando;
@@ -51,6 +52,7 @@ public class Triangulardo : MonoBehaviour
     [SerializeField] private AudioClip Campana;
     [SerializeField] private AudioClip Martillo;
     [SerializeField] private AudioClip Ovacion;
+    [SerializeField] private AudioClip AtaqueOndas;
 
     private float tiempoUltimoAtaque;
     public bool Stunning;
@@ -75,7 +77,7 @@ public class Triangulardo : MonoBehaviour
 
     void Update()
     {
-        if (Stunning || muerte || Atacando)
+        if (Stunning || muerte || Atacando || Presentando)
         {
             return;
         }
@@ -98,7 +100,7 @@ public class Triangulardo : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Stunning || Atacando)
+        if (Stunning || Atacando || Presentando)
         {
             return;
         }
@@ -178,6 +180,11 @@ public class Triangulardo : MonoBehaviour
         DañoPosible = false;
     }
 
+    public void TerminarPresentacion()
+    {
+        Presentando = false;
+    }
+
     IEnumerator DesactivarHitboxPronto()
     {
         yield return new WaitForSeconds(0.1f);
@@ -210,10 +217,9 @@ public class Triangulardo : MonoBehaviour
 
     public void SpawnOnda()
     {
+        ControladorSonidos.instance.ReproducirSonido(AtaqueOndas);
         Vector3 direccion = transform.localScale.x > 0 ? Vector3.left : Vector3.right;
-
         Vector3 PositionOnda = new Vector3(Origen.position.x, Origen.position.y - 1f, Origen.position.z);
-
         GameObject Onda = Instantiate(OndaPrefab, PositionOnda, Quaternion.identity);
         Onda.GetComponent<AtaqueScript>().SetDirection(direccion);
         Destroy(Onda, 5f);
@@ -243,46 +249,6 @@ public class Triangulardo : MonoBehaviour
         estaDisparando = false;
     }
 
-    // private IEnumerator ShootOnda()
-    // {
-    //     ControladorSonidos.instance.ReproducirSonido(FraseRepetitivo);
-    //     estaDisparando = true;
-    //     rb.linearVelocity = Vector2.zero; // por si acaso
-
-    //     /// yield return new WaitForSeconds(1f);
-    //     Patrullando = false;
-    //     animVisual.SetBool("Onda", true);
-
-    //     int cantidadOndas = 3;
-    //     float tiempoEntreOndas = 1f;
-
-    //     for (int i = 0; i < cantidadOndas; i++)
-    //     {
-
-            // Vector3 direccion = transform.localScale.x > 0 ? Vector3.left : Vector3.right;
-
-            // Vector3 PositionOnda = new Vector3(Origen.position.x, Origen.position.y - 1f, Origen.position.z);
-
-            // GameObject Onda = Instantiate(OndaPrefab, PositionOnda, Quaternion.identity);
-            // Onda.GetComponent<AtaqueScript>().SetDirection(direccion);
-            // Destroy(Onda, 5f);
-    //         if (i == 2)
-    //         {
-    //             yield return new WaitForSeconds(0.1f);
-    //         }
-    //         else
-    //         {
-    //             yield return new WaitForSeconds(tiempoEntreOndas);
-    //         }
-
-    //     }
-    //     animVisual.SetBool("Onda", false);
-
-    //     yield return new WaitForSeconds(0.5f); // espera extra después de disparar
-
-    //     estaDisparando = false;
-    // }
-
     IEnumerator ComportamientoBoss()
     {
         while (!muerte)
@@ -311,18 +277,22 @@ public class Triangulardo : MonoBehaviour
                     break;
                 case FaseJefe.Fase3:
                     Debug.Log("Entró en el switch 3");
-                    yield return StartCoroutine(PerseguirJugador());
-                    StartCoroutine(WaveAttackRoutine(3));
-                    //En vez de "Martillazo debe ser "Ondas" o el nombre del trigger que pusiste e indicarle que sea en Loop
+                    Patrullar();
+                    yield return new WaitUntil(() => objetivoActual == null);
                     foreach (CuerdaScript cuerda in cuerdaScript)
                     {
                         cuerda.activada = true;
                     }
+                    yield return StartCoroutine(WaveAttackRoutine(10));
+                    foreach (CuerdaScript cuerda in cuerdaScript)
+                    {
+                        cuerda.activada = false;
+                    }
+                    //En vez de "Martillazo debe ser "Ondas" o el nombre del trigger que pusiste e indicarle que sea en Loop
+
                     Debug.Log("Deberia de estar frenado");
-                    yield return new WaitForSeconds(10f); //
                     animVisual.ResetTrigger("Onda");
                     // Acá frenas la animacion de "Ondas" e inicias las de siempre
-                    vieneDePersecucion = false; //
                     break;
             }
         }
@@ -406,7 +376,6 @@ public class Triangulardo : MonoBehaviour
     public void Stun(float duration)
     {
         if (Stunning) return;
-        animVisual.speed = 0f;
         animVisual.ResetTrigger("Onda");
         StopAllCoroutines();
         Stunning = true;
@@ -421,17 +390,16 @@ public class Triangulardo : MonoBehaviour
         yield return new WaitForSeconds(duration);
         vidasPonk.invulnerable = true;
         Stunning = false;
-        animVisual.speed = 1f;
         animVisual.SetBool("Stun",false);
         foreach (CuerdaScript cuerda in cuerdaScript)
         {
+            Debug.Log("Se desactivaron las cuerdas");
             cuerda.activada = false;
             cuerda.DesactivarPlataformas();
         }
+        yield return new WaitForSeconds(0.85f);
         ResetBossState();
         StartCoroutine(ComportamientoBoss());
-        tiempoPersecucionMax = 10;
-        tiempoPersecucionMin = 9;
     }
     private void ResetBossState()
     {
@@ -440,8 +408,8 @@ public class Triangulardo : MonoBehaviour
         Patrullando         = false;
         vieneDePersecucion  = false;
         objetivoActual      = null;
+        estaDisparando = false;
     }
-
 
     public bool IsStunned()
     {

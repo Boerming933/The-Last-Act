@@ -10,11 +10,17 @@ public class CuerdaScript : MonoBehaviour
     public PlataformaScript[] plataformas;
     public VidasPonk VidasPonk;
 
-    [SerializeField] private float velocidadCaida = 5f;
+    [SerializeField] private float velocidadCaida = 3f;
     [SerializeField] private Vector3 posicionFinal;
     private bool cayendo = false;
 
-    [SerializeField] private AudioClip Polea;
+    [SerializeField] private AudioClip Trapecios;
+
+    public GameObject prefabE;      
+    public float offsetY = 0.5f;              
+    private GameObject instanciaActual;
+
+    public bool canE = true;
 
     void Start()
     {
@@ -39,16 +45,32 @@ public class CuerdaScript : MonoBehaviour
         if (!activada) return;
         if (jugador != null)
         {
-            if (Vector2.Distance(transform.position, jugador.position) <= distanciaActivacion)
+            if (Vector2.Distance(transform.position, jugador.position) <= distanciaActivacion && canE)
             {
-                if (Input.GetKeyDown(KeyCode.E))
+                if (instanciaActual == null)
                 {
-                    ControladorSonidos.instance.ReproducirSonido(Polea);
+                    Vector3 posicion = transform.position + new Vector3(0, -offsetY, 0);
+                    instanciaActual = Instantiate(prefabE, posicion, Quaternion.identity);
+                }
+            }
+            else
+            {
+                if (instanciaActual != null)
+                {
+                    Destroy(instanciaActual);
+                    instanciaActual = null;
+                }
+            }
+
+            if (Input.GetKeyDown(KeyCode.E) && canE)
+                {
+                    canE = false;
+                    ControladorSonidos.instance.ReproducirSonido(Trapecios);
                     ActivarPlataformas();
                 }
             }
         }
-    }
+    
 
     private void ActivarPlataformas()
     {
@@ -67,6 +89,7 @@ public class CuerdaScript : MonoBehaviour
         {
             if (plataforma != null)
                 plataforma.Desactivar();
+                canE = true; 
         }
     }
     public void LlamarDesdeTecho()
