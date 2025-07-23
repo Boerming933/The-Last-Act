@@ -9,15 +9,13 @@ public class Hook : MonoBehaviour
     [SerializeField] private LineRenderer rope;
     [SerializeField] private Animator Estian;
     public Circulin circulin;
-    public HoverE hoverE;
 
     private Vector3 grapplePoint;
     private DistanceJoint2D joint;
 
     [SerializeField] private AudioClip gancho;
-    public bool HookDisp = false;
+    private bool HookDisp = true;
     private bool muerte = false;
-
 
     void Start()
     {
@@ -32,7 +30,7 @@ public class Hook : MonoBehaviour
         {
             return;
         }
-        if (Input.GetKeyDown(KeyCode.E) && HookDisp && !circulin.atacando)
+        if (Input.GetKeyDown(KeyCode.E) && HookDisp)
         {
             circulin.Trapecio(true);
             Estian.SetTrigger("Gancho");
@@ -83,11 +81,6 @@ public class Hook : MonoBehaviour
     public void Muerte(bool Muerte)
     {
         muerte = Muerte;
-    }
-
-    public void CanHook(bool CanHook)
-    {
-        HookDisp = CanHook; 
     }
 
     private IEnumerator MaxHook()

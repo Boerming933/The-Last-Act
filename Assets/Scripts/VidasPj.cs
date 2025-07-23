@@ -53,24 +53,15 @@ public class VidasPj : MonoBehaviour
             }
             else if (Daño == 2)
             {
-                if (IndicadoresDeVida.Count > 1)
-                {
-                    for (int n = 0; n < 2; n++)
-                    {
-                        int ultimoIndice = IndicadoresDeVida.Count - 1;
-                        IndicadoresDeVida[ultimoIndice].SetActive(false);
-                        IndicadoresDeVida.RemoveAt(ultimoIndice);
-                        if (IndicadoresDeVida.Count > 0)
-                        {
-                            IndicadoresDeVida[ultimoIndice - 1].SetActive(true);
-                        }
-                    }
-                }
-                else
+                for (int n = 0; n < 2; n++)
                 {
                     int ultimoIndice = IndicadoresDeVida.Count - 1;
                     IndicadoresDeVida[ultimoIndice].SetActive(false);
-                    IndicadoresDeVida.RemoveAt(ultimoIndice);                
+                    IndicadoresDeVida.RemoveAt(ultimoIndice);
+                    if (IndicadoresDeVida.Count > 0)
+                    {
+                        IndicadoresDeVida[ultimoIndice - 1].SetActive(true);
+                    }
                 }
             }
         }

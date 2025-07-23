@@ -7,7 +7,6 @@ public class HoverE : MonoBehaviour
     private GameObject currentKeybind;
     private Camera mainCam;
     public Circulin Circulin;
-    public Hook hook;
 
     void Start()
     {
@@ -23,7 +22,6 @@ public class HoverE : MonoBehaviour
         {
             if (currentKeybind == null)
             {
-                hook.CanHook(true);
                 Vector3 spawnPos = hit.transform.position + new Vector3(0.4f, -0.2f, 0);
                 currentKeybind = Instantiate(keybindEPrefab, mousePos, Quaternion.identity);
             }
@@ -34,7 +32,6 @@ public class HoverE : MonoBehaviour
             {
                 Destroy(currentKeybind);
                 currentKeybind = null;
-                hook.CanHook(false);
             }
         }
     }

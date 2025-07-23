@@ -982,7 +982,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.9166666
+  - time: 1.6666666
     functionName: "Evento_FrenarDa\xF1o"
     data: 
     objectReferenceParameter: {fileID: 0}
