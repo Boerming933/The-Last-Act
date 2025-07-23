@@ -12,6 +12,7 @@ public class Circulin : MonoBehaviour
 
     [SerializeField] private Animator Estian;
     [SerializeField] private Hook hook;
+    public CuerdaScript cuerdaScript;
 
     public Transform Mira;
     public Transform Ponk;
@@ -26,17 +27,17 @@ public class Circulin : MonoBehaviour
     private float dashingCooldown = 2f;
     public float JumpForce, speed;
     private bool InJump = false;
-    private bool canLand = true;
+    
 
     private Rigidbody2D Rigidbody2D;
     private TrailRenderer trailRenderer;
     private float Horizontal;
     private bool Grounded;
-    public bool InJalon;
+    private bool Presentacion = false;
     private bool GuardadoMuerte = false;
     private bool Stun = true;
     private bool muerte = false;
-    private bool atacando = false;
+    public bool atacando = false;
     private bool Enganchado = false;
     private SpriteRenderer mySpriteRenderer;
     public SpriteRenderer BrazoSprite;
@@ -52,6 +53,7 @@ public class Circulin : MonoBehaviour
     private Vector3 mouseWorldPos;
     private Vector2 direccion;
     Camera cam;
+
 
     //AUDIOS CARGADOS -Juan
     [SerializeField] private AudioClip ataque;
@@ -72,7 +74,7 @@ public class Circulin : MonoBehaviour
 
     private void Update()
     {    
-        if (muerte || isDashing || InJalon || Enganchado)
+        if (muerte || isDashing || Enganchado || Presentacion)
         {
             return;
         }
@@ -84,6 +86,7 @@ public class Circulin : MonoBehaviour
             Brazo.SetActive(false);
             Estian.SetTrigger("Charge");
             puedeCargado = false;
+            hook.HookDisp = false;
             CargaAtkEspecial.cargas = 0;
             Vector3 escala = CargaAtkEspecial.barraCarga.localScale;
             escala.y -= 54f;
@@ -158,12 +161,7 @@ public class Circulin : MonoBehaviour
         {
             Jump();
             ControladorSonidos.instance.ReproducirSonido(salto);
-            canLand = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            StartCoroutine(Jalon());
+            
         }
 
         if (!atacando)
@@ -214,8 +212,18 @@ public class Circulin : MonoBehaviour
         }
         else
         {
-            ControladorSonidos.instance.ReproducirSonido(null);
+           // ControladorSonidos.instance.DetenerSonido(correr);
         }
+    }
+
+    public void PresentacionPonk()
+    {
+        Presentacion = true;        
+    }
+
+    public void FinPresentacion()
+    {
+        Presentacion = false;
     }
 
     IEnumerator FrenarLatigo()
@@ -271,12 +279,6 @@ public class Circulin : MonoBehaviour
         canDash = true;
     }
 
-    public IEnumerator Jalon()
-    {
-        InJalon = true;
-        yield return new WaitForSeconds(3f);
-        InJalon = false;
-    }
 
     public void Trapecio(bool n)
     {
@@ -297,7 +299,7 @@ public class Circulin : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (muerte || isDashing || InJalon)
+        if (muerte || isDashing || Presentacion)
         {
             return;
         }
@@ -330,11 +332,15 @@ public class Circulin : MonoBehaviour
     {
         StopAllCoroutines();
         hook.Muerte(true);
+        hook.HookDisp = false;
         Brazo.SetActive(false);
         GuardadoMuerte = Muerte;
         muerte = GuardadoMuerte;
         ControladorSonidos.instance.ReproducirSonido(Abucheo);
         Estian.SetTrigger("Muerte");
+        cuerdaScript.canE = false;
+        canDash = false;
+        Grounded = false;
     }
 
     public void MuertePonk(bool PonkMuerte)
@@ -357,10 +363,12 @@ public class Circulin : MonoBehaviour
             DispararProyectil();
         }
         Estian.SetBool("Cargado", true);
+        atacando = false;
+        hook.HookDisp = true;
         yield return new WaitForSeconds(1f);
         Estian.SetBool("Cargado", false);
         Brazo.SetActive(true);
-        atacando = false;
+        
     }
 
     void DispararProyectil()             //PAL CARGADO -Juan

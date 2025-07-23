@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlataformaScript : MonoBehaviour
@@ -11,6 +12,8 @@ public class PlataformaScript : MonoBehaviour
     private bool subiendo = false;
     private float alturaMinima;
     private BoxCollider2D boxCollider;
+
+    [SerializeField] private AudioClip ImpactoTrapecio;
 
     void Start()
     {
@@ -72,6 +75,18 @@ public class PlataformaScript : MonoBehaviour
 
         var jefeHit = other.GetComponent<Triangulardo>();
         if (jefeHit != null && !jefeHit.IsStunned())
-            jefeHit.Stun(10f);
+        {
+            ControladorSonidos.instance.ReproducirSonido(ImpactoTrapecio);
+            jefeHit.Stun(7f);
+        }
+            
+        StartCoroutine(RebotePlataforma());
+    }
+    
+    private IEnumerator RebotePlataforma()
+    {
+        bajando = false;
+        yield return new WaitForSeconds(1f);
+        subiendo = true;
     }
 }
