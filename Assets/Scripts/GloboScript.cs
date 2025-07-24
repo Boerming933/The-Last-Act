@@ -87,7 +87,7 @@ public class GloboScript : MonoBehaviour
     {
         if (other.CompareTag("Latigo") || other.CompareTag("Circulin"))
         {
-            ControladorSonidos.instance.ReproducirSonido(Globo);
+            ControladorSonidos.instance.ReproducirSonido(Globo,1f);
             Explotar();
         }
     }

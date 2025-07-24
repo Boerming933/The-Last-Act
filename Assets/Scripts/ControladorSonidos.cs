@@ -19,8 +19,9 @@ public class ControladorSonidos : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    public void ReproducirSonido(AudioClip sonido)
+    public void ReproducirSonido(AudioClip sonido, float volume)
     {
+        audioSource.volume = volume;
         audioSource.PlayOneShot(sonido);
     }
     public void DetenerSonido()

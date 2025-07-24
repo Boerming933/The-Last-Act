@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 4b752e1a756118249bbcd58ad3f702a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5351260877804263557
+    second: Ponk_Caminata_0
+  - first:
+      213: -8866848911806668090
+    second: Ponk_Caminata_1
+  - first:
+      213: -7464116228867388791
+    second: Ponk_Caminata_2
+  - first:
+      213: 6699381475128865600
+    second: Ponk_Caminata_3
+  - first:
+      213: 6668446179730501727
+    second: Ponk_Caminata_4
+  - first:
+      213: 2607671904384878733
+    second: Ponk_Caminata_5
+  - first:
+      213: -90936604228764319
+    second: Ponk_Caminata_6
+  - first:
+      213: -4606425021909525035
+    second: Ponk_Caminata_7
+  - first:
+      213: 5868443471752899992
+    second: Ponk_Caminata_8
+  - first:
+      213: 8215288375505966651
+    second: Ponk_Caminata_9
+  - first:
+      213: -2765498031383672768
+    second: Ponk_Caminata_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ponk_Caminata_0
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 657
+        width: 431
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588d7f98a6f734a40800000000000000
+      internalID: 5351260877804263557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk_Caminata_1
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 649
+        width: 414
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c264bea4ef92f480800000000000000
+      internalID: -8866848911806668090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk_Caminata_2
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 646
+        width: 413
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a812026d12a6890800000000000000
+      internalID: -7464116228867388791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk_Caminata_3
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 644
+        width: 413
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04373efe4fbf8fc50800000000000000
+      internalID: 6699381475128865600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk_Caminata_4
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 634
+        width: 412
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50b5a238741b8c50800000000000000
+      internalID: 6668446179730501727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk_Caminata_5
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 631
+        width: 432
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8880afe7cf403420800000000000000
+      internalID: 2607671904384878733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk_Caminata_6
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 620
+        width: 435
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d3dd7e3adecbef0800000000000000
+      internalID: -90936604228764319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk_Caminata_7
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 632
+        width: 445
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd9c9439d0b210c0800000000000000
+      internalID: -4606425021909525035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk_Caminata_8
+      rect:
+        serializedVersion: 2
+        x: 4850
+        y: 622
+        width: 431
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89daa46ce36e07150800000000000000
+      internalID: 5868443471752899992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk_Caminata_9
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 154
+        width: 324
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36dd654041920270800000000000000
+      internalID: 8215288375505966651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ponk_Caminata_10
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 164
+        width: 322
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0488554513afe99d0800000000000000
+      internalID: -2765498031383672768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ponk_Caminata_0: 5351260877804263557
+      Ponk_Caminata_1: -8866848911806668090
+      Ponk_Caminata_10: -2765498031383672768
+      Ponk_Caminata_2: -7464116228867388791
+      Ponk_Caminata_3: 6699381475128865600
+      Ponk_Caminata_4: 6668446179730501727
+      Ponk_Caminata_5: 2607671904384878733
+      Ponk_Caminata_6: -90936604228764319
+      Ponk_Caminata_7: -4606425021909525035
+      Ponk_Caminata_8: 5868443471752899992
+      Ponk_Caminata_9: 8215288375505966651
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -76,8 +76,8 @@ public class PlataformaScript : MonoBehaviour
         var jefeHit = other.GetComponent<Triangulardo>();
         if (jefeHit != null && !jefeHit.IsStunned())
         {
-            ControladorSonidos.instance.ReproducirSonido(ImpactoTrapecio);
-            jefeHit.Stun(7f);
+            ControladorSonidos.instance.ReproducirSonido(ImpactoTrapecio,1f);
+            jefeHit.Stun(5f);
         }
             
         StartCoroutine(RebotePlataforma());

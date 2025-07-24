@@ -7,6 +7,9 @@ public class LevelPhaseManager : MonoBehaviour
     public GameObject jefePonk;
     public Circulin Estian;
     [SerializeField] private AudioClip FraseInicio;
+    [SerializeField] private GameObject Luces1;
+    [SerializeField] private GameObject Luces2;
+    [SerializeField] private GameObject Luces3;
     private float tiempoFase;
     private int faseActual = 0;
     private VidasPonk vidasPonk;
@@ -22,6 +25,7 @@ public class LevelPhaseManager : MonoBehaviour
         vidasPonk = jefePonk.GetComponent<VidasPonk>();
         ActivarFasePelotas();
         vidasPonk.invulnerable = true;
+        Luces3.SetActive(true);
     }
 
     void Update()
@@ -31,14 +35,14 @@ public class LevelPhaseManager : MonoBehaviour
         switch (faseActual)
         {
             case 0: // Fase preliminar: solo pelotas
-                if (tiempoFase >= 3f)
+                if (tiempoFase >= 30f)
                 {
                     ActivarFaseGlobos();
                 }
                 break;
 
             case 1: // Fase preliminar: solo globos
-                if (tiempoFase >= 3f)
+                if (tiempoFase >= 30f)
                 {
                     ActivarFaseConPonk();
                 }
@@ -48,6 +52,8 @@ public class LevelPhaseManager : MonoBehaviour
                 if (vidasPonk != null && vidasPonk.vidaActual <= 280f)
                 {
                     ActivarFase2Ponk();
+                    Luces3.SetActive(false);
+                    Luces2.SetActive(true);
                 }
                 break;
 
@@ -55,6 +61,8 @@ public class LevelPhaseManager : MonoBehaviour
                 if (vidasPonk != null && vidasPonk.vidaActual <= 80f)
                 {
                     ActivarFaseFinalPonk();
+                    Luces2.SetActive(false);
+                    Luces1.SetActive(true);
                 }
                 break;
 
@@ -93,7 +101,7 @@ public class LevelPhaseManager : MonoBehaviour
         jefePonk.SetActive(true);
         if (n == 0)
         {
-            ControladorSonidos.instance.ReproducirSonido(FraseInicio);
+            ControladorSonidos.instance.ReproducirSonido(FraseInicio,1f);
         }
         n++;
         jefePonk.GetComponent<Triangulardo>().Comienzo();
@@ -117,7 +125,7 @@ public class LevelPhaseManager : MonoBehaviour
         Debug.Log("FASE 4: Solo Ponk (Rage)");
         foreach (CuerdaScript cuerda in cuerdas)
         {
-            ControladorSonidos.instance.ReproducirSonido(Poleas);
+            ControladorSonidos.instance.ReproducirSonido(Poleas,0.2f);
 
             cuerda.gameObject.SetActive(true);   
             cuerda.LlamarDesdeTecho();            

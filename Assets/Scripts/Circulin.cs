@@ -36,11 +36,14 @@ public class Circulin : MonoBehaviour
     private bool Presentacion = false;
     private bool GuardadoMuerte = false;
     private bool Stun = true;
+    private bool ActBrazo = true;
     private bool muerte = false;
     public bool atacando = false;
+    private bool cargado = false;
     private bool Enganchado = false;
     private SpriteRenderer mySpriteRenderer;
     public SpriteRenderer BrazoSprite;
+    public bool canDie = true;
 
     //VARIABLES PAL CARGADO  -Juan
     public CargaAtkEspecial CargaAtkEspecial;
@@ -83,7 +86,6 @@ public class Circulin : MonoBehaviour
         {
             //pt1 - Barra
             atacando = true;
-            Brazo.SetActive(false);
             Estian.SetTrigger("Charge");
             puedeCargado = false;
             hook.HookDisp = false;
@@ -119,7 +121,7 @@ public class Circulin : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                ControladorSonidos.instance.ReproducirSonido(ataque);
+                ControladorSonidos.instance.ReproducirSonido(ataque,1f);
                 //anim.SetTrigger("Attack");
                 atacando = true;
                 StartCoroutine(FrenarLatigo());
@@ -152,7 +154,7 @@ public class Circulin : MonoBehaviour
 
             if (!wasGrounded)
             {
-                ControladorSonidos.instance.ReproducirSonido(landeo);
+                ControladorSonidos.instance.ReproducirSonido(landeo,1f);
             }
         }
         else Grounded = false;
@@ -160,7 +162,7 @@ public class Circulin : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && Grounded)
         {
             Jump();
-            ControladorSonidos.instance.ReproducirSonido(salto);
+            ControladorSonidos.instance.ReproducirSonido(salto,1f);
             
         }
 
@@ -198,7 +200,7 @@ public class Circulin : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift) && canDash)
         {
-            ControladorSonidos.instance.ReproducirSonido(dash);
+            ControladorSonidos.instance.ReproducirSonido(dash,1f);
             Estian.SetBool("Dash", true);
             StartCoroutine(Dash());
         }
@@ -207,7 +209,7 @@ public class Circulin : MonoBehaviour
         {
             if (Grounded)
             {
-                ControladorSonidos.instance.ReproducirSonido(correr);
+                ControladorSonidos.instance.ReproducirSonido(correr,1f);
             }
         }
         else
@@ -251,6 +253,7 @@ public class Circulin : MonoBehaviour
     private IEnumerator Dash()
     {
         Brazo.SetActive(false);
+        ActBrazo = false;
         vidasPj.InDash(true);
         canDash = false;
         isDashing = true;
@@ -271,19 +274,19 @@ public class Circulin : MonoBehaviour
         Rigidbody2D.gravityScale = originalGravity;
         yield return new WaitForSeconds(dashingWait);
         Estian.SetBool("Dash", false);  
-        isDashing = false;
         vidasPj.InDash(false); 
-        yield return new WaitForSeconds(0.3f); 
+        isDashing = false;
+        yield return new WaitForSeconds(0.3f);
+        ActBrazo = true;
         if (!muerte) Brazo.SetActive(true);
         yield return new WaitForSeconds(dashingCooldown - 0.3f);    
         canDash = true;
     }
 
-
     public void Trapecio(bool n)
     {
         Enganchado = n;
-        if (!Enganchado)
+        if (!Enganchado && !isDashing && ActBrazo && !cargado)
         {
             Brazo.SetActive(true);
             StartCoroutine(RecGancho());
@@ -330,13 +333,14 @@ public class Circulin : MonoBehaviour
 
     public void Muerte(bool Muerte)
     {
+        canDie = false;
         StopAllCoroutines();
         hook.Muerte(true);
         hook.HookDisp = false;
         Brazo.SetActive(false);
         GuardadoMuerte = Muerte;
         muerte = GuardadoMuerte;
-        ControladorSonidos.instance.ReproducirSonido(Abucheo);
+        ControladorSonidos.instance.ReproducirSonido(Abucheo,1f);
         Estian.SetTrigger("Muerte");
         cuerdaScript.canE = false;
         canDash = false;
@@ -350,6 +354,8 @@ public class Circulin : MonoBehaviour
 
     IEnumerator DispararConRetraso(float delay)          //PAL CARGADO -Juan
     {
+        cargado = true;
+        Brazo.SetActive(false);
         mouseWorldPos = cam.ScreenToWorldPoint(Input.mousePosition);
         mouseWorldPos.z = 0f;
 
@@ -359,7 +365,7 @@ public class Circulin : MonoBehaviour
         for (int n = 0; n <= 9; n++)
         {
             yield return new WaitForSeconds(0.1f);
-            ControladorSonidos.instance.ReproducirSonido(ataqueCargado);
+            ControladorSonidos.instance.ReproducirSonido(ataqueCargado,1f);
             DispararProyectil();
         }
         Estian.SetBool("Cargado", true);
@@ -367,8 +373,8 @@ public class Circulin : MonoBehaviour
         hook.HookDisp = true;
         yield return new WaitForSeconds(1f);
         Estian.SetBool("Cargado", false);
-        Brazo.SetActive(true);
-        
+        yield return new WaitForSeconds(0.1f);
+        cargado = false;
     }
 
     void DispararProyectil()             //PAL CARGADO -Juan

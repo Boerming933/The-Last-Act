@@ -36,7 +36,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 3955113934976008332}
-    m_Position: {x: 0, y: 140, z: 0}
+    m_Position: {x: -10, y: 130, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3704413025527144300}
     m_Position: {x: 140, y: -50, z: 0}
@@ -346,7 +346,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Presentacion
-  m_Speed: 0.75
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 8682714209796194033}
@@ -462,7 +462,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 883b0d42ecf92dc4dbf6a3f11e49c2cb, type: 2}
+  m_Motion: {fileID: 7400000, guid: 679cb4e3bec87244b9afe54211643fbd, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

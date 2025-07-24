@@ -23,18 +23,19 @@ public class HoverE : MonoBehaviour
         {
             if (currentKeybind == null)
             {
-                hook.CanHook(true);
+                hook.HookDisp = true;
                 Vector3 spawnPos = hit.transform.position + new Vector3(0.4f, -0.2f, 0);
                 currentKeybind = Instantiate(keybindEPrefab, mousePos, Quaternion.identity);
             }
         }
         else
         {
+            hook.HookDisp = false;
             if (currentKeybind != null)
             {
                 Destroy(currentKeybind);
                 currentKeybind = null;
-                hook.CanHook(false);
+                
             }
         }
     }

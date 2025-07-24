@@ -196,7 +196,7 @@ public class Triangulardo : MonoBehaviour
     {
         if (faseActual == FaseJefe.Fase1 && vidaRestante <= 280f)
         {
-            ControladorSonidos.instance.ReproducirSonido(FraseMitadVida);
+            ControladorSonidos.instance.ReproducirSonido(FraseMitadVida,1f);
             faseActual = FaseJefe.Fase2;
             Debug.Log("Fase 2 activada: ataques combinados");
         }
@@ -217,7 +217,7 @@ public class Triangulardo : MonoBehaviour
 
     public void SpawnOnda()
     {
-        ControladorSonidos.instance.ReproducirSonido(AtaqueOndas);
+        ControladorSonidos.instance.ReproducirSonido(AtaqueOndas,1f);
         Vector3 direccion = transform.localScale.x > 0 ? Vector3.left : Vector3.right;
         Vector3 PositionOnda = new Vector3(Origen.position.x, Origen.position.y - 1f, Origen.position.z);
         GameObject Onda = Instantiate(OndaPrefab, PositionOnda, Quaternion.identity);
@@ -249,46 +249,6 @@ public class Triangulardo : MonoBehaviour
         estaDisparando = false;
     }
 
-    // private IEnumerator ShootOnda()
-    // {
-    //     ControladorSonidos.instance.ReproducirSonido(FraseRepetitivo);
-    //     estaDisparando = true;
-    //     rb.linearVelocity = Vector2.zero; // por si acaso
-
-    //     /// yield return new WaitForSeconds(1f);
-    //     Patrullando = false;
-    //     animVisual.SetBool("Onda", true);
-
-    //     int cantidadOndas = 3;
-    //     float tiempoEntreOndas = 1f;
-
-    //     for (int i = 0; i < cantidadOndas; i++)
-    //     {
-
-            // Vector3 direccion = transform.localScale.x > 0 ? Vector3.left : Vector3.right;
-
-            // Vector3 PositionOnda = new Vector3(Origen.position.x, Origen.position.y - 1f, Origen.position.z);
-
-            // GameObject Onda = Instantiate(OndaPrefab, PositionOnda, Quaternion.identity);
-            // Onda.GetComponent<AtaqueScript>().SetDirection(direccion);
-            // Destroy(Onda, 5f);
-    //         if (i == 2)
-    //         {
-    //             yield return new WaitForSeconds(0.1f);
-    //         }
-    //         else
-    //         {
-    //             yield return new WaitForSeconds(tiempoEntreOndas);
-    //         }
-
-    //     }
-    //     animVisual.SetBool("Onda", false);
-
-    //     yield return new WaitForSeconds(0.5f); // espera extra después de disparar
-
-    //     estaDisparando = false;
-    // }
-
     IEnumerator ComportamientoBoss()
     {
         while (!muerte)
@@ -303,6 +263,8 @@ public class Triangulardo : MonoBehaviour
                     Debug.Log("Entró en el switch");
                     if (eleccion == 0)
                     {
+                        Patrullar();
+                        yield return new WaitUntil(() => objetivoActual == null);
                         yield return StartCoroutine(WaveAttackRoutine(3));
                     }
                     else
@@ -317,14 +279,18 @@ public class Triangulardo : MonoBehaviour
                     Debug.Log("Entró en el switch 3");
                     Patrullar();
                     yield return new WaitUntil(() => objetivoActual == null);
-                    StartCoroutine(WaveAttackRoutine(3));
-                    //En vez de "Martillazo debe ser "Ondas" o el nombre del trigger que pusiste e indicarle que sea en Loop
                     foreach (CuerdaScript cuerda in cuerdaScript)
                     {
                         cuerda.activada = true;
                     }
+                    yield return StartCoroutine(WaveAttackRoutine(10));
+                    foreach (CuerdaScript cuerda in cuerdaScript)
+                    {
+                        cuerda.activada = false;
+                    }
+                    //En vez de "Martillazo debe ser "Ondas" o el nombre del trigger que pusiste e indicarle que sea en Loop
+
                     Debug.Log("Deberia de estar frenado");
-                    yield return new WaitForSeconds(10f);
                     animVisual.ResetTrigger("Onda");
                     // Acá frenas la animacion de "Ondas" e inicias las de siempre
                     break;
@@ -384,10 +350,10 @@ public class Triangulardo : MonoBehaviour
     {
         if (n == 1)
         {
-            ControladorSonidos.instance.ReproducirSonido(FraseMartillo);
+            ControladorSonidos.instance.ReproducirSonido(FraseMartillo,1f);
         }
         n++;
-        ControladorSonidos.instance.ReproducirSonido(Martillo);
+        ControladorSonidos.instance.ReproducirSonido(Martillo,1f);
     }
 
     private void Golpe()
@@ -427,13 +393,13 @@ public class Triangulardo : MonoBehaviour
         animVisual.SetBool("Stun",false);
         foreach (CuerdaScript cuerda in cuerdaScript)
         {
+            Debug.Log("Se desactivaron las cuerdas");
             cuerda.activada = false;
             cuerda.DesactivarPlataformas();
         }
+        yield return new WaitForSeconds(0.85f);
         ResetBossState();
         StartCoroutine(ComportamientoBoss());
-        tiempoPersecucionMax = 10;
-        tiempoPersecucionMin = 9;
     }
     private void ResetBossState()
     {
@@ -442,6 +408,7 @@ public class Triangulardo : MonoBehaviour
         Patrullando         = false;
         vieneDePersecucion  = false;
         objetivoActual      = null;
+        estaDisparando = false;
     }
 
     public bool IsStunned()
@@ -459,8 +426,8 @@ public class Triangulardo : MonoBehaviour
     {
         StopAllCoroutines();
         StartCoroutine(RecoverFromStun(0f));
-        ControladorSonidos.instance.ReproducirSonido(Campana);
-        ControladorSonidos.instance.ReproducirSonido(Ovacion);
+        ControladorSonidos.instance.ReproducirSonido(Campana,1f);
+        ControladorSonidos.instance.ReproducirSonido(Ovacion,1f);
         muerte = Muerte;
         Stunning = Muerte;
         animVisual.SetTrigger("Muerte");

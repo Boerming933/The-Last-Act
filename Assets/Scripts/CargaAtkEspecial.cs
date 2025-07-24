@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -13,6 +14,8 @@ public class CargaAtkEspecial : MonoBehaviour
 
     public RectTransform barraCarga;
 
+    public GameObject Latigo;
+
     void Update()
     {
         if (timer > 0)
@@ -21,7 +24,7 @@ public class CargaAtkEspecial : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Triangulardo") && timer <= 0f && puedeGanarCargas == true)
+        if (other.CompareTag("Triangulardo") && puedeGanarCargas == true)
         {
             timer = cooldown;
 
@@ -40,6 +43,17 @@ public class CargaAtkEspecial : MonoBehaviour
             puedeGanarCargas = true;
             Personaje.puedeCargado = false;
         }
+
+        if (other.CompareTag("Triangulardo"))
+        {
+            StartCoroutine(LatigoOff());
+        }
+    }
+
+    private IEnumerator LatigoOff()
+    {
+        yield return new WaitForSeconds(0.1f);
+        Latigo.SetActive(false);
     }
 
     void AumentarCarga()

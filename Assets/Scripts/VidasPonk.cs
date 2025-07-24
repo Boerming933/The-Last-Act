@@ -10,6 +10,7 @@ public class VidasPonk : MonoBehaviour
     public Triangulardo jefe;
     public GameObject Señal;
     public Circulin Estian;
+    public GameObject Luces1;
 
     [SerializeField] private AudioClip FraseDaño;
 
@@ -54,6 +55,7 @@ public class VidasPonk : MonoBehaviour
         Debug.Log("Ponk ha sido derrotado!");
         // Animación de muerte, desactivación, etc
         jefe.Muerte(true);
+        Luces1.SetActive(false);
         Estian.MuertePonk(true);
     }
 }

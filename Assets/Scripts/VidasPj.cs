@@ -23,8 +23,9 @@ public class VidasPj : MonoBehaviour
 
         ActualizarIndicadoresDeVida();
 
-        if (Vidas <= 0)
+        if (Vidas <= 0 && Estian.canDie)
         {
+            Estian.canDie = false;
             levelManager.ActivarFinal();
             Ponk.MuerteEstian(true);
             Estian.Muerte(true);

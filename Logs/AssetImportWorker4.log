@@ -1,0 +1,2549 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.47f1 (2ad1ed33fd3b) revision 2806253'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 65162 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files(x86)\6000.0.47f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Proyectos/Unity/Tech-Proof-Real-Juan/Tech-Proof-Real-Juan
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+60310
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/Proyectos/Unity/Tech-Proof-Real-Juan/Tech-Proof-Real-Juan
+D:/Proyectos/Unity/Tech-Proof-Real-Juan/Tech-Proof-Real-Juan
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24444]  Target information:
+
+Player connection [24444]  * "[IP] 192.168.100.158 [Port] 0 [Flags] 2 [Guid] 2882784486 [EditorId] 2882784486 [Version] 1048832 [Id] WindowsEditor(7,Matias) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24444] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24444] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.47f1 (2ad1ed33fd3b)
+[Subsystems] Discovering subsystems at path D:/Program Files(x86)/6000.0.47f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Proyectos/Unity/Tech-Proof-Real-Juan/Tech-Proof-Real-Juan/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.7688
+Initialize mono
+Mono path[0] = 'D:/Program Files(x86)/6000.0.47f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files(x86)/6000.0.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files(x86)/6000.0.47f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files(x86)/6000.0.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001554 seconds.
+- Loaded All Assemblies, in  0.352 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.247 seconds
+Domain Reload Profiling: 600ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (143ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (118ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.687 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.802 seconds
+Domain Reload Profiling: 1488ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (345ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (142ms)
+			BuildScriptInfoCaches (52ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (802ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (688ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (442ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6584 unused Assets / (4.3 MB). Loaded Objects now: 7298.
+Memory consumption went from 178.2 MB to 174.0 MB.
+Total: 9.586200 ms (FindLiveObjects: 0.546900 ms CreateObjectMapping: 0.606700 ms MarkObjects: 6.027700 ms  DeleteObjects: 2.401700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 654701.270211 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82d51cc03898ddeb35f483569ecbae46') in 0.3417473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.969 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.101 seconds
+Domain Reload Profiling: 5072ms
+	BeginReloadAssembly (565ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (184ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (3189ms)
+		LoadAssemblies (3491ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (154ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1101ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (714ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (485ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (3.8 MB). Loaded Objects now: 7366.
+Memory consumption went from 150.5 MB to 146.7 MB.
+Total: 6.976100 ms (FindLiveObjects: 0.473000 ms CreateObjectMapping: 0.515000 ms MarkObjects: 4.482200 ms  DeleteObjects: 1.504800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 90.752042 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '352c132fcbe45a9284e3825a35471190') in 0.2984575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.606008 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a9ff91a5f7d5b4276fa8ac342f7c02e') in 0.097142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.226175 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70377b521a6fb826156c5a26dfa19154') in 0.0552977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.075551 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dcd3f42811a6aa47997838c246440cf') in 0.1532603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.346593 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a16fda1b95ade250187369da32689fc') in 0.0552358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.759999 seconds.
+  path: Assets/Sprites/Ponk/Presentacion Final.anim
+  artifactKey: Guid(b7b0f52727263ce4aa2585677b180e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Presentacion Final.anim using Guid(b7b0f52727263ce4aa2585677b180e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da90aa2db77765335e752f4146e9e08a') in 0.0015295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.361437 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6590bc46c1544b51eeffa50beeeb0ac5') in 0.1306514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.915887 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe038c977e763222b041a8c349b506de') in 0.1321151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.130164 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aab04325b997e1f1a61c375a8015609d') in 0.118629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.512231 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a58362f6507aec5e2b8159ad8321b8a') in 0.1331092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.871293 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfe08c3dde2e4c8f41a9232a113b1a3d') in 0.1314263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.630 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.857 seconds
+Domain Reload Profiling: 1489ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (857ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (690ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (477ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.2 MB). Loaded Objects now: 7499.
+Memory consumption went from 150.8 MB to 146.6 MB.
+Total: 9.693800 ms (FindLiveObjects: 0.615800 ms CreateObjectMapping: 0.754200 ms MarkObjects: 6.149600 ms  DeleteObjects: 2.172700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 186.880359 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc97f9730742196b885cb38973e74346') in 0.1287828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.529913 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '152586ac6623fb6e7e61781cf1834f8b') in 0.0789851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.733062 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34d62a63d69e7c30b1ed26dc95d73f28') in 0.0683825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.628133 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce7a102b205ab2bd7ea162bc41fc6e73') in 0.0762515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.504570 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e2666590c897b311e67a5bd4c126c60') in 0.0788247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.492893 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e75be92751928ce3840b8159d8db04d7') in 0.0708742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.574660 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dab2a953482d355598d3b8fd92a9b1df') in 0.0905968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.898667 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99642331af3a9f3803eadeb627582016') in 0.092072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.426514 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1984bad2ef94df682d5e649d8a727d83') in 0.0846943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.832227 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e2364f06bc625d612b1c96c6a7dbffc') in 0.0895931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.959276 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a249787528d33f6228f37481d3fc25e0') in 0.1108349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.021063 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2123d8e4162a9b445f45784e202b92d0') in 0.0875382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.364233 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bbea36fbc2cd8f34f33baf587504aeb') in 0.1941013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.229523 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0370c812271e8817bb13b32c1efb2b2') in 0.2349933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.477714 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c643b8361d613e9c0de8c66164f4a3e2') in 0.2044797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.850955 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23add43e411001cc3c6c26e1a5491903') in 0.2233275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.539496 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33a1533e32a2bb6fc3848f3183a9b976') in 0.1914237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.510908 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8565fa5bc6de405b4e318d0b748c5cfa') in 0.1169037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.513390 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97e4c6b75299f88a93d4ffc402027bbd') in 0.1118481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.429379 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5198a8a7418f339429613e48fb5f441b') in 0.1503563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.206443 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbfece5072af09904f2a56224c0cd007') in 0.1520641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.031330 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7ba9974c3fb7e27d0b236f0a86bda62') in 0.1355757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.863020 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f881c3c04e33ea2764148e403f56783') in 0.2096034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.764341 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '930a09b48b0b1bd1544ad7cb1926bb09') in 0.1692621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.345794 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6449fb49e9ee601e79f75d07da13969') in 0.2036281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.679574 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34c4c538e49ee78a84d44433593e7826') in 0.0777115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.734340 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdeb579017b9f793ea56dc25c726d068') in 0.1388535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.303314 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02c71952937ae628458eb99a97408721') in 0.1844217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.921298 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '274563acc035d56d59e7f978634295b9') in 0.1916463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.313192 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0373033e4c868cb85328a1461b7918a') in 0.0760292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.574246 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4791a8543ae06160e915d5c99f8a99a') in 0.0786071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.292193 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35013f4a1c55d9e73f29f15ee48bb62b') in 0.0690471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.201685 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '145193b0e5da9a9de22e8340f11e3c56') in 0.0675663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.876471 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a547133044268ab77d5bd5c1ed63d79') in 0.0672787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.010575 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57bc8c81bb6b23eae0bcecdb18a6727a') in 0.1999348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.172914 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56d07fb21c700231603ab84a246a4e35') in 0.0960922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.870314 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dab63e644b39ff94a45afc6fea86fffb') in 0.0818042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.237759 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b150b691e6375e46da059f4956f87de5') in 0.0648804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.229585 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38a308893b008c125c543163cecc765b') in 0.1726337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.454730 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd38be0919127fe801a6bfd258e39477') in 0.0945059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.287907 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b8f8db2b183d919497d5e2a06fb5a82') in 0.1340364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.284889 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c3d844dceb1fb7ff7c5dba9331ccc33') in 0.0795473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.486830 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dec462b1efacc51b26df3949ffe5624') in 0.2023437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.255899 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19d347d6f29e028c3976b09caf9a8ccd') in 0.1281971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.695214 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2109bff0ec164016106fb6cd29a20897') in 0.0908542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.075161 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54db8ea687cb2c8be19e81a95953cd86') in 0.1588961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.475361 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5410c115e5c0f4831e37e490fbda56f6') in 0.1069539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.199638 seconds.
+  path: Assets/Sprites/Ponk/ponk caida martillo 2.png
+  artifactKey: Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk caida martillo 2.png using Guid(26483832a153f3b408c7940249f444c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '359befc530d650376a9386ec6b40c79d') in 0.0817448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.780889 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9886330853a69bdb47809503c73850c') in 0.1470283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.187861 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d1aec2167bb62ed01850ca35283fd3f') in 0.1475686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.969073 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccbe4f56bf6e99a8bed07c6cf620109a') in 0.148071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.795633 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '078345e7b91defcb218095fc4457aabe') in 0.1531014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.393717 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bba29010752249dd83fc515d2a073386') in 0.154782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.988172 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c82c1cc769626173be40b34a448404ec') in 0.1433755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.198128 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '550added62a9b2454bd92f90e6551876') in 0.1467808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.224932 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd34a02a73cc32a53c92ab1a762b12528') in 0.2640628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.814201 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01b03d3e1259d93312d1d1ab3f5625ef') in 0.173324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.698463 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e729c13a83735c71fa3ce3e1a2c9a8cf') in 0.2472499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.012082 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e4b3f39f0b8b8cc89880aca707144b6') in 0.1420689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.712727 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceed10121b414cda7739f5117eda97f0') in 0.1501762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.900903 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0876e8f91263fb19e10a1e48c24f4ea9') in 0.202954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.334815 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc08a3ebd4f794f066bb735d85cb35b7') in 0.1641472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.407052 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '542d8c89308a71bebd93d3f0579884b5') in 0.141201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.580229 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b30125cb1b4d28922696ed3cacad5480') in 0.1397528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.106961 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9df3fd0d6c4862c19a7ca6a174a7f017') in 0.2003024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.234132 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '095de0843eb7b9f97579ed0a7aaf8a02') in 0.1552121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.502408 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e52718c4ec775a06ecc753cb527dc427') in 0.1663106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.892297 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7faefe381146ee9da270a5c880ad30c') in 0.1462116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.150614 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef36d16edab95c6c2e8e06d615d705ee') in 0.1584092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.989808 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '397ed47f652e8322efdd94334befd5a1') in 0.1245524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.091811 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e92ed509571a0bd9994392b65ecc21bd') in 0.154279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.736805 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73963bfd5e61f0a6fe27af72c004fe3a') in 0.1419951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.923724 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcfb7d0173c28302ad2784e2c68e52d8') in 0.14013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.499903 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd99933a5c56acc47acaa5d3041848e9') in 0.1456836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.343566 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '509a4454e49a53edf3c9430adcd98e99') in 0.1823041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.762721 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cda36d16f799652b7ac8b490d77ea8be') in 0.2004877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.748841 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4ec5d788cd0e5164901991fd71c0af6') in 0.1472446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.650597 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe04136067abb41721f4676b9f5a7f7a') in 0.143659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.866367 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be9131003f18f52bbb506bd21d253356') in 0.1521462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.771724 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd847b49b6f33848c32081490fa7008b0') in 0.137582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.938105 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db060000d7358ff2d59961e0c816bb12') in 0.1456338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.085859 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb87222c747b691582f74246fcccacfa') in 0.1270701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.661047 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20bfb2277793b6d89587196430973a4b') in 0.1403298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.238033 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '522d616acaf9f43c11c6aaffaa238f21') in 0.1911915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.445509 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b89748d92db1a7298edc144fd1610d15') in 0.1442973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.248819 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9561abce78f95120ef5132c150d738dc') in 0.1404621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.265294 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f41d162c630a0069913fbc58f30e3bc3') in 0.1507793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.927832 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd3c499d75775887022602f4b86a7cc0') in 0.1577523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.602206 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1c8c11c924a71701cd86a557200c8a0') in 0.143458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.336661 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3924990372b110bc3782e17d5f749abe') in 0.1478683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.704387 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8ef4d4338fd7520082cb4b32b28966d') in 0.1388658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.835618 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb8fbd8ef06a9ef7169868bf2ccf7610') in 0.1668175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.055368 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '199c9b50409d5ce537e09734609b2d97') in 0.1396088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.129172 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '836c5493b386bb5b03b88cf0bffcdd35') in 0.1310337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.440586 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77a912296e4e433024f73333b9c95bc4') in 0.1515209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.159781 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c18b3347d086349e22f06c28aa157130') in 0.1492895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.477053 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e16a0f93c58da4f8832527db6fd84e6f') in 0.1516117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.823820 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e110a2f31594370a0914f9089ecac2d4') in 0.1481742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.922890 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '438f59deb15f14f069628687785faa16') in 0.147404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.766404 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd145dc7ff4ef9ce57182fcf9b749b3f5') in 0.150383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.674553 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '966d9e821e796d02fae0fbfabaa85d88') in 0.2586524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.781728 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63597a29887c112d37ea30b5c0f0e02e') in 0.1543525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.181255 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb5954d12f3120e0c6a1bdc7bd8f5015') in 0.1436082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.485097 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '809676410376b13204e15e14344b1882') in 0.1414214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.075052 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f1e7941e5809f49129c8444159f4e5d') in 0.1476421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.788133 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0e1b61709c424a945ef0f5ee85e464a') in 0.1848522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.101454 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '018800dbb726526f3b25ccf84c022c26') in 0.142622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.691099 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ef817818d5b572a435e7ae27cce3380') in 0.1437537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.878573 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '525ad483b1f5e480e4fc45cc091b6f03') in 0.2034642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.386224 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e42616dd75602d4bd0b21d051237c22') in 0.1414614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.047882 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '379414e4970af5a47704338865e1c945') in 0.1489109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.717664 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18e5f56ea5e67e1f15e4ff7388f061dd') in 0.1552401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.804340 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8294e6205c5232b6c2a9255a93286ed1') in 0.1529724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.473330 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afc5e3b82a7f14d80b5ff00e63e772a8') in 0.1462966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.104556 seconds.
+  path: Assets/Sprites/Ponk/ponk_caida_martillo.png
+  artifactKey: Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/ponk_caida_martillo.png using Guid(a7e2e6debbabdc04ea16a5b542306779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4804c1d85aa292bf322cfdf413c664f4') in 0.2081803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.621 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.861 seconds
+Domain Reload Profiling: 1485ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (861ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (703ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (476ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (3.8 MB). Loaded Objects now: 7515.
+Memory consumption went from 153.1 MB to 149.3 MB.
+Total: 9.894600 ms (FindLiveObjects: 0.568400 ms CreateObjectMapping: 0.582200 ms MarkObjects: 6.383000 ms  DeleteObjects: 2.359600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 65.233743 seconds.
+  path: Assets/Sprites/Ponk/Animaciones/Ponk Caminata_0.controller
+  artifactKey: Guid(4c0e739fa9626124ca87e85ff3dcf63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Animaciones/Ponk Caminata_0.controller using Guid(4c0e739fa9626124ca87e85ff3dcf63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa9ce4b06bfc9f6de9a0f913d4f9ab4d') in 0.0845542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.923164 seconds.
+  path: Assets/Sprites/Ponk/Animaciones/Ponk Caminata_0.controller
+  artifactKey: Guid(4c0e739fa9626124ca87e85ff3dcf63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Animaciones/Ponk Caminata_0.controller using Guid(4c0e739fa9626124ca87e85ff3dcf63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd29b406a5aefa6605a06772b691f311b') in 0.0032265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.647 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 1535ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (726ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (3.9 MB). Loaded Objects now: 7517.
+Memory consumption went from 153.1 MB to 149.2 MB.
+Total: 9.560400 ms (FindLiveObjects: 0.596600 ms CreateObjectMapping: 0.545600 ms MarkObjects: 6.140800 ms  DeleteObjects: 2.275700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.631 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.878 seconds
+Domain Reload Profiling: 1510ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (397ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (878ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (718ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (499ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.6 MB). Loaded Objects now: 7519.
+Memory consumption went from 153.0 MB to 148.5 MB.
+Total: 9.740500 ms (FindLiveObjects: 0.612200 ms CreateObjectMapping: 0.503900 ms MarkObjects: 5.967500 ms  DeleteObjects: 2.654900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 85.029237 seconds.
+  path: Assets/Sprites/Objetos
+  artifactKey: Guid(acc9a9d165b3acb4fba064bb15bbb907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Objetos using Guid(acc9a9d165b3acb4fba064bb15bbb907) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f3cd0180db0d6754a9c391f60c12d0c') in 0.0114726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051114 seconds.
+  path: Assets/Sprites/Objetos/Mascara completa.png
+  artifactKey: Guid(af0b4827a80beed41b8d0eeb1a96d158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Objetos/Mascara completa.png using Guid(af0b4827a80beed41b8d0eeb1a96d158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f1f61e7836eea32bb9624080e26fc27') in 0.075271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Objetos/Vudu.png
+  artifactKey: Guid(f95dc02fc534ae24d86cc93acfa1f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Objetos/Vudu.png using Guid(f95dc02fc534ae24d86cc93acfa1f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87529b8f793788f3eb0bd12410dde811') in 0.0305228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Objetos/VuduBase.png
+  artifactKey: Guid(c9419f6ce3fc0254e816f1ad2f307ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Objetos/VuduBase.png using Guid(c9419f6ce3fc0254e816f1ad2f307ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1461cfade459fdb486c92854c2c9af25') in 0.0318329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.446732 seconds.
+  path: Assets/Sprites/Circo
+  artifactKey: Guid(9a6a6c1b16f694a44a18978158c178c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Circo using Guid(9a6a6c1b16f694a44a18978158c178c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '890a76c864e0952d24d5afbedc8cbde2') in 0.0004871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051615 seconds.
+  path: Assets/Sprites/Circo/circo.jpg
+  artifactKey: Guid(1445e6d625d8492498e959fe4fce292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Circo/circo.jpg using Guid(1445e6d625d8492498e959fe4fce292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8099accfe41d64ad30b44f0620af4c39') in 0.0559268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.103807 seconds.
+  path: Assets/Sprites/Circo/luces.png
+  artifactKey: Guid(e38dddbbe62ac494d8954d3b32005dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Circo/luces.png using Guid(e38dddbbe62ac494d8954d3b32005dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '871aa52a8983e6332fb59b5ee57796dc') in 0.0274399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.642 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.884 seconds
+Domain Reload Profiling: 1529ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (401ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (714ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.2 MB). Loaded Objects now: 7535.
+Memory consumption went from 153.1 MB to 148.9 MB.
+Total: 9.648700 ms (FindLiveObjects: 0.595300 ms CreateObjectMapping: 0.718500 ms MarkObjects: 6.115000 ms  DeleteObjects: 2.218700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.610 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.844 seconds
+Domain Reload Profiling: 1457ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (845ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (687ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (472ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.1 MB). Loaded Objects now: 7537.
+Memory consumption went from 153.1 MB to 149.1 MB.
+Total: 9.420900 ms (FindLiveObjects: 0.739700 ms CreateObjectMapping: 0.513700 ms MarkObjects: 5.917700 ms  DeleteObjects: 2.248200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.610 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.839 seconds
+Domain Reload Profiling: 1452ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (840ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (680ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (469ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.2 MB). Loaded Objects now: 7539.
+Memory consumption went from 153.1 MB to 148.9 MB.
+Total: 9.771200 ms (FindLiveObjects: 0.603900 ms CreateObjectMapping: 0.591200 ms MarkObjects: 6.065900 ms  DeleteObjects: 2.507200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.620 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.881 seconds
+Domain Reload Profiling: 1504ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (389ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (882ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (722ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.1 MB). Loaded Objects now: 7541.
+Memory consumption went from 153.1 MB to 149.0 MB.
+Total: 9.980600 ms (FindLiveObjects: 0.690900 ms CreateObjectMapping: 0.616100 ms MarkObjects: 6.407000 ms  DeleteObjects: 2.264500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.621 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.878 seconds
+Domain Reload Profiling: 1502ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (376ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (136ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (879ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (723ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (3.9 MB). Loaded Objects now: 7543.
+Memory consumption went from 153.1 MB to 149.2 MB.
+Total: 9.288800 ms (FindLiveObjects: 0.611700 ms CreateObjectMapping: 0.548700 ms MarkObjects: 5.917700 ms  DeleteObjects: 2.209000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.616 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.869 seconds
+Domain Reload Profiling: 1488ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (145ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (870ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (705ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (487ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.3 MB). Loaded Objects now: 7545.
+Memory consumption went from 153.1 MB to 148.8 MB.
+Total: 9.737600 ms (FindLiveObjects: 0.596600 ms CreateObjectMapping: 0.624200 ms MarkObjects: 6.011400 ms  DeleteObjects: 2.504000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.614 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.831 seconds
+Domain Reload Profiling: 1448ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (146ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (831ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (674ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (3.8 MB). Loaded Objects now: 7547.
+Memory consumption went from 153.1 MB to 149.3 MB.
+Total: 9.487600 ms (FindLiveObjects: 0.651300 ms CreateObjectMapping: 0.724500 ms MarkObjects: 5.913000 ms  DeleteObjects: 2.197400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.630 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.840 seconds
+Domain Reload Profiling: 1472ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (154ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (841ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (676ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (466ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.0 MB). Loaded Objects now: 7549.
+Memory consumption went from 153.1 MB to 149.2 MB.
+Total: 9.113300 ms (FindLiveObjects: 0.593800 ms CreateObjectMapping: 0.523900 ms MarkObjects: 5.823900 ms  DeleteObjects: 2.169800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.608 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.829 seconds
+Domain Reload Profiling: 1440ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (830ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (672ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (463ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.2 MB). Loaded Objects now: 7551.
+Memory consumption went from 153.1 MB to 148.9 MB.
+Total: 9.597400 ms (FindLiveObjects: 0.640300 ms CreateObjectMapping: 0.553600 ms MarkObjects: 5.989200 ms  DeleteObjects: 2.413000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 883.241018 seconds.
+  path: Assets/Sprites/Estian/Corte.png
+  artifactKey: Guid(872854b2ab94b3d4284aaad3e88a5b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Corte.png using Guid(872854b2ab94b3d4284aaad3e88a5b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7714ae40d5abe0805c3989c52021ffb4') in 0.1426919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Estian/Cortes.png
+  artifactKey: Guid(ccf5f302e0fd54647976fa9e1fc86a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Cortes.png using Guid(ccf5f302e0fd54647976fa9e1fc86a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b52860bc5d1df44a49375ddaaa995ef4') in 0.0264688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Estian/salto y caida.png
+  artifactKey: Guid(df9df37269418e446981c98a3fe643ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/salto y caida.png using Guid(df9df37269418e446981c98a3fe643ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecd70bdaceb25fe86626fc5017bc867a') in 0.0695865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Estian/dash.png
+  artifactKey: Guid(43007778293594941a92e255b52dee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/dash.png using Guid(43007778293594941a92e255b52dee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '295ce812d7e96ee41d902ddd93b8e467') in 0.0532477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Estian/Estias_ataque cargado..png
+  artifactKey: Guid(c99a97180a677fe48803cc32d07c612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Estias_ataque cargado..png using Guid(c99a97180a677fe48803cc32d07c612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8067598968c1e49889ef933e55ffca56') in 0.0683221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Estian/Estian muerte 2.png
+  artifactKey: Guid(fc92d552c387fb445b7d862270954bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Estian muerte 2.png using Guid(fc92d552c387fb445b7d862270954bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5a07880aa20e49417ff5d3838ffd29d') in 0.1466378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Estian/Estian quieto.png
+  artifactKey: Guid(3e04fdb30d7607949ac735755eab8a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Estian quieto.png using Guid(3e04fdb30d7607949ac735755eab8a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13b193f55c2277e2496829cb3e7abcb5') in 0.0248565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Estian/estian gancho.png
+  artifactKey: Guid(b59d910f5cd565441bf7b4c60e497434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/estian gancho.png using Guid(b59d910f5cd565441bf7b4c60e497434) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd230d2120e23389ba841ffb7d8662a40') in 0.0396125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.070421 seconds.
+  path: Assets/Sprites/Estian/Animations
+  artifactKey: Guid(97f83f0b06900864c89cdf47451cbb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Animations using Guid(97f83f0b06900864c89cdf47451cbb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9edd4671986322913309d8cfeb5064ea') in 0.000528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.285169 seconds.
+  path: Assets/Sprites/Estian/Animations/Estian Corriendo.anim
+  artifactKey: Guid(5d4b81d4212daf04297dc1af92d37f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Animations/Estian Corriendo.anim using Guid(5d4b81d4212daf04297dc1af92d37f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '159fe3c3865d36fb696291f8c65f31d2') in 0.0017518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.809370 seconds.
+  path: Assets/Sprites/Estian/Animations/Corriendo.anim
+  artifactKey: Guid(4da288f8ae03bd04b90d086fbf3da0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Animations/Corriendo.anim using Guid(4da288f8ae03bd04b90d086fbf3da0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22285bb824aae12c9015545b2af6f8ad') in 0.0127442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.628877 seconds.
+  path: Assets/Sprites/Estian/Animations/Corriendo.anim
+  artifactKey: Guid(4da288f8ae03bd04b90d086fbf3da0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Estian/Animations/Corriendo.anim using Guid(4da288f8ae03bd04b90d086fbf3da0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1671cccc2b7e8e98a61f9a26f65fee59') in 0.0009273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.715 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.995 seconds
+Domain Reload Profiling: 1713ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (161ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (995ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (827ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (557ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.1 MB). Loaded Objects now: 7621.
+Memory consumption went from 153.2 MB to 149.1 MB.
+Total: 8.870800 ms (FindLiveObjects: 0.554500 ms CreateObjectMapping: 0.586800 ms MarkObjects: 5.307600 ms  DeleteObjects: 2.420200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.620 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.871 seconds
+Domain Reload Profiling: 1494ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (704ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (480ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.3 MB). Loaded Objects now: 7623.
+Memory consumption went from 153.3 MB to 149.0 MB.
+Total: 9.635300 ms (FindLiveObjects: 0.598400 ms CreateObjectMapping: 0.512000 ms MarkObjects: 5.941900 ms  DeleteObjects: 2.581200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 656.480770 seconds.
+  path: Assets/Sprites/Circo/circo.LD.png
+  artifactKey: Guid(322cd80642b3e3747be164323a03742b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Circo/circo.LD.png using Guid(322cd80642b3e3747be164323a03742b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a931b355b923a72bf97690ae0ff93f91') in 0.0964399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Circo/circo.LU.png
+  artifactKey: Guid(63c94e29340100745b952c93514ea9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Circo/circo.LU.png using Guid(63c94e29340100745b952c93514ea9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95b0520a7c2af309a774c87de71fe8ee') in 0.0174524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 368.609113 seconds.
+  path: Assets/Sprites/Circo/circo.LD.png
+  artifactKey: Guid(322cd80642b3e3747be164323a03742b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Circo/circo.LD.png using Guid(322cd80642b3e3747be164323a03742b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e10931d85eac2979a7d3186333783c59') in 0.022868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Circo/circo.LU.png
+  artifactKey: Guid(63c94e29340100745b952c93514ea9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Circo/circo.LU.png using Guid(63c94e29340100745b952c93514ea9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c31837ee0f63256a89534ef0d6203e26') in 0.0196782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.680 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.792 seconds
+Domain Reload Profiling: 1475ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (792ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (628ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.1 MB). Loaded Objects now: 7628.
+Memory consumption went from 153.3 MB to 149.2 MB.
+Total: 9.941600 ms (FindLiveObjects: 0.640000 ms CreateObjectMapping: 0.566000 ms MarkObjects: 6.504100 ms  DeleteObjects: 2.229500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.984 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.826 seconds
+Domain Reload Profiling: 1812ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (613ms)
+		LoadAssemblies (518ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (227ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (826ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (631ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.2 MB). Loaded Objects now: 7630.
+Memory consumption went from 155.2 MB to 151.0 MB.
+Total: 9.230900 ms (FindLiveObjects: 0.716500 ms CreateObjectMapping: 0.633500 ms MarkObjects: 5.747400 ms  DeleteObjects: 2.132000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.944 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.894 seconds
+Domain Reload Profiling: 1840ms
+	BeginReloadAssembly (283ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (580ms)
+		LoadAssemblies (503ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (215ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (895ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (695ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (203ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.2 MB). Loaded Objects now: 7632.
+Memory consumption went from 155.2 MB to 151.1 MB.
+Total: 9.038300 ms (FindLiveObjects: 0.626500 ms CreateObjectMapping: 0.514900 ms MarkObjects: 5.761700 ms  DeleteObjects: 2.133400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.883 seconds
+Refreshing native plugins compatible for Editor in 4.67 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.940 seconds
+Domain Reload Profiling: 1826ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (569ms)
+		LoadAssemblies (466ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (208ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (940ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (710ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (485ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (3.9 MB). Loaded Objects now: 7634.
+Memory consumption went from 155.2 MB to 151.3 MB.
+Total: 9.474100 ms (FindLiveObjects: 0.636100 ms CreateObjectMapping: 0.549900 ms MarkObjects: 6.208400 ms  DeleteObjects: 2.078300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.946 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.899 seconds
+Domain Reload Profiling: 1848ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (604ms)
+		LoadAssemblies (485ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (235ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (900ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (694ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (446ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.1 MB). Loaded Objects now: 7636.
+Memory consumption went from 155.3 MB to 151.1 MB.
+Total: 10.012000 ms (FindLiveObjects: 0.628800 ms CreateObjectMapping: 0.596100 ms MarkObjects: 6.689900 ms  DeleteObjects: 2.095800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.597 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.821 seconds
+Domain Reload Profiling: 1423ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (822ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (660ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6582 unused Assets / (4.9 MB). Loaded Objects now: 7638.
+Memory consumption went from 155.3 MB to 150.4 MB.
+Total: 10.768800 ms (FindLiveObjects: 0.868800 ms CreateObjectMapping: 0.603000 ms MarkObjects: 6.334500 ms  DeleteObjects: 2.960800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 605.422282 seconds.
+  path: Assets/Sprites/Ponk/Ponk GMC.png
+  artifactKey: Guid(23022801135bf2c4d8384a8810ec8434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Ponk GMC.png using Guid(23022801135bf2c4d8384a8810ec8434) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55eb7bdf5645db5c236e96b5ada74b1f') in 0.2340666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.402478 seconds.
+  path: Assets/Sprites/Ponk/Ponk GMC 1.png
+  artifactKey: Guid(fbd114ce6237a0a48933a1c18f046fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Ponk GMC 1.png using Guid(fbd114ce6237a0a48933a1c18f046fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fa5d826fb6f04199fc90f0034470150') in 0.3123039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.684678 seconds.
+  path: Assets/Sprites/Ponk/Muerte
+  artifactKey: Guid(bb4a6b5d748ff7c47a3eaa93557fec7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Muerte using Guid(bb4a6b5d748ff7c47a3eaa93557fec7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01b865b0813b664bfa814f7b7a0e38c8') in 0.0005651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012318 seconds.
+  path: Assets/Sprites/Ponk/Muerte/Ponk GMC.png
+  artifactKey: Guid(1a68ebb9ba7146a4eb1f71b396172efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Muerte/Ponk GMC.png using Guid(1a68ebb9ba7146a4eb1f71b396172efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd4e284d18a84f999713aaad4572eb50') in 0.1100071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Ponk/Muerte/Ponk GMC 5.png
+  artifactKey: Guid(ff75a656956e92f479def11e3a8b7bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Muerte/Ponk GMC 5.png using Guid(ff75a656956e92f479def11e3a8b7bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '577e358570139277ee5910760da22e82') in 0.1068432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Ponk/Muerte/Ponk GMC 4.png
+  artifactKey: Guid(4da21759df5353a43b30986f8d0f5d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Muerte/Ponk GMC 4.png using Guid(4da21759df5353a43b30986f8d0f5d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52e0091e125b70d3ad233dbe82737e79') in 0.1076574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Ponk/Muerte/Ponk GMC 14.png
+  artifactKey: Guid(59999739d7e11f74a934a867ad71fe70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Muerte/Ponk GMC 14.png using Guid(59999739d7e11f74a934a867ad71fe70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07c872f13ccbdcb6ad44c58501914058') in 0.0652453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Ponk/Muerte/Ponk GMC 11.png
+  artifactKey: Guid(20421288be29f884ea1013d71337a70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Muerte/Ponk GMC 11.png using Guid(20421288be29f884ea1013d71337a70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '452164af97c0c50b0131ce70f0e2873a') in 0.0823437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Ponk/Muerte/Ponk GMC 8.png
+  artifactKey: Guid(95f1f4aff0f735944ac576f9b6c0542e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Muerte/Ponk GMC 8.png using Guid(95f1f4aff0f735944ac576f9b6c0542e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48f206525fd3ec49ccec87a061d19654') in 0.0798638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Ponk/Muerte/Ponk GMC 7.png
+  artifactKey: Guid(e8a6db4ef57924f4b981c94d9e77cf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Muerte/Ponk GMC 7.png using Guid(e8a6db4ef57924f4b981c94d9e77cf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67065813fa311a5f508ae662a338bcd9') in 0.0763707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Ponk/Muerte/Ponk GMC 10.png
+  artifactKey: Guid(45ee4f0d0b7a3ae4eae5f7d9d43563db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ponk/Muerte/Ponk GMC 10.png using Guid(45ee4f0d0b7a3ae4eae5f7d9d43563db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8953fc88f82ea4b763ef76e787bbc0c7') in 0.0752109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

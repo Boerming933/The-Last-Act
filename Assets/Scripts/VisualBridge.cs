@@ -29,6 +29,7 @@ public class VisualBridge : MonoBehaviour
     {
         triangulardo?.TerminarPresentacion();
         Estian.FinPresentacion();
+        Debug.Log("Hola mundo");
     }
 
     public void Evento_SpawnOnda()

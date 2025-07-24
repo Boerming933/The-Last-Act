@@ -50,7 +50,7 @@ public class Hook : MonoBehaviour
             if (hit.collider != null)
             {
                 StartCoroutine(MaxHook());
-                ControladorSonidos.instance.ReproducirSonido(gancho);
+                ControladorSonidos.instance.ReproducirSonido(gancho,1f);
                 //genera la "cuerda"
                 grapplePoint = hit.point;
                 grapplePoint.z = 0;
@@ -78,6 +78,12 @@ public class Hook : MonoBehaviour
         {
             rope.SetPosition(1, transform.position);
         }
+
+        if (!HookDisp)
+        {
+            Estian.ResetTrigger("Gancho");
+        }
+
     }
 
     public void Muerte(bool Muerte)

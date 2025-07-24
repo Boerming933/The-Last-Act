@@ -65,7 +65,7 @@ public class CuerdaScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E) && canE)
                 {
                     canE = false;
-                    ControladorSonidos.instance.ReproducirSonido(Trapecios);
+                    ControladorSonidos.instance.ReproducirSonido(Trapecios,0.3f);
                     ActivarPlataformas();
                 }
             }
